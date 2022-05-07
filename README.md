@@ -4,6 +4,9 @@
 
 项目灵感来自：[FUCK-GFW](https://github.com/comwrg/FUCK-GFW)
 
+<!-- START doctoc -->
+<!-- END doctoc -->
+
 `注意：`假如所有的镜像都已经被本地nexus私服代理，那么对应的地址为`nexus.eryajf.net/repository/***/`。
 
 ## Go
