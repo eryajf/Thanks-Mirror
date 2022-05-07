@@ -1,8 +1,11 @@
 # Thanks-Mirror
 
+本项目灵感来自：[FUCK-GFW](https://github.com/comwrg/FUCK-GFW)，FUCK-GFW分享的是包管理器配置代理的方法，这里分享的是包管理器直接可用，质量好，速度快的镜像。
+
+在此，对那些提供公共仓库镜像的企业或组织，致以感谢！
+
 以往工作中经历过建设企业内部私服的经历，私服的建设离不开国内一些优秀的镜像代理，这里记录下来，以供大家参考。
 
-项目灵感来自：[FUCK-GFW](https://github.com/comwrg/FUCK-GFW)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
