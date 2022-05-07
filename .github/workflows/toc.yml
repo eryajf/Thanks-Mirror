@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/toc-generator@v4
-        with: 
-          TOC_TITLE: "## 目录"
+        with:
+          TOC_TITLE: "**目录**"
           MAX_HEADER_LEVEL: 2

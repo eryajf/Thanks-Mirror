@@ -4,8 +4,12 @@
 
 项目灵感来自：[FUCK-GFW](https://github.com/comwrg/FUCK-GFW)
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+**目录**
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 `注意：`假如所有的镜像都已经被本地nexus私服代理，那么对应的地址为`nexus.eryajf.net/repository/***/`。
 
