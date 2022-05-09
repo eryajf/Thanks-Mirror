@@ -4,8 +4,6 @@
 
 在此，对那些提供公共仓库镜像的企业或组织，致以感谢🫡！
 
-以往工作中经历过建设企业内部私服的经历，私服的建设离不开国内一些优秀的镜像代理，这里记录下来，以供大家参考。
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目录**
@@ -24,6 +22,8 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Package-Mirror
+
+以往工作中经历过建设企业内部私服的经历，私服的建设离不开国内一些优秀的镜像代理，这里记录下来，以供大家参考。
 
 `注意：`假如所有的镜像都已经被本地nexus私服代理，那么对应的地址为`nexus.eryajf.net/repository/***/`。(这只是个域名示例，不代表实际可用！)
 
@@ -111,11 +111,11 @@ http://nexus.eryajf.net/repository/npm
 
   - [http://mirrors.cloud.tencent.com/npm/](http://mirrors.cloud.tencent.com/npm/)
 
-- Proxy-zju
+- 浙江大学
 
   - [http://mirrors.zju.edu.cn/npm/](http://mirrors.zju.edu.cn/npm/)
 
-- Proxy-njupt
+- 南京邮电
 
   - [https://mirrors.njupt.edu.cn/nexus/repository/npm/](https://mirrors.njupt.edu.cn/nexus/repository/npm/)
 
@@ -150,7 +150,7 @@ EOF
   - http://mirrors.aliyun.com/pypi/
 - douban
   - http://pypi.douban.com/
-- qinghua
+- 清华
   - https://pypi.tuna.tsinghua.edu.cn/
 - 163
   - [https://mirrors.163.com/pypi](https://mirrors.163.com/pypi)
@@ -258,7 +258,7 @@ Java系的工具版本规范如下：
 - Tencent
   - [https://mirrors.cloud.tencent.com/maven/](https://mirrors.cloud.tencent.com/maven/)
 
-- njupt
+- 南京邮电
   - [https://mirrors.njupt.edu.cn/nexus/repository/maven-central](https://mirrors.njupt.edu.cn/nexus/repository/maven-central)
 
 - Apache Maven
@@ -309,21 +309,21 @@ yum makecache
 
 目前代理外部源：
 
-- Aliyun：
+- Aliyun
   - [https://mirrors.aliyun.com/centos/](https://mirrors.aliyun.com/centos/)
 - HUAWEI
   - [https://repo.huaweicloud.com/centos/](https://repo.huaweicloud.com/centos/)
-- 腾讯：
+- Tencent
   - https://mirrors.cloud.tencent.com/centos/
-- bjtu：
+- 北京交通
   - [https://mirror.bjtu.edu.cn/centos/](https://mirror.bjtu.edu.cn/centos/)
-- 东北大学：
+- 东北大学
   - http://mirror.neu.edu.cn/centos/
-- 兰州大学：
+- 兰州大学
   - https://mirror.lzu.edu.cn/centos/
-- 清华：
+- 清华
   - https://mirrors.tuna.tsinghua.edu.cn/centos/
-- 华中科技大学：
+- 华中科技大学
   - https://mirrors.ustc.edu.cn/centos/
 - 浙江大学
   - http://mirrors.zju.edu.cn/centos/
@@ -353,14 +353,37 @@ brew update
 
 - Aliyun
   - [https://mirrors.aliyun.com/homebrew/](https://mirrors.aliyun.com/homebrew/)
-- 清华：
-  - https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
 - Tencent
   - [https://mirrors.cloud.tencent.com/homebrew/](https://mirrors.cloud.tencent.com/homebrew/)
+- 清华：
+  - https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
 
 ## Software-Mirror
 
-还有一些软件，直接通过官方下载比较困难，也整理出方便下载的优质镜像。
+还有一些软件，直接通过官方下载比较困难，也整理出方便下载的国内优质镜像。
+
+### Docker
+
+#### Official
+
+- https://docs.docker.com/engine/install/
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/docker-ce](https://developer.aliyun.com/mirror/docker-ce)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/docker-ce/](https://mirrors.cloud.tencent.com/docker-ce/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/docker-ce/](https://repo.huaweicloud.com/docker-ce/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/docker-ce/](https://mirrors.tuna.tsinghua.edu.cn/docker-ce/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/docker-ce/](https://mirrors.ustc.edu.cn/docker-ce/)
+- 西北农林科技大学
+  - [https://mirrors.nwsuaf.edu.cn/docker-ce/](https://mirrors.nwsuaf.edu.cn/docker-ce/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/docker-ce/](http://mirrors.zju.edu.cn/docker-ce/)
 
 ### Jenkins
 
@@ -382,7 +405,7 @@ brew update
 
   - 安装包：[https://repo.huaweicloud.com/jenkins/war/](https://repo.huaweicloud.com/jenkins/war/)
   - 插件：[https://repo.huaweicloud.com/jenkins/plugins/](https://repo.huaweicloud.com/jenkins/plugins/)
-- USTC
+- 中科大
   - 安装包：[https://mirrors.ustc.edu.cn/jenkins/war/](https://mirrors.ustc.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.ustc.edu.cn/jenkins/plugins/](https://mirrors.ustc.edu.cn/jenkins/plugins/)
 
@@ -390,7 +413,24 @@ brew update
   - 安装包：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/)
 
+### ElasticSearch
 
+#### Official
+
+- [https://www.elastic.co/cn/downloads/elasticsearch](https://www.elastic.co/cn/downloads/elasticsearch)
+
+#### Mirrors
+
+- elastic中文社区
+  - [https://elasticsearch.cn/download/](https://elasticsearch.cn/download/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/elasticsearch/](https://repo.huaweicloud.com/elasticsearch/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/elasticstack/](https://mirrors.cloud.tencent.com/elasticstack/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/elasticstack/](https://mirrors.tuna.tsinghua.edu.cn/elasticstack/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/elasticstack/](http://mirrors.njupt.edu.cn/elasticstack/)
 
 ## Stargazers over time
 
