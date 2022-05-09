@@ -1,11 +1,10 @@
 # Thanks-Mirror
 
-本项目灵感来自：~~[FUCK-GFW](https://github.com/comwrg/FUCK-GFW)~~（好吧，这个项目不知什么缘故就没了，可参考我Fork的一份[FUCK-GFW](https://github.com/eryajf/FUCK-GFW)），FUCK-GFW分享的是包管理器配置代理的方法，这里分享的是包管理器直接可用，质量好，速度快的镜像。
+本项目灵感来自：[FUCK-GFW](https://github.com/comwrg/FUCK-GFW)，FUCK-GFW分享的是包管理器配置代理的方法，这里分享的是包管理器直接可用，质量好，速度快的镜像，以及一些其他常用软件，系统镜像的国内镜像。
 
-在此，对那些提供公共仓库镜像的企业或组织，致以感谢！
+在此，对那些提供公共仓库镜像的企业或组织，致以感谢🫡！
 
 以往工作中经历过建设企业内部私服的经历，私服的建设离不开国内一些优秀的镜像代理，这里记录下来，以供大家参考。
-
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -20,7 +19,11 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-`注意：`假如所有的镜像都已经被本地nexus私服代理，那么对应的地址为`nexus.eryajf.net/repository/***/`。
+
+
+# Package-Mirror
+
+`注意：`假如所有的镜像都已经被本地nexus私服代理，那么对应的地址为`nexus.eryajf.net/repository/***/`。(这只是个域名示例，不代表实际可用！)
 
 ## Go
 
@@ -352,3 +355,41 @@ brew update
   - https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
 - Tencent
   - [https://mirrors.cloud.tencent.com/homebrew/](https://mirrors.cloud.tencent.com/homebrew/)
+
+## Software-Mirror
+
+还有一些软件，直接通过官方下载比较困难，也整理出方便下载的优质镜像。
+
+### Jenkins
+
+#### Official
+
+- 安装包：[https://www.jenkins.io/zh/download/](https://www.jenkins.io/zh/download/)
+- 插件：[https://plugins.jenkins.io/](https://plugins.jenkins.io/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/jenkins/war/](https://mirrors.aliyun.com/jenkins/war/)
+  - [https://mirrors.aliyun.com/jenkins/plugins/](https://mirrors.aliyun.com/jenkins/plugins/)
+  
+- Tencent
+  - [https://mirrors.cloud.tencent.com/jenkins/war/](https://mirrors.cloud.tencent.com/jenkins/war/)
+  - [https://mirrors.cloud.tencent.com/jenkins/plugins/](https://mirrors.cloud.tencent.com/jenkins/plugins/)
+- HUAWEI
+
+  - [https://repo.huaweicloud.com/jenkins/war/](https://repo.huaweicloud.com/jenkins/war/)
+  - [https://repo.huaweicloud.com/jenkins/plugins/](https://repo.huaweicloud.com/jenkins/plugins/)
+- USTC
+  - [https://mirrors.ustc.edu.cn/jenkins/war/](https://mirrors.ustc.edu.cn/jenkins/war/)
+  - [https://mirrors.ustc.edu.cn/jenkins/plugins/](https://mirrors.ustc.edu.cn/jenkins/plugins/)
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
+  - [https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/)
+
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/eryajf/Thanks-Mirror.svg)](https://starchart.cc/eryajf/Thanks-Mirror)
