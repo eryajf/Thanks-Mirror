@@ -19,15 +19,13 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
-# Package-Mirror
+## Package-Mirror
 
 `注意：`假如所有的镜像都已经被本地nexus私服代理，那么对应的地址为`nexus.eryajf.net/repository/***/`。(这只是个域名示例，不代表实际可用！)
 
-## Go
+### Go
 
-### Configuration
+#### Configuration
 
 如果go版本用的`go1.11`或者`go1.12`，需进行如下配置：
 
@@ -48,7 +46,7 @@ GOSUMDB="sum.golang.google.cn"
 
 关于如上两个版本配置差异，以及配置参数详解可参考：[https://wiki.eryajf.net/pages/4941.html](https://wiki.eryajf.net/pages/4941.html)
 
-### Mirrors
+#### Mirrors
 
 - Aliyun
   - [https://mirrors.aliyun.com/goproxy/](https://mirrors.aliyun.com/goproxy/)
@@ -68,9 +66,9 @@ GOSUMDB="sum.golang.google.cn"
 - sumdb-io
   - [https://gosum.io/](https://gosum.io/)
 
-## Npm
+### Npm
 
-### Configuration
+#### Configuration
 
 配置`npm`代理，需进行如下配置：
 
@@ -88,7 +86,7 @@ $ yarn config get registry
 http://nexus.eryajf.net/repository/npm
 ```
 
-### Mirrors
+#### Mirrors
 
 - Taobao
 
@@ -121,9 +119,9 @@ http://nexus.eryajf.net/repository/npm
 
   - https://registry.npmjs.org
 
-## Pip
+### Pip
 
-### Configuration
+#### Configuration
 
 配置`Python`代理，需进行如下配置：
 
@@ -140,7 +138,7 @@ EOF
 
 `注意：`通常在配置文件后边，我们会添加一个`simple`。
 
-### Mirrors
+#### Mirrors
 
 目前代理外部私仓有：
 
@@ -157,9 +155,9 @@ EOF
 - Tencent
   - https://mirrors.cloud.tencent.com/pypi/
 
-## Maven
+### Maven
 
-### Configuration
+#### Configuration
 
 Java系的工具版本规范如下：
 
@@ -243,7 +241,7 @@ Java系的工具版本规范如下：
 </settings>
 ```
 
-### Mirrors
+#### Mirrors
 
 - HUAWEI
   - https://repo.huaweicloud.com/repository/maven/
@@ -274,9 +272,9 @@ Java系的工具版本规范如下：
 - jboss
   - https://repository.jboss.org/nexus/content/groups/public
 
-## Yum
+### Yum
 
-### Configuration
+#### Configuration
 
 如果`CentOS`服务器要接入私服`yum`源，则清空本地 `/etc/yum.repos.d`的内容，添加如下内容：
 
@@ -303,7 +301,7 @@ yum clean all
 yum makecache
 ```
 
-### Mirrors
+#### Mirrors
 
 目前代理外部源：
 
@@ -330,9 +328,9 @@ yum makecache
 - 163：
   - http://mirrors.163.com/centos/
 
-## Homebrew
+### Homebrew
 
-### Configuration
+#### Configuration
 
 如果你使用了zsh，那么配置方式如下：
 
@@ -347,7 +345,7 @@ brew update
 
 参考：[Homebrew 替换国内镜像源](https://www.frankindev.com/2020/05/15/replace-homebrew-source/)
 
-### Mirrors
+#### Mirrors
 
 - Aliyun
   - [https://mirrors.aliyun.com/homebrew/](https://mirrors.aliyun.com/homebrew/)
@@ -370,23 +368,23 @@ brew update
 #### Mirrors
 
 - Aliyun
-  - [https://mirrors.aliyun.com/jenkins/war/](https://mirrors.aliyun.com/jenkins/war/)
-  - [https://mirrors.aliyun.com/jenkins/plugins/](https://mirrors.aliyun.com/jenkins/plugins/)
+  - 安装包：[https://mirrors.aliyun.com/jenkins/war/](https://mirrors.aliyun.com/jenkins/war/)
+  - 插件：[https://mirrors.aliyun.com/jenkins/plugins/](https://mirrors.aliyun.com/jenkins/plugins/)
   
 - Tencent
-  - [https://mirrors.cloud.tencent.com/jenkins/war/](https://mirrors.cloud.tencent.com/jenkins/war/)
-  - [https://mirrors.cloud.tencent.com/jenkins/plugins/](https://mirrors.cloud.tencent.com/jenkins/plugins/)
+  - 安装包：[https://mirrors.cloud.tencent.com/jenkins/war/](https://mirrors.cloud.tencent.com/jenkins/war/)
+  - 插件：[https://mirrors.cloud.tencent.com/jenkins/plugins/](https://mirrors.cloud.tencent.com/jenkins/plugins/)
 - HUAWEI
 
-  - [https://repo.huaweicloud.com/jenkins/war/](https://repo.huaweicloud.com/jenkins/war/)
-  - [https://repo.huaweicloud.com/jenkins/plugins/](https://repo.huaweicloud.com/jenkins/plugins/)
+  - 安装包：[https://repo.huaweicloud.com/jenkins/war/](https://repo.huaweicloud.com/jenkins/war/)
+  - 插件：[https://repo.huaweicloud.com/jenkins/plugins/](https://repo.huaweicloud.com/jenkins/plugins/)
 - USTC
-  - [https://mirrors.ustc.edu.cn/jenkins/war/](https://mirrors.ustc.edu.cn/jenkins/war/)
-  - [https://mirrors.ustc.edu.cn/jenkins/plugins/](https://mirrors.ustc.edu.cn/jenkins/plugins/)
+  - 安装包：[https://mirrors.ustc.edu.cn/jenkins/war/](https://mirrors.ustc.edu.cn/jenkins/war/)
+  - 插件：[https://mirrors.ustc.edu.cn/jenkins/plugins/](https://mirrors.ustc.edu.cn/jenkins/plugins/)
 
 - 清华
-  - [https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
-  - [https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/)
+  - 安装包：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
+  - 插件：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/)
 
 
 
