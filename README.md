@@ -16,7 +16,9 @@
   - [Yum](#yum)
   - [Homebrew](#homebrew)
 - [Software-Mirror](#software-mirror)
+  - [Docker](#docker)
   - [Jenkins](#jenkins)
+  - [ElasticSearch](#elasticsearch)
 - [Stargazers over time](#stargazers-over-time)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
