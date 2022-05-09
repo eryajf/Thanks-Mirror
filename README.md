@@ -158,6 +158,9 @@ EOF
   - [https://repo.huaweicloud.com/repository/pypi](https://repo.huaweicloud.com/repository/pypi)
 - Tencent
   - https://mirrors.cloud.tencent.com/pypi/
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/pypi/](https://mirror.nyist.edu.cn/pypi/)
+  
 
 ### Maven
 
@@ -423,6 +426,9 @@ brew update
 
 - elastic中文社区
   - [https://elasticsearch.cn/download/](https://elasticsearch.cn/download/)
+- Aliyun
+  - [https://mirrors.aliyun.com/elasticstack/](https://mirrors.aliyun.com/elasticstack/)
+  
 - HUAWEI
   - [https://repo.huaweicloud.com/elasticsearch/](https://repo.huaweicloud.com/elasticsearch/)
 - Tencent
@@ -431,6 +437,180 @@ brew update
   - [https://mirrors.tuna.tsinghua.edu.cn/elasticstack/](https://mirrors.tuna.tsinghua.edu.cn/elasticstack/)
 - 南京邮电
   - [http://mirrors.njupt.edu.cn/elasticstack/](http://mirrors.njupt.edu.cn/elasticstack/)
+
+### Logstash
+
+#### Official
+
+- [https://www.elastic.co/cn/downloads/logstash](https://www.elastic.co/cn/downloads/logstash)
+
+#### Mirrors
+
+- elastic中文社区
+  - [https://elasticsearch.cn/download/](https://elasticsearch.cn/download/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/logstash/](https://repo.huaweicloud.com/logstash/)
+
+
+### Kibana
+
+#### Official
+
+- [https://www.elastic.co/cn/downloads/kibana](https://www.elastic.co/cn/downloads/kibana)
+
+#### Mirrors
+
+- elastic中文社区
+  - [https://elasticsearch.cn/download/](https://elasticsearch.cn/download/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/kibana/](https://repo.huaweicloud.com/kibana/)
+
+### Filebeat
+
+#### Official
+
+- [https://www.elastic.co/cn/downloads/beats/filebeat](https://www.elastic.co/cn/downloads/beats/filebeat)
+
+#### Mirrors
+
+- elastic中文社区
+  - [https://elasticsearch.cn/download/](https://elasticsearch.cn/download/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/filebeat/](https://repo.huaweicloud.com/filebeat/)
+
+### MySQL
+
+#### Official
+
+- [https://dev.mysql.com/downloads/repo/yum/](https://dev.mysql.com/downloads/repo/yum/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/mysql](https://developer.aliyun.com/mirror/mysql)
+- HUAWEI
+  - [https://repo.huaweicloud.com/mysql/Downloads/](https://repo.huaweicloud.com/mysql/Downloads/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/mysql/](https://mirrors.cloud.tencent.com/mysql/)
+- Souhu
+  - [http://mirrors.sohu.com/mysql/](http://mirrors.sohu.com/mysql/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/mysql/](https://mirrors.tuna.tsinghua.edu.cn/mysql/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/mysql-ftp/Downloads/](https://mirrors.ustc.edu.cn/mysql-ftp/Downloads/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/mysql/](https://mirror.nyist.edu.cn/mysql/)
+
+### MariaDB
+
+#### Official
+
+- [https://mariadb.org/download/](https://mariadb.org/download/?spm=a2c6h.13651104.0.0.3b4d3553pZDrq9&t=mariadb&p=mariadb&r=10.6.7)
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/mariadb](https://developer.aliyun.com/mirror/mariadb)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/mariadb/](https://mirrors.cloud.tencent.com/mariadb/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/mariadb/](https://repo.huaweicloud.com/mariadb/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/mariadb/](https://mirrors.tuna.tsinghua.edu.cn/mariadb/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/mariadb/](https://mirrors.ustc.edu.cn/mariadb/)
+### MongoDB
+
+#### Official
+
+- [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/mongodb](https://developer.aliyun.com/mirror/mongodb)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/mongodb/](https://mirrors.cloud.tencent.com/mongodb/)
+- 163
+  - [http://mirrors.163.com/mongodb/](http://mirrors.163.com/mongodb/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/mongodb/](https://mirrors.tuna.tsinghua.edu.cn/mongodb/)
+
+### Redis
+
+#### Official
+
+- [https://redis.io/download/](https://redis.io/download/)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/redis/](https://repo.huaweicloud.com/redis/)
+
+### PostgreSQL
+
+#### Official
+
+- [https://www.postgresql.org/download/](https://www.postgresql.org/download/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/postgresql/](https://mirrors.aliyun.com/postgresql/)
+  
+- Tencen
+  - [https://mirrors.cloud.tencent.com/postgresql/](https://mirrors.cloud.tencent.com/postgresql/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/postgresql/](https://repo.huaweicloud.com/postgresql/)
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/postgresql/](https://mirrors.tuna.tsinghua.edu.cn/postgresql/)
+
+- 中科大
+  - [https://mirrors.ustc.edu.cn/postgresql/](https://mirrors.ustc.edu.cn/postgresql/)
+
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/postgresql/](http://mirrors.zju.edu.cn/postgresql/)
+
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/postgresql/](https://mirror.nyist.edu.cn/postgresql/)
+
+
+### Golang
+
+#### Official
+
+- [https://go.dev/dl/](https://go.dev/dl/)
+
+#### Mirrors
+
+- Go语言中文网
+  - [https://studygolang.com/dl](https://studygolang.com/dl)
+- Aliyun
+  - [https://mirrors.aliyun.com/golang/](https://mirrors.aliyun.com/golang/)
+- Proxy-io
+  - [https://gomirrors.org/](https://gomirrors.org/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/golang/](https://mirrors.ustc.edu.cn/golang/)
+
+### Node
+
+#### Official
+
+- [https://nodejs.org/zh-cn/download/](https://nodejs.org/zh-cn/download/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/nodejs-release/](https://mirrors.aliyun.com/nodejs-release/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/nodejs/](https://repo.huaweicloud.com/nodejs/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/nodejs-release/](https://mirrors.cloud.tencent.com/nodejs-release/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/](https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/node/](https://mirrors.ustc.edu.cn/node/)
 
 ## Stargazers over time
 
