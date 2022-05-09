@@ -10,12 +10,28 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目录**
 
-- [Go](#go)
-- [Npm](#npm)
-- [Pip](#pip)
-- [Maven](#maven)
-- [Yum](#yum)
-- [Homebrew](#homebrew)
+- [Package-Mirror](#package-mirror)
+  - [Go](#go)
+    - [Configuration](#configuration)
+    - [Mirrors](#mirrors)
+  - [Npm](#npm)
+    - [Configuration](#configuration-1)
+    - [Mirrors](#mirrors-1)
+  - [Pip](#pip)
+    - [Configuration](#configuration-2)
+    - [Mirrors](#mirrors-2)
+  - [Maven](#maven)
+    - [Configuration](#configuration-3)
+    - [Mirrors](#mirrors-3)
+  - [Yum](#yum)
+    - [Configuration](#configuration-4)
+    - [Mirrors](#mirrors-4)
+  - [Homebrew](#homebrew)
+    - [Configuration](#configuration-5)
+    - [Mirrors](#mirrors-5)
+  - [Software-Mirror](#software-mirror)
+    - [Jenkins](#jenkins)
+  - [Stargazers over time](#stargazers-over-time)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
