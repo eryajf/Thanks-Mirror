@@ -1,8 +1,10 @@
 # Thanks-Mirror
 
-本项目灵感来自：[FUCK-GFW](https://github.com/comwrg/FUCK-GFW)，FUCK-GFW分享的是包管理器配置代理的方法，这里分享的是包管理器直接可用，质量好，速度快的镜像，以及一些其他常用软件，系统镜像的国内镜像。
+本项目灵感来自：[package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings)，该项目分享的是包管理器配置代理的方法，这里分享的是包管理器直接可用，质量好，速度快的镜像，以及一些其他常用软件，系统镜像的国内镜像。
 
 在此，对那些提供公共仓库镜像的企业或组织，致以感谢🫡！
+
+Gitee：[https://gitee.com/eryajf/Thanks-Mirror](https://gitee.com/eryajf/Thanks-Mirror)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
