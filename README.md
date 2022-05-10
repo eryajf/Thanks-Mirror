@@ -175,9 +175,15 @@ EOF
   - [https://repo.huaweicloud.com/repository/pypi](https://repo.huaweicloud.com/repository/pypi)
 - Tencent
   - https://mirrors.cloud.tencent.com/pypi/
+- 北大
+  - [https://mirrors.pku.edu.cn/pypi/](https://mirrors.pku.edu.cn/pypi/)
+  
 - 南阳理工
   - [https://mirror.nyist.edu.cn/pypi/](https://mirror.nyist.edu.cn/pypi/)
-  
+
+- 大连东软
+  - [http://mirrors.neusoft.edu.cn/pypi/web/](http://mirrors.neusoft.edu.cn/pypi/web/)
+
 
 ### Maven
 
@@ -396,6 +402,9 @@ brew update
   - [https://mirrors.cloud.tencent.com/docker-ce/](https://mirrors.cloud.tencent.com/docker-ce/)
 - HUAWEI
   - [https://repo.huaweicloud.com/docker-ce/](https://repo.huaweicloud.com/docker-ce/)
+- 北大
+  - [https://mirrors.pku.edu.cn/docker-ce/](https://mirrors.pku.edu.cn/docker-ce/)
+  
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/docker-ce/](https://mirrors.tuna.tsinghua.edu.cn/docker-ce/)
 - 中科大
@@ -404,6 +413,27 @@ brew update
   - [https://mirrors.nwsuaf.edu.cn/docker-ce/](https://mirrors.nwsuaf.edu.cn/docker-ce/)
 - 浙江大学
   - [http://mirrors.zju.edu.cn/docker-ce/](http://mirrors.zju.edu.cn/docker-ce/)
+
+### Kubernetes
+
+#### Official
+
+- [https://kubernetes.io/releases/download/](https://kubernetes.io/releases/download/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/kubernetes](https://developer.aliyun.com/mirror/kubernetes)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/kubernetes/](https://mirrors.cloud.tencent.com/kubernetes/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/kubernetes/](https://repo.huaweicloud.com/kubernetes/)
+- 北大
+  - [https://mirrors.pku.edu.cn/kubernetes/](https://mirrors.pku.edu.cn/kubernetes/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/kubernetes/](https://mirrors.tuna.tsinghua.edu.cn/kubernetes/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/kubernetes/](https://mirrors.ustc.edu.cn/kubernetes/)
 
 ### Jenkins
 
@@ -628,6 +658,160 @@ brew update
   - [https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/](https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/node/](https://mirrors.ustc.edu.cn/node/)
+
+### Python
+
+#### Official
+
+- [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/python/](https://repo.huaweicloud.com/python/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/python/](https://mirror.bjtu.edu.cn/python/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/node/](https://mirrors.ustc.edu.cn/node/)
+
+### Zabbix
+
+#### Official
+
+- [https://www.zabbix.com/cn/download](https://www.zabbix.com/cn/download)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/zabbix](https://mirrors.aliyun.com/zabbix)
+- HUAWEI
+  - [https://repo.huaweicloud.com/zabbix/](https://repo.huaweicloud.com/zabbix/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/zabbix/](https://mirrors.cloud.tencent.com/zabbix/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/zabbix/](https://mirrors.tuna.tsinghua.edu.cn/zabbix/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/zabbix/](http://mirrors.njupt.edu.cn/zabbix/)
+- 西北农林科技大学
+  - [https://mirrors.nwsuaf.edu.cn/zabbix/](https://mirrors.nwsuaf.edu.cn/zabbix/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/zabbix/](https://mirror.nyist.edu.cn/zabbix/)
+
+### Grafana
+
+#### Official
+
+- [https://grafana.com/grafana/download](https://grafana.com/grafana/download)
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/grafana](https://developer.aliyun.com/mirror/grafana)
+- HUAWEI
+  - [https://repo.huaweicloud.com/grafana/](https://repo.huaweicloud.com/grafana/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/grafana/](https://mirrors.cloud.tencent.com/grafana/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/grafana/](https://mirrors.tuna.tsinghua.edu.cn/grafana/)
+- 西北农林科技大学
+  - [https://mirrors.nwsuaf.edu.cn/grafana/](https://mirrors.nwsuaf.edu.cn/grafana/)
+
+### Apache
+
+#### Official
+
+- [https://httpd.apache.org/download.cgi](https://httpd.apache.org/download.cgi)
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/apache](https://developer.aliyun.com/mirror/apache)
+- HUAWEI
+  - [https://repo.huaweicloud.com/apache/](https://repo.huaweicloud.com/apache/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/apache/](https://mirrors.cloud.tencent.com/apache/)
+- Souhu
+  - [http://mirrors.sohu.com/apache/](http://mirrors.sohu.com/apache/)
+- 北大
+  - [https://mirrors.pku.edu.cn/apache/](https://mirrors.pku.edu.cn/apache/)
+  
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/apache/](https://mirrors.tuna.tsinghua.edu.cn/apache/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/apache/](https://mirrors.ustc.edu.cn/apache/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/apache/](https://mirror.bjtu.edu.cn/apache/)
+
+### Nginx
+
+#### Official
+
+- [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/nginx/](https://repo.huaweicloud.com/nginx/)
+- Souhu
+  - [http://mirrors.sohu.com/nginx](http://mirrors.sohu.com/nginx)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/nginx/](https://mirrors.ustc.edu.cn/nginx/)
+- 西北农林科技大学
+  - [https://mirrors.nwsuaf.edu.cn/nginx/](https://mirrors.nwsuaf.edu.cn/nginx/)
+
+## System-Mirror
+
+系统镜像，又大又远，更需要找到好用优秀的国内镜像。
+
+### CentOS
+
+尽管CentOS不再更新了，但它仍旧并且还将持续是国内企业系统主力军。
+
+可能官方考虑到下载困难的问题，官方也列出了距离使用者更近的镜像列表，可谓贴心。
+
+#### Official
+
+- [https://www.centos.org/download/](https://www.centos.org/download/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/centos/](https://mirrors.aliyun.com/centos/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/centos/](https://mirrors.cloud.tencent.com/centos/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/centos/](https://repo.huaweicloud.com/centos/)
+- 163
+  - [http://mirrors.163.com/centos/](http://mirrors.163.com/centos/)
+- Souhu
+  - [http://mirrors.sohu.com/centos/](http://mirrors.sohu.com/centos/)
+- 北大
+  - [https://mirrors.pku.edu.cn/centos/](https://mirrors.pku.edu.cn/centos/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/centos/](https://mirrors.tuna.tsinghua.edu.cn/centos/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/centos/](https://mirrors.ustc.edu.cn/centos/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/centos/](http://mirrors.zju.edu.cn/centos/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/centos/](https://mirror.lzu.edu.cn/centos/)
+- 东北大学
+  - [http://mirror.neu.edu.cn/centos/](http://mirror.neu.edu.cn/centos/)
+- 大连东软
+  - [http://mirrors.neusoft.edu.cn/centos/](http://mirrors.neusoft.edu.cn/centos/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/centos/](http://ftp.sjtu.edu.cn/centos/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/centos/](https://mirror.bjtu.edu.cn/centos/)
+- 大连理工
+  - [http://mirror.dlut.edu.cn/centos/](http://mirror.dlut.edu.cn/centos/)
+- 首都在线
+  - [http://mirrors.yun-idc.com/centos/](http://mirrors.yun-idc.com/centos/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/centos/](http://mirrors.njupt.edu.cn/centos/)
+- 西北农林科技大学
+  - [https://mirrors.nwsuaf.edu.cn/centos/](https://mirrors.nwsuaf.edu.cn/centos/)
+
 
 ## Stargazers over time
 
