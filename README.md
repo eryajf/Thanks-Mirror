@@ -76,6 +76,9 @@ GOSUMDB="sum.golang.google.cn"
   - [https://goproxy.bj.bcebos.com/](https://goproxy.bj.bcebos.com/)
 - [Tencent](https://mirrors.cloud.tencent.com/help/go.html)
   - [https://mirrors.cloud.tencent.com/go/](https://mirrors.cloud.tencent.com/go/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/repository/goproxy/](https://repo.huaweicloud.com/repository/goproxy/)
+  
 
 其中`GOSUMDB`在国内可用的两个镜像分别如下：
 
