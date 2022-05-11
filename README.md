@@ -472,6 +472,35 @@ brew update
   - 安装包：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/)
 
+### GitLab-ce
+
+#### Official
+
+- [https://packages.gitlab.com/gitlab/gitlab-ce](https://packages.gitlab.com/gitlab/gitlab-ce)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/gitlab-ce/](https://mirrors.aliyun.com/gitlab-ce/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/gitlab-ce/](https://mirrors.cloud.tencent.com/gitlab-ce/)
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/](https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/)
+
+### GitLab-runner
+
+#### Official
+
+- [https://docs.gitlab.com/runner/install/](https://docs.gitlab.com/runner/install/)
+
+#### Mirrors
+
+- Tencent
+  - [https://mirrors.cloud.tencent.com/gitlab-runner/](https://mirrors.cloud.tencent.com/gitlab-runner/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/gitlab-runner/](https://mirrors.tuna.tsinghua.edu.cn/gitlab-runner/)
+
 ### ElasticSearch
 
 #### Official
@@ -575,6 +604,22 @@ brew update
   - [https://mirrors.tuna.tsinghua.edu.cn/mariadb/](https://mirrors.tuna.tsinghua.edu.cn/mariadb/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/mariadb/](https://mirrors.ustc.edu.cn/mariadb/)
+
+### Percona
+
+#### Official
+
+- [https://www.percona.com/downloads/](https://www.percona.com/downloads/)
+
+#### Mirrors
+
+- Tencent
+  - [https://mirrors.cloud.tencent.com/percona/](https://mirrors.cloud.tencent.com/percona/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/percona/](https://mirrors.tuna.tsinghua.edu.cn/percona/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/percona/](https://mirrors.ustc.edu.cn/percona/)
+
 ### MongoDB
 
 #### Official
@@ -768,6 +813,52 @@ brew update
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/nginx/](https://mirrors.nwsuaf.edu.cn/nginx/)
 
+### OpenResty
+
+#### Official
+
+- [https://openresty.org/cn/download.html](https://openresty.org/cn/download.html)
+
+#### Mirrors
+
+- Tencent
+  - [https://mirrors.cloud.tencent.com/openresty/](https://mirrors.cloud.tencent.com/openresty/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/openresty/](https://repo.huaweicloud.com/openresty/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/openresty/](https://mirrors.tuna.tsinghua.edu.cn/openresty/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/openresty/](https://mirrors.ustc.edu.cn/openresty/)
+- 西北农林科技大学
+  - [https://mirrors.nwsuaf.edu.cn/openresty/](https://mirrors.nwsuaf.edu.cn/openresty/)
+
+### Ceph
+
+#### Official
+
+- [https://docs.ceph.com/en/quincy/install/get-packages/](https://docs.ceph.com/en/quincy/install/get-packages/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://developer.aliyun.com/mirror/ceph](https://developer.aliyun.com/mirror/ceph)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/ceph/](https://mirrors.cloud.tencent.com/ceph/)
+  
+- HUAWEI
+  - [https://repo.huaweicloud.com/ceph/](https://repo.huaweicloud.com/ceph/)
+- 163
+  - [http://mirrors.163.com/ceph/](http://mirrors.163.com/ceph/)
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/ceph/](https://mirrors.tuna.tsinghua.edu.cn/ceph/)
+
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/ceph/](https://mirrors.cqu.edu.cn/ceph/)
+
+- 中科大
+  - [https://mirrors.ustc.edu.cn/ceph/](https://mirrors.ustc.edu.cn/ceph/)
+
 ## System-Mirror
 
 系统镜像，又大又远，更需要找到好用优秀的国内镜像。
@@ -784,7 +875,7 @@ brew update
 
 #### Mirrors
 
-- Aliyun
+- [Aliyun](https://developer.aliyun.com/mirror/centos)
   - [https://mirrors.aliyun.com/centos/](https://mirrors.aliyun.com/centos/)
 - Tencent
   - [https://mirrors.cloud.tencent.com/centos/](https://mirrors.cloud.tencent.com/centos/)
@@ -802,6 +893,8 @@ brew update
   - [https://mirrors.ustc.edu.cn/centos/](https://mirrors.ustc.edu.cn/centos/)
 - 浙江大学
   - [http://mirrors.zju.edu.cn/centos/](http://mirrors.zju.edu.cn/centos/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/centos/](https://mirror.nyist.edu.cn/centos/)
 - 兰州大学
   - [https://mirror.lzu.edu.cn/centos/](https://mirror.lzu.edu.cn/centos/)
 - 东北大学
@@ -820,6 +913,275 @@ brew update
   - [http://mirrors.njupt.edu.cn/centos/](http://mirrors.njupt.edu.cn/centos/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/centos/](https://mirrors.nwsuaf.edu.cn/centos/)
+
+
+### CentOS-altarch
+
+ARM架构下的CentOS镜像。
+
+#### Official
+
+- [https://www.centos.org/download/](https://www.centos.org/download/)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/centos-altarch)
+  - [https://developer.aliyun.com/mirror/centos-altarch](https://developer.aliyun.com/mirror/centos-altarch)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/centos-altarch/](https://mirrors.cloud.tencent.com/centos-altarch/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/centos-altarch/](https://repo.huaweicloud.com/centos-altarch/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/centos-altarch/](https://mirrors.tuna.tsinghua.edu.cn/centos-altarch/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/centos-altarch/](https://mirrors.ustc.edu.cn/centos-altarch/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/centos-altarch/](https://mirror.lzu.edu.cn/centos-altarch/)
+
+### Ubuntu
+
+#### Official
+
+- 官方镜像：[https://ubuntu.com/download](https://ubuntu.com/download)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/ubuntu)
+  - [https://mirrors.aliyun.com/ubuntu/](https://mirrors.aliyun.com/ubuntu/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/ubuntu/](https://mirrors.cloud.tencent.com/ubuntu/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/ubuntu/](https://repo.huaweicloud.com/ubuntu/)
+- 163
+  - [http://mirrors.163.com/ubuntu/](http://mirrors.163.com/ubuntu/)
+- Souhu
+  - [http://mirrors.sohu.com/ubuntu/](http://mirrors.sohu.com/ubuntu/)
+- 北大
+  - [https://mirrors.pku.edu.cn/ubuntu/](https://mirrors.pku.edu.cn/ubuntu/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/ubuntu/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/ubuntu/](https://mirrors.ustc.edu.cn/ubuntu/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/ubuntu/](http://mirrors.zju.edu.cn/ubuntu/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/ubuntu/](https://mirror.lzu.edu.cn/ubuntu/)
+- 大连东软
+  - [http://mirrors.neusoft.edu.cn/ubuntu/](http://mirrors.neusoft.edu.cn/ubuntu/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/ubuntu/](http://ftp.sjtu.edu.cn/ubuntu/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/ubuntu/](https://mirror.bjtu.edu.cn/ubuntu/)
+- 大连理工
+  - [http://mirror.dlut.edu.cn/ubuntu/](http://mirror.dlut.edu.cn/ubuntu/)
+- 首都在线
+  - [http://mirrors.yun-idc.com/ubuntu/](http://mirrors.yun-idc.com/ubuntu/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/ubuntu/](http://mirrors.njupt.edu.cn/ubuntu/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/ubuntu/](https://mirror.nyist.edu.cn/ubuntu/)
+
+### Debian
+
+#### Official
+
+- 官方镜像：[https://www.debian.org/mirror/](https://www.debian.org/mirror/)
+- 全球镜像：[https://www.debian.org/mirror/list](https://www.debian.org/mirror/list)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/debian)
+  - [https://mirrors.aliyun.com/debian/](https://mirrors.aliyun.com/debian/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/debian/](https://mirrors.cloud.tencent.com/debian/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/debian/](https://repo.huaweicloud.com/debian/)
+- 163
+  - [http://mirrors.163.com/debian/](http://mirrors.163.com/debian/)
+- Souhu
+  - [http://mirrors.sohu.com/debian/](http://mirrors.sohu.com/debian/)
+- 北大
+  - [https://mirrors.pku.edu.cn/debian/](https://mirrors.pku.edu.cn/debian/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/debian/](https://mirrors.tuna.tsinghua.edu.cn/debian/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/debian/](https://mirrors.ustc.edu.cn/debian/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/debian/](http://mirrors.zju.edu.cn/debian/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/debian/](https://mirror.lzu.edu.cn/debian/)
+- 大连东软
+  - [http://mirrors.neusoft.edu.cn/debian/](http://mirrors.neusoft.edu.cn/debian/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/debian/](http://ftp.sjtu.edu.cn/debian/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/debian/](https://mirror.bjtu.edu.cn/debian/)
+- 大连理工
+  - [http://mirror.dlut.edu.cn/debian/](http://mirror.dlut.edu.cn/debian/)
+- 首都在线
+  - [http://mirrors.yun-idc.com/debian/](http://mirrors.yun-idc.com/debian/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/debian/](http://mirrors.njupt.edu.cn/debian/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/debian/](https://mirror.nyist.edu.cn/debian/)
+
+### Deepin
+
+#### Official
+
+- 官方镜像：[https://www.deepin.org/zh/download/](https://www.deepin.org/zh/download/)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/deepin)
+  - [https://mirrors.aliyun.com/deepin/](https://mirrors.aliyun.com/deepin/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/deepin/](https://repo.huaweicloud.com/deepin/)
+- 163
+  - [http://mirrors.163.com/deepin/](http://mirrors.163.com/deepin/)
+- Souhu
+  - [http://mirrors.sohu.com/deepin/](http://mirrors.sohu.com/deepin/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/deepin/](https://mirrors.tuna.tsinghua.edu.cn/deepin/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/deepin/](https://mirrors.ustc.edu.cn/deepin/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/deepin/](http://mirrors.zju.edu.cn/deepin/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/deepin/](https://mirror.lzu.edu.cn/deepin/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/deepin/](http://ftp.sjtu.edu.cn/deepin/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/deepin/](http://mirrors.njupt.edu.cn/deepin/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/deepin/](https://mirror.nyist.edu.cn/deepin/)
+
+### Fedora
+
+#### Official
+
+- 官方镜像：[https://getfedora.org/en/server/download/](https://getfedora.org/en/server/download/)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/fedora)
+  - [https://mirrors.aliyun.com/fedora/](https://mirrors.aliyun.com/fedora/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/fedora/](https://mirrors.cloud.tencent.com/fedora/)
+  
+- HUAWEI
+  - [https://repo.huaweicloud.com/fedora/](https://repo.huaweicloud.com/fedora/)
+- 163
+  - [http://mirrors.163.com/fedora/](http://mirrors.163.com/fedora/)
+- Souhu
+  - [http://mirrors.sohu.com/fedora/](http://mirrors.sohu.com/fedora/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/fedora/](https://mirrors.tuna.tsinghua.edu.cn/fedora/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/fedora/](https://mirrors.ustc.edu.cn/fedora/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/fedora/](http://mirrors.zju.edu.cn/fedora/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/fedora/](https://mirror.lzu.edu.cn/fedora/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/fedora/](http://ftp.sjtu.edu.cn/fedora/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/fedora/](http://mirrors.njupt.edu.cn/fedora/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/fedora/](https://mirror.nyist.edu.cn/fedora/)
+
+### Gentoo
+
+#### Official
+
+- 官方镜像：[https://www.gentoo.org/downloads/](https://www.gentoo.org/downloads/)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/gentoo)
+  - [https://mirrors.aliyun.com/gentoo/](https://mirrors.aliyun.com/gentoo/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/gentoo/](https://mirrors.cloud.tencent.com/gentoo/)
+  
+- HUAWEI
+  - [https://repo.huaweicloud.com/gentoo/](https://repo.huaweicloud.com/gentoo/)
+- 163
+  - [http://mirrors.163.com/gentoo/](http://mirrors.163.com/gentoo/)
+- Souhu
+  - [http://mirrors.sohu.com/gentoo/](http://mirrors.sohu.com/gentoo/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/gentoo/](https://mirrors.tuna.tsinghua.edu.cn/gentoo/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/gentoo/](https://mirrors.ustc.edu.cn/gentoo/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/gentoo/](http://mirrors.zju.edu.cn/gentoo/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/gentoo/](https://mirror.lzu.edu.cn/gentoo/)
+
+### kali
+
+#### Official
+
+- [https://www.kali.org/get-kali/](https://www.kali.org/get-kali/)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/kali)
+  - [https://mirrors.aliyun.com/kali/](https://mirrors.aliyun.com/kali/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/kali/](https://mirrors.cloud.tencent.com/kali/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/kali/](https://repo.huaweicloud.com/kali/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/kali/](https://mirrors.tuna.tsinghua.edu.cn/kali/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/kali/](https://mirrors.ustc.edu.cn/kali/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/kali/](http://mirrors.zju.edu.cn/kali/)
+- 南阳理工
+  - [https://mirror.nyist.edu.cn/kali/](https://mirror.nyist.edu.cn/kali/)
+- 大连东软
+  - [http://mirrors.neusoft.edu.cn/kali/](http://mirrors.neusoft.edu.cn/kali/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/kali/](https://mirror.bjtu.edu.cn/kali/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/kali/](http://mirrors.njupt.edu.cn/kali/)
+- 西北农林科技大学
+  - [https://mirrors.nwsuaf.edu.cn/kali/](https://mirrors.nwsuaf.edu.cn/kali/)
+
+
+### Opensuse
+
+#### Official
+
+- [https://get.opensuse.org/zh-CN/tumbleweed/](https://get.opensuse.org/zh-CN/tumbleweed/)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/opensuse)
+  - [https://mirrors.aliyun.com/opensuse/](https://mirrors.aliyun.com/opensuse/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/opensuse/](https://mirrors.cloud.tencent.com/opensuse/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/opensuse/](https://repo.huaweicloud.com/opensuse/)
+- Souhu
+  - [http://mirrors.sohu.com/opensuse/](http://mirrors.sohu.com/opensuse/)
+- 北大
+  - [https://mirrors.pku.edu.cn/opensuse/](https://mirrors.pku.edu.cn/opensuse/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/opensuse/](https://mirrors.tuna.tsinghua.edu.cn/opensuse/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/opensuse/](https://mirrors.ustc.edu.cn/opensuse/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/opensuse/](http://mirrors.zju.edu.cn/opensuse/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/opensuse/](https://mirror.lzu.edu.cn/opensuse/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/opensuse/](http://ftp.sjtu.edu.cn/opensuse/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/opensuse/](https://mirror.bjtu.edu.cn/opensuse/)
+- 首都在线
+  - [http://mirrors.yun-idc.com/opensuse/](http://mirrors.yun-idc.com/opensuse/)
 
 
 
