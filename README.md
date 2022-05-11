@@ -293,8 +293,8 @@ Java系的工具版本规范如下：
 配置Maven代理，需进行如下配置：
 
 <details>
-  <summary>点击展开</summary>
-```xml
+<summary>点击展开</summary>
+<pre><code>
 <?xml version="1.0" encoding="UTF-8"?>
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -304,7 +304,6 @@ Java系的工具版本规范如下：
   </pluginGroups>
   <proxies>
   </proxies>
-
   <servers>
     <server>
       <id>releases</id>
@@ -317,7 +316,6 @@ Java系的工具版本规范如下：
       <password>password</password>
    </server>
   </servers>
-
   <mirrors>
     <mirror>
       <id>nexus-eryajf</id>
@@ -326,7 +324,6 @@ Java系的工具版本规范如下：
       <url>http://nexus.eryajf.net/repository/maven/</url>
     </mirror>
   </mirrors>
-
   <profiles>
     <profile>
       <id>developer</id>
@@ -362,12 +359,11 @@ Java系的工具版本规范如下：
     </pluginRepositories>
     </profile>
   </profiles>
-
   <activeProfiles>
     <activeProfile>developer</activeProfile>
   </activeProfiles>
 </settings>
-```
+</code></pre>
 </details>
 
 #### Mirrors
