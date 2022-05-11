@@ -21,6 +21,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Homebrew](#homebrew)
 - [Software-Mirror](#software-mirror)
   - [Docker](#docker)
+  - [Kubernetes](#kubernetes)
   - [Jenkins](#jenkins)
   - [ElasticSearch](#elasticsearch)
   - [Logstash](#logstash)
@@ -33,6 +34,13 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [PostgreSQL](#postgresql)
   - [Golang](#golang)
   - [Node](#node)
+  - [Python](#python)
+  - [Zabbix](#zabbix)
+  - [Grafana](#grafana)
+  - [Apache](#apache)
+  - [Nginx](#nginx)
+- [System-Mirror](#system-mirror)
+  - [CentOS](#centos)
 - [Stargazers over time](#stargazers-over-time)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
