@@ -6,6 +6,8 @@
 
 Gitee：[https://gitee.com/eryajf/Thanks-Mirror](https://gitee.com/eryajf/Thanks-Mirror)
 
+GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目录**
@@ -813,6 +815,5 @@ brew update
   - [https://mirrors.nwsuaf.edu.cn/centos/](https://mirrors.nwsuaf.edu.cn/centos/)
 
 
-## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/eryajf/Thanks-Mirror.svg)](https://starchart.cc/eryajf/Thanks-Mirror)
+最后，欢迎大家补充优秀的镜像，让我们一起建设好这个仓库！
