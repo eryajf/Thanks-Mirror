@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository>~/.m2/repository</localRepository>
+  <pluginGroups>
+  </pluginGroups>
+  <proxies>
+  </proxies>
+  <servers>
+    <server>
+      <id>releases</id>
+      <username>username</username>
+      <password>password</password>
+    </server>
+    <server>
+      <id>snapshots</id>
+      <username>username</username>
+      <password>password</password>
+   </server>
+  </servers>
+  <mirrors>
+    <mirror>
+      <id>nexus-eryajf</id>
+      <mirrorOf>*</mirrorOf>
+      <name>Nexus osc</name>
+      <url>http://nexus.eryajf.net/repository/maven/</url>
+    </mirror>
+  </mirrors>
+  <profiles>
+    <profile>
+      <id>developer</id>
+    <activation>
+      <jdk>jdk-1.8</jdk>
+    </activation>
+    <repositories>
+    <repository>
+      <id>nexus-eryajf-local</id>
+      <name>local private nexus</name>
+      <url>http://nexus.eryajf.net/repository/maven/</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+      <updatePolicy>always</updatePolicy>
+    </snapshots>
+    </repository>
+    </repositories>
+    <pluginRepositories>
+    <pluginRepository>
+      <id>nexus-eryajf</id>
+      <name>local private nexus</name>
+      <url>http://nexus.eryajf.net/repository/maven/</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+    </pluginRepository>
+    </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>developer</activeProfile>
+  </activeProfiles>
+</settings>
