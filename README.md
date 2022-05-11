@@ -310,7 +310,7 @@ Java系的工具版本规范如下：
 - `JDK：`1.8.0_292
 - `MVN：`3.3.9
 
-配置Maven代理，参考配置文件： [](./src/settings.xml)
+配置Maven代理，参考配置文件： [settings.xml](https://raw.githubusercontent.com/eryajf/Thanks-Mirror/main/src/settings.xml)
 
 #### Mirrors
 
