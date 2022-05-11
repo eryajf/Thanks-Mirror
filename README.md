@@ -87,7 +87,7 @@ GOSUMDB="sum.golang.google.cn"
   - [https://mirrors.cloud.tencent.com/go/](https://mirrors.cloud.tencent.com/go/)
 - HUAWEI
   - [https://repo.huaweicloud.com/repository/goproxy/](https://repo.huaweicloud.com/repository/goproxy/)
-  
+
 
 其中`GOSUMDB`在国内可用的两个镜像分别如下：
 
@@ -119,34 +119,21 @@ http://nexus.eryajf.net/repository/npm
 #### Mirrors
 
 - Taobao
-
   - [https://registry.npm.taobao.org](https://registry.npm.taobao.org)
-
     但是请注意如下一个消息：
-
     - [淘宝 npm 域名即将切换 && npmmirror 重构升级](https://zhuanlan.zhihu.com/p/465424728?spm=a2c6h.24755359.0.0.6d444dccyRLxN8)：即原来的淘宝npm域名将停止解析，因此所有依赖此域名的都需要进行更改。
       - 域名切换规则：
         - [http://npm.taobao.org](http://npm.taobao.org/)=> [http://npmmirror.com](http://npmmirror.com/)
         - [http://registry.npm.taobao.org](http://registry.npm.taobao.org/)=> [http://registry.npmmirror.com](http://registry.npmmirror.com/)
-
 - HUAWEI
-
   - [https://repo.huaweicloud.com/repository/npm/](https://repo.huaweicloud.com/repository/npm/)
-
 - [Tencent](https://mirrors.cloud.tencent.com/help/npm.html)
-
   - [http://mirrors.cloud.tencent.com/npm/](http://mirrors.cloud.tencent.com/npm/)
-
 - 浙江大学
-
   - [http://mirrors.zju.edu.cn/npm/](http://mirrors.zju.edu.cn/npm/)
-
 - 南京邮电
-
   - [https://mirrors.njupt.edu.cn/nexus/repository/npm/](https://mirrors.njupt.edu.cn/nexus/repository/npm/)
-
 - npmjs
-
   - https://registry.npmjs.org
 
 ### Pip
@@ -186,13 +173,100 @@ EOF
   - https://mirrors.cloud.tencent.com/pypi/
 - 北大
   - [https://mirrors.pku.edu.cn/pypi/](https://mirrors.pku.edu.cn/pypi/)
-  
 - 南阳理工
   - [https://mirror.nyist.edu.cn/pypi/](https://mirror.nyist.edu.cn/pypi/)
-
 - 大连东软
   - [http://mirrors.neusoft.edu.cn/pypi/web/](http://mirrors.neusoft.edu.cn/pypi/web/)
 
+### Composer
+
+*Composer* 是PHP 的一个依赖管理工具，需要PHP 5.3.2 以上才能运行。
+
+#### Configuration
+
+配置`PHP`代理，需进行如下配置：
+
+- 全局配置（推荐）
+  - 所有项目都会使用该镜像地址：
+    ```
+    composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+    ```
+  - 取消配置：
+    ```
+    composer config -g --unset repos.packagist
+    ```
+- 项目配置
+  - 仅修改当前工程配置，仅当前工程可使用该镜像地址：
+    ```
+    composer config repo.packagist composer https://mirrors.aliyun.com/composer/
+    ```
+  - 取消配置：
+    ```
+    composer config --unset repos.packagist
+    ```
+
+参考：[https://developer.aliyun.com/composer](https://developer.aliyun.com/composer)
+
+#### Mirrors
+
+目前代理外部私仓有：
+
+- [Aliyun](https://developer.aliyun.com/composer)
+  - [https://mirrors.aliyun.com/composer/](https://mirrors.aliyun.com/composer/)
+- [Tencent](https://mirrors.cloud.tencent.com/help/composer.html)
+  - [https://mirrors.cloud.tencent.com/composer/](https://mirrors.cloud.tencent.com/composer/)
+- HUAWEI
+  - [https://mirrors.huaweicloud.com/repository/php/](https://mirrors.huaweicloud.com/repository/php/)
+- [Packagist](https://pkg.xyz/)
+  - [https://packagist.phpcomposer.com](https://packagist.phpcomposer.com)
+- 上海交通
+  - [https://packagist.mirrors.sjtug.sjtu.edu.cn](https://packagist.mirrors.sjtug.sjtu.edu.cn)
+
+
+### Rubygems
+
+*RubyGems* 是Ruby 的一个包管理器，它提供一个分发Ruby 程序和库的标准格式，还提供一个管理程序包安装的工具。
+
+#### Configuration
+
+配置`Ruby`代理，需进行如下配置：
+
+```sh
+# 首先，查看当前源：
+$ gem sources -l
+*** CURRENT SOURCES ***
+https://rubygems.org/
+
+
+# 接着，移除 https://rubygems.org/，并添加国内下载源 https://gems.ruby-china.com/。
+$ gem sources --remove https://rubygems.org/
+$ gem sources -a https://gems.ruby-china.com/
+$ gem sources -l
+*** CURRENT SOURCES ***
+
+https://gems.ruby-china.com/
+
+# 请确保只有 gems.ruby-china.com
+$ gem install rails
+```
+
+参考：[https://www.runoob.com/ruby/ruby-rubygems.html](https://www.runoob.com/ruby/ruby-rubygems.html)
+
+#### Mirrors
+
+目前代理外部私仓有：
+
+
+- [Aliyun](https://developer.aliyun.com/mirror/rubygems)
+  - [https://mirrors.aliyun.com/rubygems/](https://mirrors.aliyun.com/rubygems/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/rubygems/](https://mirrors.cloud.tencent.com/rubygems/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/repository/rubygems/](https://repo.huaweicloud.com/repository/rubygems/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/rubygems/](https://mirrors.tuna.tsinghua.edu.cn/rubygems/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/rubygems/](https://mirrors.ustc.edu.cn/rubygems/)
 
 ### Maven
 
@@ -205,6 +279,8 @@ Java系的工具版本规范如下：
 
 配置Maven代理，需进行如下配置：
 
+<details>
+  <summary>点击展开</summary>
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
@@ -279,35 +355,29 @@ Java系的工具版本规范如下：
   </activeProfiles>
 </settings>
 ```
+</details>
 
 #### Mirrors
 
 - HUAWEI
   - https://repo.huaweicloud.com/repository/maven/
-
 - Maven Central Repository
   - https://repo1.maven.org/maven2/
 - [Aliyun](https://developer.aliyun.com/mvn/guide)
   - http://maven.aliyun.com/nexus/content/groups/public/
-
 - Tencent
   - [https://mirrors.cloud.tencent.com/maven/](https://mirrors.cloud.tencent.com/maven/)
-
 - 南京邮电
   - [https://mirrors.njupt.edu.cn/nexus/repository/maven-central](https://mirrors.njupt.edu.cn/nexus/repository/maven-central)
-
 - Apache Maven
   - https://repo.maven.apache.org/maven2
   - https://repository.apache.org/content/groups/snapshots
   - https://repository.apache.org/content/groups/staging/
   - https://repository.apache.org/content/groups/public/
-
 - confluent
   - http://packages.confluent.io/maven/
-
 - cloudera
   - http://repo.hortonworks.com/content/repositories/releases
-
 - jboss
   - https://repository.jboss.org/nexus/content/groups/public
 
@@ -367,6 +437,87 @@ yum makecache
 - 163：
   - http://mirrors.163.com/centos/
 
+### Remi
+
+Remi repository 是包含最新版本 PHP 和 MySQL 包的 Linux 源，由 Remi 提供维护。
+
+官方地址：[https://rpms.remirepo.net/](https://rpms.remirepo.net/)
+
+#### Configuration
+
+详情参考：[https://wiki.eryajf.net/pages/f35986](https://wiki.eryajf.net/pages/f35986)
+
+```bash
+yum install -y epel-release
+yum install -y https://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/remi-release-7.rpm
+```
+
+#### Mirrors
+
+目前代理外部源：
+
+
+- [Aliyun](https://developer.aliyun.com/mirror/remi)
+  - [https://mirrors.aliyun.com/remi/](https://mirrors.aliyun.com/remi/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/remi/](https://repo.huaweicloud.com/remi/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/remi/](https://mirrors.tuna.tsinghua.edu.cn/remi/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/remi/](https://mirrors.ustc.edu.cn/remi/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/remi/](http://ftp.sjtu.edu.cn/remi/)
+- 首都在线
+  - [http://mirrors.yun-idc.com/remi/](http://mirrors.yun-idc.com/remi/)
+
+### Epel
+
+EPEL 的全称叫 Extra Packages for Enterprise Linux。EPEL 是由 Fedora 社区打造，为 RHEL 及衍生发行版如 CentOS、Scientific Linux 等提供高质量软件包的项目。
+
+官方地址：[https://docs.fedoraproject.org/en-US/epel/](https://docs.fedoraproject.org/en-US/epel/)
+
+#### Configuration
+
+```bash
+# 备份
+mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel.repo.backup
+mv /etc/yum.repos.d/epel-testing.repo /etc/yum.repos.d/epel-testing.repo.backup
+
+# 下载
+wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
+```
+
+#### Mirrors
+
+目前代理外部源：
+
+- [Aliyun](https://developer.aliyun.com/mirror/epel)
+  - [https://mirrors.aliyun.com/epel/](https://mirrors.aliyun.com/epel/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/epel/](https://mirrors.cloud.tencent.com/epel/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/epel/](https://repo.huaweicloud.com/epel/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/epel/](https://mirrors.tuna.tsinghua.edu.cn/epel/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/epel/](https://mirrors.ustc.edu.cn/epel/)
+- 浙江大学
+  - [http://mirrors.zju.edu.cn/epel/](http://mirrors.zju.edu.cn/epel/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/epel/](https://mirror.lzu.edu.cn/epel/)
+- 上海交通
+  - [http://ftp.sjtu.edu.cn/epel/](http://ftp.sjtu.edu.cn/epel/)
+- 首都在线
+  - [http://mirrors.yun-idc.com/epel/](http://mirrors.yun-idc.com/epel/)
+- 大连东软
+  - [http://mirrors.neusoft.edu.cn/epel/](http://mirrors.neusoft.edu.cn/epel/)
+- 大连理工
+  - [http://mirror.dlut.edu.cn/epel/](http://mirror.dlut.edu.cn/epel/)
+- 南京邮电
+  - [http://mirrors.njupt.edu.cn/epel/](http://mirrors.njupt.edu.cn/epel/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/epel/](https://mirrors.cqu.edu.cn/epel/)
+
 ### Homebrew
 
 #### Configuration
@@ -392,6 +543,9 @@ brew update
   - [https://mirrors.cloud.tencent.com/homebrew/](https://mirrors.cloud.tencent.com/homebrew/)
 - 清华：
   - https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/homebrew/](https://mirrors.cqu.edu.cn/homebrew/)
+
 
 ## Software-Mirror
 
@@ -413,7 +567,6 @@ brew update
   - [https://repo.huaweicloud.com/docker-ce/](https://repo.huaweicloud.com/docker-ce/)
 - 北大
   - [https://mirrors.pku.edu.cn/docker-ce/](https://mirrors.pku.edu.cn/docker-ce/)
-  
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/docker-ce/](https://mirrors.tuna.tsinghua.edu.cn/docker-ce/)
 - 中科大
@@ -444,6 +597,39 @@ brew update
 - 中科大
   - [https://mirrors.ustc.edu.cn/kubernetes/](https://mirrors.ustc.edu.cn/kubernetes/)
 
+### K3s
+
+#### Official
+
+- [https://github.com/k3s-io/k3s/releases/](https://github.com/k3s-io/k3s/releases/)
+
+#### Mirrors
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/github-release/k3s-io/k3s/](https://mirrors.tuna.tsinghua.edu.cn/github-release/k3s-io/k3s/)
+
+### Minikube
+
+#### Official
+
+- [https://github.com/kubernetes/minikube/releases](https://github.com/kubernetes/minikube/releases)
+
+#### Mirrors
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/github-release/kubernetes/minikube/](https://mirrors.tuna.tsinghua.edu.cn/github-release/kubernetes/minikube/)
+
+### Helm
+
+#### Official
+
+- [https://helm.sh/docs/intro/install/](https://helm.sh/docs/intro/install/)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/helm/](https://repo.huaweicloud.com/helm/)
+
 ### Jenkins
 
 #### Official
@@ -456,18 +642,15 @@ brew update
 - Aliyun
   - 安装包：[https://mirrors.aliyun.com/jenkins/war/](https://mirrors.aliyun.com/jenkins/war/)
   - 插件：[https://mirrors.aliyun.com/jenkins/plugins/](https://mirrors.aliyun.com/jenkins/plugins/)
-  
 - Tencent
   - 安装包：[https://mirrors.cloud.tencent.com/jenkins/war/](https://mirrors.cloud.tencent.com/jenkins/war/)
   - 插件：[https://mirrors.cloud.tencent.com/jenkins/plugins/](https://mirrors.cloud.tencent.com/jenkins/plugins/)
 - HUAWEI
-
   - 安装包：[https://repo.huaweicloud.com/jenkins/war/](https://repo.huaweicloud.com/jenkins/war/)
   - 插件：[https://repo.huaweicloud.com/jenkins/plugins/](https://repo.huaweicloud.com/jenkins/plugins/)
 - 中科大
   - 安装包：[https://mirrors.ustc.edu.cn/jenkins/war/](https://mirrors.ustc.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.ustc.edu.cn/jenkins/plugins/](https://mirrors.ustc.edu.cn/jenkins/plugins/)
-
 - 清华
   - 安装包：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/)
@@ -484,7 +667,6 @@ brew update
   - [https://mirrors.aliyun.com/gitlab-ce/](https://mirrors.aliyun.com/gitlab-ce/)
 - Tencent
   - [https://mirrors.cloud.tencent.com/gitlab-ce/](https://mirrors.cloud.tencent.com/gitlab-ce/)
-
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/](https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/)
 
@@ -513,7 +695,6 @@ brew update
   - [https://elasticsearch.cn/download/](https://elasticsearch.cn/download/)
 - Aliyun
   - [https://mirrors.aliyun.com/elasticstack/](https://mirrors.aliyun.com/elasticstack/)
-  
 - HUAWEI
   - [https://repo.huaweicloud.com/elasticsearch/](https://repo.huaweicloud.com/elasticsearch/)
 - Tencent
@@ -658,21 +839,16 @@ brew update
 
 - Aliyun
   - [https://mirrors.aliyun.com/postgresql/](https://mirrors.aliyun.com/postgresql/)
-  
 - Tencen
   - [https://mirrors.cloud.tencent.com/postgresql/](https://mirrors.cloud.tencent.com/postgresql/)
 - HUAWEI
   - [https://repo.huaweicloud.com/postgresql/](https://repo.huaweicloud.com/postgresql/)
-
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/postgresql/](https://mirrors.tuna.tsinghua.edu.cn/postgresql/)
-
 - 中科大
   - [https://mirrors.ustc.edu.cn/postgresql/](https://mirrors.ustc.edu.cn/postgresql/)
-
 - 浙江大学
   - [http://mirrors.zju.edu.cn/postgresql/](http://mirrors.zju.edu.cn/postgresql/)
-
 - 南阳理工
   - [https://mirror.nyist.edu.cn/postgresql/](https://mirror.nyist.edu.cn/postgresql/)
 
@@ -713,6 +889,17 @@ brew update
 - 中科大
   - [https://mirrors.ustc.edu.cn/node/](https://mirrors.ustc.edu.cn/node/)
 
+### Yarn
+
+#### Official
+
+- [https://github.com/yarnpkg/yarn/releases](https://github.com/yarnpkg/yarn/releases)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/yarn/](https://repo.huaweicloud.com/yarn/)
+
 ### Python
 
 #### Official
@@ -751,6 +938,17 @@ brew update
 - 南阳理工
   - [https://mirror.nyist.edu.cn/zabbix/](https://mirror.nyist.edu.cn/zabbix/)
 
+### Prometheus
+
+#### Official
+
+- [https://grafana.com/grafana/download](https://grafana.com/grafana/download)
+
+#### Mirrors
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/github-release/prometheus/prometheus/](https://mirrors.tuna.tsinghua.edu.cn/github-release/prometheus/prometheus/)
+
 ### Grafana
 
 #### Official
@@ -770,6 +968,17 @@ brew update
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/grafana/](https://mirrors.nwsuaf.edu.cn/grafana/)
 
+### Pinpoint
+
+#### Official
+
+- [https://github.com/pinpoint-apm/pinpoint/releases](https://github.com/pinpoint-apm/pinpoint/releases)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/pinpoint/](https://repo.huaweicloud.com/pinpoint/)
+
 ### Apache
 
 #### Official
@@ -788,7 +997,6 @@ brew update
   - [http://mirrors.sohu.com/apache/](http://mirrors.sohu.com/apache/)
 - 北大
   - [https://mirrors.pku.edu.cn/apache/](https://mirrors.pku.edu.cn/apache/)
-  
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/apache/](https://mirrors.tuna.tsinghua.edu.cn/apache/)
 - 中科大
@@ -832,6 +1040,17 @@ brew update
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/openresty/](https://mirrors.nwsuaf.edu.cn/openresty/)
 
+### Keepalived
+
+#### Official
+
+- [https://www.keepalived.org/download.html](https://www.keepalived.org/download.html)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/keepalived/](https://repo.huaweicloud.com/keepalived/)
+
 ### Ceph
 
 #### Official
@@ -844,20 +1063,105 @@ brew update
   - [https://developer.aliyun.com/mirror/ceph](https://developer.aliyun.com/mirror/ceph)
 - Tencent
   - [https://mirrors.cloud.tencent.com/ceph/](https://mirrors.cloud.tencent.com/ceph/)
-  
 - HUAWEI
   - [https://repo.huaweicloud.com/ceph/](https://repo.huaweicloud.com/ceph/)
 - 163
   - [http://mirrors.163.com/ceph/](http://mirrors.163.com/ceph/)
-
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/ceph/](https://mirrors.tuna.tsinghua.edu.cn/ceph/)
-
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/ceph/](https://mirrors.cqu.edu.cn/ceph/)
-
 - 中科大
   - [https://mirrors.ustc.edu.cn/ceph/](https://mirrors.ustc.edu.cn/ceph/)
+
+### Influxdata
+
+#### Official
+
+- [https://portal.influxdata.com/downloads/](https://portal.influxdata.com/downloads/)
+
+#### Mirrors
+
+- Tencent
+  - [https://mirrors.cloud.tencent.com/influxdata/](https://mirrors.cloud.tencent.com/influxdata/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/influxdata/](https://mirrors.tuna.tsinghua.edu.cn/influxdata/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/influxdata/](https://mirrors.ustc.edu.cn/influxdata/)
+
+### ClickHouse
+
+#### Official
+
+- [https://clickhouse.com/#quick-start](https://clickhouse.com/#quick-start)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/clickhouse/](https://mirrors.aliyun.com/clickhouse/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/clickhouse/](https://mirrors.tuna.tsinghua.edu.cn/clickhouse/)
+
+### Rabbitmq
+
+#### Official
+
+- [https://www.rabbitmq.com/download.html](https://www.rabbitmq.com/download.html)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/rabbitmq-server/](https://repo.huaweicloud.com/rabbitmq-server/)
+
+### ETCD
+
+#### Official
+
+- [https://github.com/etcd-io/etcd/releases](https://github.com/etcd-io/etcd/releases)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/etcd/](https://repo.huaweicloud.com/etcd/)
+
+### WireShark
+
+#### Official
+
+- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+#### Mirrors
+
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/wireshark/](https://mirrors.tuna.tsinghua.edu.cn/wireshark/)
+
+### Virtualbox
+
+#### Official
+
+- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+#### Mirrors
+
+- Tencent
+  - [https://mirrors.cloud.tencent.com/virtualbox/](https://mirrors.cloud.tencent.com/virtualbox/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/virtualbox/](https://mirrors.tuna.tsinghua.edu.cn/virtualbox/)
+
+### iina
+
+#### Official
+
+- [https://github.com/iina/iina/releases/](https://github.com/iina/iina/releases/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/iina/](https://mirrors.aliyun.com/iina/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/iina/](https://mirrors.cloud.tencent.com/iina/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/iina/](https://mirrors.tuna.tsinghua.edu.cn/iina/)
 
 ## System-Mirror
 
@@ -913,6 +1217,8 @@ brew update
   - [http://mirrors.njupt.edu.cn/centos/](http://mirrors.njupt.edu.cn/centos/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/centos/](https://mirrors.nwsuaf.edu.cn/centos/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/centos/](https://mirrors.cqu.edu.cn/centos/)
 
 
 ### CentOS-altarch
@@ -980,6 +1286,8 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.njupt.edu.cn/ubuntu/](http://mirrors.njupt.edu.cn/ubuntu/)
 - 南阳理工
   - [https://mirror.nyist.edu.cn/ubuntu/](https://mirror.nyist.edu.cn/ubuntu/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/ubuntu/](https://mirrors.cqu.edu.cn/ubuntu/)
 
 ### Debian
 
@@ -1024,6 +1332,8 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.njupt.edu.cn/debian/](http://mirrors.njupt.edu.cn/debian/)
 - 南阳理工
   - [https://mirror.nyist.edu.cn/debian/](https://mirror.nyist.edu.cn/debian/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/debian/](https://mirrors.cqu.edu.cn/debian/)
 
 ### Deepin
 
@@ -1055,6 +1365,8 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.njupt.edu.cn/deepin/](http://mirrors.njupt.edu.cn/deepin/)
 - 南阳理工
   - [https://mirror.nyist.edu.cn/deepin/](https://mirror.nyist.edu.cn/deepin/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/deepin/](https://mirrors.cqu.edu.cn/deepin/)
 
 ### Fedora
 
@@ -1068,7 +1380,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.aliyun.com/fedora/](https://mirrors.aliyun.com/fedora/)
 - Tencent
   - [https://mirrors.cloud.tencent.com/fedora/](https://mirrors.cloud.tencent.com/fedora/)
-  
 - HUAWEI
   - [https://repo.huaweicloud.com/fedora/](https://repo.huaweicloud.com/fedora/)
 - 163
@@ -1089,6 +1400,8 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.njupt.edu.cn/fedora/](http://mirrors.njupt.edu.cn/fedora/)
 - 南阳理工
   - [https://mirror.nyist.edu.cn/fedora/](https://mirror.nyist.edu.cn/fedora/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/fedora/](https://mirrors.cqu.edu.cn/fedora/)
 
 ### Gentoo
 
@@ -1102,7 +1415,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.aliyun.com/gentoo/](https://mirrors.aliyun.com/gentoo/)
 - Tencent
   - [https://mirrors.cloud.tencent.com/gentoo/](https://mirrors.cloud.tencent.com/gentoo/)
-  
 - HUAWEI
   - [https://repo.huaweicloud.com/gentoo/](https://repo.huaweicloud.com/gentoo/)
 - 163
@@ -1148,6 +1460,8 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.njupt.edu.cn/kali/](http://mirrors.njupt.edu.cn/kali/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/kali/](https://mirrors.nwsuaf.edu.cn/kali/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/kali-images/](https://mirrors.cqu.edu.cn/kali-images/)
 
 
 ### Opensuse
@@ -1182,7 +1496,54 @@ ARM架构下的CentOS镜像。
   - [https://mirror.bjtu.edu.cn/opensuse/](https://mirror.bjtu.edu.cn/opensuse/)
 - 首都在线
   - [http://mirrors.yun-idc.com/opensuse/](http://mirrors.yun-idc.com/opensuse/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
+
+### Freebsd
+
+#### Official
+
+- [https://www.freebsd.org/where/](https://www.freebsd.org/where/)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/freebsd)
+  - [https://mirrors.aliyun.com/freebsd/](https://mirrors.aliyun.com/freebsd/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/freebsd/](https://mirrors.cloud.tencent.com/freebsd/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/freebsd/](https://repo.huaweicloud.com/freebsd/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/freebsd/](https://mirrors.ustc.edu.cn/freebsd/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/freebsd/](https://mirror.lzu.edu.cn/freebsd/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/freebsd/](https://mirror.bjtu.edu.cn/freebsd/)
+- 首都在线
+  - [http://mirrors.yun-idc.com/freebsd/](http://mirrors.yun-idc.com/freebsd/)
 
 
+### GNU
+
+#### Official
+
+- [https://www.gnu.org/software/octave/download](https://www.gnu.org/software/octave/download)
+
+#### Mirrors
+
+- [Aliyun](https://developer.aliyun.com/mirror/gnu)
+  - [https://mirrors.aliyun.com/gnu/](https://mirrors.aliyun.com/gnu/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/gnu/](https://mirrors.cloud.tencent.com/gnu/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/gnu/](https://repo.huaweicloud.com/gnu/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/gnu/](https://mirrors.tuna.tsinghua.edu.cn/gnu/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/gnu/](https://mirrors.ustc.edu.cn/gnu/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/gnu/](https://mirror.lzu.edu.cn/gnu/)
+- 北京交通
+  - [https://mirror.bjtu.edu.cn/gnu/](https://mirror.bjtu.edu.cn/gnu/)
 
 最后，欢迎大家补充优秀的镜像，让我们一起建设好这个仓库！
