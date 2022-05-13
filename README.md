@@ -23,6 +23,8 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Remi](#remi)
   - [Epel](#epel)
   - [Homebrew](#homebrew)
+- [cargo](#cargo)
+  - [Configuration](#configuration)
 - [Software-Mirror](#software-mirror)
   - [Docker](#docker)
   - [Kubernetes](#kubernetes)
@@ -501,7 +503,38 @@ brew update
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/homebrew/](https://mirrors.cqu.edu.cn/homebrew/)
 
+## cargo
+rust 包管理镜像源
 
+### Configuration
+修改文件`~/.cargo/config`(没有则新建)
+```
+[source.crates-io]
+replace-with = 'rsproxy'
+
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+
+[net]
+git-fetch-with-cli = true
+```
+#### Mirrors
+
+- 字节
+  - [https://rsproxy.cn/crates.io-index](https://rsproxy.cn/crates.io-index)
+- 中国科学技术大学
+  - git://mirrors.ustc.edu.cn/crates.io-index
+- 清华：
+  - [https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git](https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git)
+- 上海交通大学
+  - [https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index](https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index)
+- 阿里云
+  - [https://code.aliyun.com/rustcc/crates.io-index](https://code.aliyun.com/rustcc/crates.io-index)
+- rustcc社区
+  - git://crates.rustcc.cn/crates.io-index
 ## Software-Mirror
 
 还有一些软件，直接通过官方下载比较困难，也整理出方便下载的国内优质镜像。
@@ -1423,7 +1456,7 @@ ARM架构下的CentOS镜像。
 
 #### Official
 
-- [https://get.opensuse.org/zh-CN/tumbleweed/](https://get.opensuse.org/zh-CN/tumbleweed/)
+- [https://get.opensuse.org/zh-CN/](https://get.opensuse.org/zh-CN/)
 
 #### Mirrors
 
@@ -1437,8 +1470,8 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.sohu.com/opensuse/](http://mirrors.sohu.com/opensuse/)
 - 北大
   - [https://mirrors.pku.edu.cn/opensuse/](https://mirrors.pku.edu.cn/opensuse/)
-- 清华
-  - [https://mirrors.tuna.tsinghua.edu.cn/opensuse/](https://mirrors.tuna.tsinghua.edu.cn/opensuse/)
+- openTUNA
+  - [https://opentuna.cn/opensuse/](https://opentuna.cn/opensuse/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/opensuse/](https://mirrors.ustc.edu.cn/opensuse/)
 - 浙江大学
@@ -1453,6 +1486,16 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.yun-idc.com/opensuse/](http://mirrors.yun-idc.com/opensuse/)
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
+- 北京理工
+  - [https://mirror.bit.edu.cn/opensuse/](https://mirror.bit.edu.cn/opensuse/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
+- 哈工大
+  - [https://mirrors.hit.edu.cn/opensuse/](https://mirrors.hit.edu.cn/opensuse/)
+- 南京大学
+  - [http://mirrors.nju.edu.cn/opensuse/](http://mirrors.nju.edu.cn/opensuse/)
+- 南方科技大学
+  - [https://mirrors.sustech.edu.cn/opensuse/](https://mirrors.sustech.edu.cn/opensuse/)
 
 ### Freebsd
 
