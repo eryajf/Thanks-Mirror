@@ -503,10 +503,11 @@ brew update
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/homebrew/](https://mirrors.cqu.edu.cn/homebrew/)
 
-## cargo
+### cargo
 rust 包管理镜像源
 
-### Configuration
+#### Configuration
+
 修改文件`~/.cargo/config`(没有则新建)
 ```
 [source.crates-io]
