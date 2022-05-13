@@ -23,6 +23,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Remi](#remi)
   - [Epel](#epel)
   - [Homebrew](#homebrew)
+  - [Cargo](#cargo)
 - [Software-Mirror](#software-mirror)
   - [Docker](#docker)
   - [Kubernetes](#kubernetes)
@@ -501,7 +502,38 @@ brew update
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/homebrew/](https://mirrors.cqu.edu.cn/homebrew/)
 
+## cargo
+rust 包管理镜像源
 
+### Configuration
+修改文件`~/.cargo/config`(没有则新建)
+```
+[source.crates-io]
+replace-with = 'rsproxy'
+
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+
+[net]
+git-fetch-with-cli = true
+```
+#### Mirrors
+
+- 字节
+  - [https://rsproxy.cn/crates.io-index](https://rsproxy.cn/crates.io-index)
+- 中国科学技术大学
+  - git://mirrors.ustc.edu.cn/crates.io-index
+- 清华：
+  - [https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git](https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git)
+- 上海交通大学
+  - [https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index](https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index)
+- 阿里云
+  - [https://code.aliyun.com/rustcc/crates.io-index](https://code.aliyun.com/rustcc/crates.io-index)
+- rustcc社区
+  - git://crates.rustcc.cn/crates.io-index
 ## Software-Mirror
 
 还有一些软件，直接通过官方下载比较困难，也整理出方便下载的国内优质镜像。
