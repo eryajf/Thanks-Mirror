@@ -1423,7 +1423,7 @@ ARM架构下的CentOS镜像。
 
 #### Official
 
-- [https://get.opensuse.org/zh-CN/tumbleweed/](https://get.opensuse.org/zh-CN/tumbleweed/)
+- [https://get.opensuse.org/zh-CN/](https://get.opensuse.org/zh-CN/)
 
 #### Mirrors
 
@@ -1437,8 +1437,8 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.sohu.com/opensuse/](http://mirrors.sohu.com/opensuse/)
 - 北大
   - [https://mirrors.pku.edu.cn/opensuse/](https://mirrors.pku.edu.cn/opensuse/)
-- 清华
-  - [https://mirrors.tuna.tsinghua.edu.cn/opensuse/](https://mirrors.tuna.tsinghua.edu.cn/opensuse/)
+- openTUNA
+  - [https://opentuna.cn/opensuse/](https://opentuna.cn/opensuse/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/opensuse/](https://mirrors.ustc.edu.cn/opensuse/)
 - 浙江大学
@@ -1453,6 +1453,16 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.yun-idc.com/opensuse/](http://mirrors.yun-idc.com/opensuse/)
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
+- 北京理工
+  - [https://mirror.bit.edu.cn/opensuse/](https://mirror.bit.edu.cn/opensuse/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
+- 哈工大
+  - [https://mirrors.hit.edu.cn/opensuse/](https://mirrors.hit.edu.cn/opensuse/)
+- 南京大学
+  - [http://mirrors.nju.edu.cn/opensuse/](http://mirrors.nju.edu.cn/opensuse/)
+- 南方科技大学
+  - [https://mirrors.sustech.edu.cn/opensuse/](https://mirrors.sustech.edu.cn/opensuse/)
 
 ### Freebsd
 
