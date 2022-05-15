@@ -1734,6 +1734,59 @@ ARM架构下的CentOS镜像。
 - 北京交通
   - [https://mirror.bjtu.edu.cn/gnu/](https://mirror.bjtu.edu.cn/gnu/)
 
+## Other-Mirror
+
+### Docker-hub
+
+没有整理Docker-hub的镜像的原因是，鉴于这种仓库的特殊性，国内也确实没有一家将之全站镜像的，果真如此，倒也并不科学了。
+
+不过关于Docker-hub以及GitHub的使用，又的确会经常遇到网络方面的问题，因此也一直在留心这方面的解决方案，目前大多是提供加速的方案，算是镜像方案之下的一个折中策略。
+
+#### Official
+
+- [https://hub.docker.com/](https://hub.docker.com/)
+
+其他的镜像仓库不再单独列出。
+
+#### Mirrors
+
+`使用方式：`
+
+使用方式都是替换原来镜像的前缀域名即可实现加速效果，比如：
+
+```
+原来地址： eryajf/centos:7.4  # 这个是官方镜像，省略了前边的域名
+替换地址： docker.mirrors.sjtug.sjtu.edu.cn/eryajf/centos:7.4
+```
+
+另外，加速通常只是针对某个源站进行的加速，国外对公开放的docker仓库并非官方一家，因此这里就以源站的维度进行区分，整理出经过测试可用的加速站。
+
+- Docker-hub
+  - 上海交通大学
+    - docker.mirrors.sjtug.sjtu.edu.cn
+  - [中科大](https://mirrors.ustc.edu.cn/help/dockerhub.html)
+    - docker.mirrors.ustc.edu.cn
+  - [docker proxy](https://dockerproxy.com/)
+    - dockerproxy.com
+- gcr.io
+  - [docker proxy](https://dockerproxy.com/)
+    - gcr.dockerproxy.com
+  - [lank8s](https://github.com/lank8s)：后期可能会转成付费
+    - gcr.lank8s.cn
+- k8s.gcr.io
+  - 上海交通大学
+    - k8s-gcr-io.mirrors.sjtug.sjtu.edu.cn
+  - [docker proxy](https://dockerproxy.com/)
+    - k8s.dockerproxy.com
+  - [lank8s](https://github.com/lank8s)
+    - lank8s.cn
+- ghcr.io
+  - [docker proxy](https://dockerproxy.com/)
+    - ghcr.dockerproxy.com
+- quay.io
+  - 中科大
+    - quay.mirrors.ustc.edu.cn
+
 ## 如何贡献
 
 欢迎大家补充优秀的镜像，让我们一起建设好这个仓库！
