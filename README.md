@@ -199,7 +199,7 @@ EOF
 目前代理外部私仓有：
 
 - Aliyun
-  - [http://mirrors.aliyun.com/pypi/](http://mirrors.aliyun.com/pypi/)
+  - [https://mirrors.aliyun.com/pypi/](https://mirrors.aliyun.com/pypi/)
 - douban
   - [http://pypi.douban.com/](http://pypi.douban.com/)
 - 清华
