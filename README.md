@@ -79,6 +79,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [GNU](#gnu)
 - [Other-Mirror](#other-mirror)
   - [Docker-hub](#docker-hub)
+  - [Minecraft Gradle Mirror](#minecraft-mirror)
 - [如何贡献](#%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -1790,6 +1791,24 @@ ARM架构下的CentOS镜像。
 - quay.io
   - 中科大
     - quay.mirrors.ustc.edu.cn
+- minecarft-mirror:
+  把 build.gradle 里的
+  ```maven {
+
+            name = "forge"
+
+            url = "http://files.minecraftforge.net/maven"
+
+        }```
+  改为
+  ```maven {
+
+            name = "forge"
+
+            url = "http://lss233.littleservice.cn/repositories/minecraft"
+
+        }```
+  即可（由 Lss233's.Mirror 提供）。
 
 ## 如何贡献
 
