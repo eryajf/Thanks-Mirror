@@ -1792,24 +1792,6 @@ ARM架构下的CentOS镜像。
 - quay.io
   - 中科大
     - quay.mirrors.ustc.edu.cn
-- minecarft-mirror:
-  把 build.gradle 里的
-  ```maven {
-
-            name = "forge"
-
-            url = "http://files.minecraftforge.net/maven"
-
-        }```
-  改为
-  ```maven {
-
-            name = "forge"
-
-            url = "http://lss233.littleservice.cn/repositories/minecraft"
-
-        }```
-  即可（由 Lss233's.Mirror 提供）。
 
 ## 如何贡献
 
