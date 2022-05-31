@@ -355,7 +355,7 @@ Java系的工具版本规范如下：
   - http://repo.hortonworks.com/content/repositories/releases
 - jboss
   - https://repository.jboss.org/nexus/content/groups/public
-- Lss233's.Mirror（供Minecraft Mod开发使用）
+- Lss233's.Mirror（供 Minecraft 开发使用）
   - http://lss233.littleservice.cn/repositories/minecraft
 
 ### Yum
