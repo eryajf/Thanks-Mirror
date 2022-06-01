@@ -192,9 +192,16 @@ timeout = 60
 trusted-host =  nexus.eryajf.net
 index-url = http://nexus.eryajf.net/repository/pypi/simple
 EOF
+
 ```
 
 `注意：`通常在配置文件后边，我们会添加一个`simple`。
+```shell
+# 简洁配置方式 1
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+# 简洁配置方式 2 
+pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
+```
 
 #### Mirrors
 
