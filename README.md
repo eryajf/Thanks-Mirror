@@ -65,6 +65,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [WireShark](#wireshark)
   - [Virtualbox](#virtualbox)
   - [iina](#iina)
+  - [Chromium](#chromium)
 - [System-Mirror](#system-mirror)
   - [CentOS](#centos)
   - [CentOS-altarch](#centos-altarch)
@@ -191,9 +192,16 @@ timeout = 60
 trusted-host =  nexus.eryajf.net
 index-url = http://nexus.eryajf.net/repository/pypi/simple
 EOF
+
 ```
 
 `注意：`通常在配置文件后边，我们会添加一个`simple`。
+```shell
+# 简洁配置方式 1
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+# 简洁配置方式 2 
+pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
+```
 
 #### Mirrors
 
@@ -1225,7 +1233,7 @@ git-fetch-with-cli = true
 
 #### Official
 
-- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+- [https://www.wireshark.org/](https://www.wireshark.org/)
 
 #### Mirrors
 
@@ -1254,6 +1262,7 @@ git-fetch-with-cli = true
 
 ### iina
 
+
 #### Official
 
 - [https://github.com/iina/iina/releases/](https://github.com/iina/iina/releases/)
@@ -1268,6 +1277,21 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/iina/](https://mirrors.tuna.tsinghua.edu.cn/iina/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/iina/](https://mirrors.bfsu.edu.cn/iina/)
+
+
+### chromium
+
+#### Official
+- [ https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html)
+
+#### Mirrors
+- Aliyun
+  - [https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/](https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/)
+- huaweicloud
+  - [https://repo.huaweicloud.com/chromium-browser-snapshots/](https://repo.huaweicloud.com/chromium-browser-snapshots/)
+- ungoogled-software.github.io(ungoogle chromium)
+  - [https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
+
 
 ## System-Mirror
 
