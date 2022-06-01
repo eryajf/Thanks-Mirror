@@ -1759,4 +1759,35 @@ ARM架构下的CentOS镜像。
 ## 贡献者
 
 <!-- readme: collaborators,contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/eryajf">
+            <img src="https://avatars.githubusercontent.com/u/33259379?v=4" width="100;" alt="eryajf"/>
+            <br />
+            <sub><b>二丫讲梵</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Hanjingxue-Boling">
+            <img src="https://avatars.githubusercontent.com/u/87272716?v=4" width="100;" alt="Hanjingxue-Boling"/>
+            <br />
+            <sub><b>Hanjingxue Boling</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/colinxu2020">
+            <img src="https://avatars.githubusercontent.com/u/63941938?v=4" width="100;" alt="colinxu2020"/>
+            <br />
+            <sub><b>Colinxu2020</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/danbai225">
+            <img src="https://avatars.githubusercontent.com/u/40517872?v=4" width="100;" alt="danbai225"/>
+            <br />
+            <sub><b>淡白</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: collaborators,contributors -end -->
