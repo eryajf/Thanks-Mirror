@@ -1265,19 +1265,6 @@ git-fetch-with-cli = true
 ### iina
 
 
-### chromium
-
-#### Official
-  - [ https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html)
-
-#### Mirrors
-- Aliyun
-  - [https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/](https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/)
-- huaweicloud
-  - [https://repo.huaweicloud.com/chromium-browser-snapshots/](https://repo.huaweicloud.com/chromium-browser-snapshots/)
-- ungoogled-software.github.io(ungoogle chromium)
-  - [https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
-
 #### Official
 
 - [https://github.com/iina/iina/releases/](https://github.com/iina/iina/releases/)
@@ -1292,6 +1279,21 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/iina/](https://mirrors.tuna.tsinghua.edu.cn/iina/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/iina/](https://mirrors.bfsu.edu.cn/iina/)
+
+
+### chromium
+
+#### Official
+- [ https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html)
+
+#### Mirrors
+- Aliyun
+  - [https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/](https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/)
+- huaweicloud
+  - [https://repo.huaweicloud.com/chromium-browser-snapshots/](https://repo.huaweicloud.com/chromium-browser-snapshots/)
+- ungoogled-software.github.io(ungoogle chromium)
+  - [https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
+
 
 ## System-Mirror
 
