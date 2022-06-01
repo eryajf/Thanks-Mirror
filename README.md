@@ -65,6 +65,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [WireShark](#wireshark)
   - [Virtualbox](#virtualbox)
   - [iina](#iina)
+  - [chromium](#chromium)
 - [System-Mirror](#system-mirror)
   - [CentOS](#centos)
   - [CentOS-altarch](#centos-altarch)
@@ -1255,6 +1256,19 @@ git-fetch-with-cli = true
   - [https://mirrors.hit.edu.cn/virtualbox/](https://mirrors.hit.edu.cn/virtualbox/)
 
 ### iina
+
+
+### chromium or ungoogle chromium
+#### Official
+  - [ https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html)
+
+#### Mirrors
+- Aliyun
+  - [https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/](https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/)
+- huaweicloud
+  - [https://repo.huaweicloud.com/chromium-browser-snapshots/](https://repo.huaweicloud.com/chromium-browser-snapshots/)
+- ungoogled-software.github.io
+  - [https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
 
 #### Official
 
