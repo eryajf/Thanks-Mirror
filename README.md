@@ -218,10 +218,8 @@ EOF
   - [http://mirrors.neusoft.edu.cn/pypi/web/](http://mirrors.neusoft.edu.cn/pypi/web/)
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/pypi/web/](https://mirrors.hit.edu.cn/pypi/web/)
-
 - 上海交通大学
   - [https://mirror.sjtu.edu.cn/pypi/web/simple/](https://mirror.sjtu.edu.cn/pypi/web/simple/)
-
 
 ### Composer
 
@@ -267,7 +265,6 @@ EOF
 - 上海交通
   - [https://packagist.mirrors.sjtug.sjtu.edu.cn](https://packagist.mirrors.sjtug.sjtu.edu.cn)
 
-
 ### Rubygems
 
 *RubyGems* 是Ruby 的一个包管理器，它提供一个分发Ruby 程序和库的标准格式，还提供一个管理程序包安装的工具。
@@ -301,7 +298,6 @@ $ gem install rails
 
 目前代理外部私仓有：
 
-
 - [Aliyun](https://developer.aliyun.com/mirror/rubygems)
   - [https://mirrors.aliyun.com/rubygems/](https://mirrors.aliyun.com/rubygems/)
 - Tencent
@@ -313,13 +309,9 @@ $ gem install rails
 - 中科大
   - [https://mirrors.ustc.edu.cn/rubygems/](https://mirrors.ustc.edu.cn/rubygems/)
 - 北京外国语大学
-
   - [https://mirrors.bfsu.edu.cn/rubygems/](https://mirrors.bfsu.edu.cn/rubygems/)
-
 - 哈尔滨工业大学
-
   - [https://mirrors.hit.edu.cn/rubygems/](https://mirrors.hit.edu.cn/rubygems/)
-
 
 ### Maven
 
@@ -433,7 +425,6 @@ yum install -y https://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/remi-release
 
 目前代理外部源：
 
-
 - [Aliyun](https://developer.aliyun.com/mirror/remi)
   - [https://mirrors.aliyun.com/remi/](https://mirrors.aliyun.com/remi/)
 - HUAWEI
@@ -447,9 +438,7 @@ yum install -y https://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/remi-release
 - 首都在线
   - [http://mirrors.yun-idc.com/remi/](http://mirrors.yun-idc.com/remi/)
 - 北京外国语大学
-
   - [https://mirrors.bfsu.edu.cn/remi/](https://mirrors.bfsu.edu.cn/remi/)
-
 
 ### Epel
 
@@ -598,13 +587,10 @@ git-fetch-with-cli = true
   - [http://mirrors.zju.edu.cn/docker-ce/](http://mirrors.zju.edu.cn/docker-ce/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/docker-ce/](https://mirrors.bfsu.edu.cn/docker-ce/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/docker-ce](https://mirrors.hit.edu.cn/docker-ce)
-
 - 上海交通
   - [https://mirror.sjtu.edu.cn/docker-ce/](https://mirror.sjtu.edu.cn/docker-ce/)
-
 
 ### Kubernetes
 
@@ -919,7 +905,6 @@ git-fetch-with-cli = true
   - [http://mirrors.zju.edu.cn/postgresql/](http://mirrors.zju.edu.cn/postgresql/)
 - 南阳理工
   - [https://mirror.nyist.edu.cn/postgresql/](https://mirror.nyist.edu.cn/postgresql/)
-
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/postgresql/](https://mirrors.bfsu.edu.cn/postgresql/)
 
@@ -1026,7 +1011,6 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/zabbix/](https://mirrors.bfsu.edu.cn/zabbix/)
 
-
 ### Prometheus
 
 #### Official
@@ -1037,17 +1021,11 @@ git-fetch-with-cli = true
 
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/github-release/prometheus/prometheus/](https://mirrors.tuna.tsinghua.edu.cn/github-release/prometheus/prometheus/)
-
 - 北京外国语大学
-
   - [https://mirrors.bfsu.edu.cn/github-release/prometheus/prometheus/](https://mirrors.bfsu.edu.cn/github-release/prometheus/prometheus/)
-
 - 上海交通大学
-
   - [https://mirror.sjtu.edu.cn/github-release/prometheus/?mirror_intel_list](https://mirror.sjtu.edu.cn/github-release/prometheus/?mirror_intel_list)
-
     此地址下包含了prometheus应用体系的大部分软件，包含：
-
     - [alertmanager](https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/prometheus/alertmanager/mirror_clone_list.html)
     - [blackbox_exporter](https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/prometheus/blackbox_exporter/mirror_clone_list.html)
     - [consul_exporter](https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/prometheus/consul_exporter/mirror_clone_list.html)
@@ -1081,10 +1059,8 @@ git-fetch-with-cli = true
   - [https://mirrors.nwsuaf.edu.cn/grafana/](https://mirrors.nwsuaf.edu.cn/grafana/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/grafana/](https://mirrors.bfsu.edu.cn/grafana/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/grafana/](https://mirrors.hit.edu.cn/grafana/)
-
 
 ### Pinpoint
 
@@ -1274,10 +1250,8 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/virtualbox/](https://mirrors.tuna.tsinghua.edu.cn/virtualbox/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/virtualbox/](https://mirrors.bfsu.edu.cn/virtualbox/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/virtualbox/](https://mirrors.hit.edu.cn/virtualbox/)
-
 
 ### iina
 
@@ -1295,7 +1269,6 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/iina/](https://mirrors.tuna.tsinghua.edu.cn/iina/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/iina/](https://mirrors.bfsu.edu.cn/iina/)
-
 
 ## System-Mirror
 
@@ -1355,11 +1328,8 @@ git-fetch-with-cli = true
   - [https://mirrors.cqu.edu.cn/centos/](https://mirrors.cqu.edu.cn/centos/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/centos/](https://mirrors.bfsu.edu.cn/centos/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/centos/](https://mirrors.hit.edu.cn/centos/)
-
-
 
 ### CentOS-altarch
 
@@ -1385,7 +1355,6 @@ ARM架构下的CentOS镜像。
   - [https://mirror.lzu.edu.cn/centos-altarch/](https://mirror.lzu.edu.cn/centos-altarch/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/centos-altarch/](https://mirrors.bfsu.edu.cn/centos-altarch/)
-
 
 ### Ubuntu
 
@@ -1433,10 +1402,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/ubuntu/](https://mirrors.cqu.edu.cn/ubuntu/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/ubuntu/](https://mirrors.bfsu.edu.cn/ubuntu/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/ubuntu](https://mirrors.hit.edu.cn/ubuntu)
-
 
 ### Debian
 
@@ -1485,10 +1452,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/debian/](https://mirrors.cqu.edu.cn/debian/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/debian/](https://mirrors.bfsu.edu.cn/debian/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/debian/](https://mirrors.hit.edu.cn/debian/)
-
 
 ### Deepin
 
@@ -1524,10 +1489,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/deepin/](https://mirrors.cqu.edu.cn/deepin/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/deepin/](https://mirrors.bfsu.edu.cn/deepin/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/deepin/](https://mirrors.hit.edu.cn/deepin/)
-
 
 ### Fedora
 
@@ -1566,7 +1529,6 @@ ARM架构下的CentOS镜像。
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/fedora/](https://mirrors.bfsu.edu.cn/fedora/)
 
-
 ### Gentoo
 
 #### Official
@@ -1595,10 +1557,8 @@ ARM架构下的CentOS镜像。
   - [https://mirror.lzu.edu.cn/gentoo/](https://mirror.lzu.edu.cn/gentoo/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/gentoo/](https://mirrors.bfsu.edu.cn/gentoo/)
-
 - 上海交通
   - [https://mirrors.sjtug.sjtu.edu.cn/gentoo/](https://mirrors.sjtug.sjtu.edu.cn/gentoo/)
-
 
 ### kali
 
@@ -1633,13 +1593,11 @@ ARM架构下的CentOS镜像。
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/kali-images/](https://mirrors.cqu.edu.cn/kali-images/)
 - 北京外国语大学
-  - https://mirrors.bfsu.edu.cn/kali/
+  - [https://mirrors.bfsu.edu.cn/kali/](https://mirrors.bfsu.edu.cn/kali/)
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/kali](https://mirrors.hit.edu.cn/kali)
-
 - 上海交通大学
   - [https://mirrors.sjtug.sjtu.edu.cn/kali/](https://mirrors.sjtug.sjtu.edu.cn/kali/)
-
 
 
 ### Opensuse
@@ -1688,7 +1646,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.sustech.edu.cn/opensuse/](https://mirrors.sustech.edu.cn/opensuse/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/opensuse/](https://mirrors.bfsu.edu.cn/opensuse/)
-
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/opensuse/](https://mirrors.hit.edu.cn/opensuse/)
 
@@ -1715,7 +1672,6 @@ ARM架构下的CentOS镜像。
   - [https://mirror.bjtu.edu.cn/freebsd/](https://mirror.bjtu.edu.cn/freebsd/)
 - 首都在线
   - [http://mirrors.yun-idc.com/freebsd/](http://mirrors.yun-idc.com/freebsd/)
-
 
 ### GNU
 
