@@ -1810,6 +1810,13 @@ ARM架构下的CentOS镜像。
             <br />
             <sub><b>淡白</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/jingjingxyk">
+            <img src="https://avatars.githubusercontent.com/u/6836228?v=4" width="100;" alt="jingjingxyk"/>
+            <br />
+            <sub><b>好吧，你想说啥</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: collaborators,contributors -end -->
