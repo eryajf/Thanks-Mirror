@@ -1258,7 +1258,8 @@ git-fetch-with-cli = true
 ### iina
 
 
-### chromium or ungoogle chromium
+### chromium
+
 #### Official
   - [ https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html)
 
@@ -1267,7 +1268,7 @@ git-fetch-with-cli = true
   - [https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/](https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/)
 - huaweicloud
   - [https://repo.huaweicloud.com/chromium-browser-snapshots/](https://repo.huaweicloud.com/chromium-browser-snapshots/)
-- ungoogled-software.github.io
+- ungoogled-software.github.io(ungoogle chromium)
   - [https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
 
 #### Official
