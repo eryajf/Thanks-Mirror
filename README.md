@@ -65,7 +65,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [WireShark](#wireshark)
   - [Virtualbox](#virtualbox)
   - [iina](#iina)
-  - [Chromium](#chromium)
+  - [chromium](#chromium)
 - [System-Mirror](#system-mirror)
   - [CentOS](#centos)
   - [CentOS-altarch](#centos-altarch)
