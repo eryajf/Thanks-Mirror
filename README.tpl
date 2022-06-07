@@ -1696,28 +1696,10 @@ ARM架构下的CentOS镜像。
 - 首都在线
   - [http://mirrors.yun-idc.com/freebsd/](http://mirrors.yun-idc.com/freebsd/)
 
-### GNU
-
-#### Official
-
-- [https://www.gnu.org/software/octave/download](https://www.gnu.org/software/octave/download)
-
-#### Mirrors
-
-- [Aliyun](https://developer.aliyun.com/mirror/gnu)
-  - [https://mirrors.aliyun.com/gnu/](https://mirrors.aliyun.com/gnu/)
-- Tencent
-  - [https://mirrors.cloud.tencent.com/gnu/](https://mirrors.cloud.tencent.com/gnu/)
-- HUAWEI
-  - [https://repo.huaweicloud.com/gnu/](https://repo.huaweicloud.com/gnu/)
-- 清华
-  - [https://mirrors.tuna.tsinghua.edu.cn/gnu/](https://mirrors.tuna.tsinghua.edu.cn/gnu/)
-- 中科大
-  - [https://mirrors.ustc.edu.cn/gnu/](https://mirrors.ustc.edu.cn/gnu/)
-- 兰州大学
-  - [https://mirror.lzu.edu.cn/gnu/](https://mirror.lzu.edu.cn/gnu/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/gnu/](https://mirror.bjtu.edu.cn/gnu/)
+{{- range $item := .}}
+### {{$item.title}}
+{{$item.content}}
+{{- end}}
 
 ## Other-Mirror
 
