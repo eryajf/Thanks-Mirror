@@ -8,6 +8,13 @@ Gitee：[https://gitee.com/eryajf/Thanks-Mirror](https://gitee.com/eryajf/Thanks
 
 GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
 
+> 🥳 **欢迎关注我的其他项目：**
+>
+> - [Go-Ldap-Admin](https://github.com/eryajf/go-ldap-admin)：🌉 基于Go+Vue实现的openLDAP后台管理项目。
+> - [learning-weekly](https://github.com/eryajf/learning-weekly)：📝 周刊内容以运维技术和Go语言周边为主，辅以GitHub上优秀项目或他人优秀经验。
+> - [magic-of-sysuse-scripts](https://github.com/eryajf/magic-of-sysuse-scripts)：🪄 运维外挂小工具。
+> - [care-screenshot](https://github.com/eryajf/care-screenshot)：给我一个URL，我能将你关心的元素截图发给机器人🤖
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目录**
