@@ -14,6 +14,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 > - [learning-weekly](https://github.com/eryajf/learning-weekly)：📝 周刊内容以运维技术和Go语言周边为主，辅以GitHub上优秀项目或他人优秀经验。
 > - [magic-of-sysuse-scripts](https://github.com/eryajf/magic-of-sysuse-scripts)：🪄 运维外挂小工具。
 > - [care-screenshot](https://github.com/eryajf/care-screenshot)：给我一个URL，我能将你关心的元素截图发给机器人🤖
+> - [read-list](https://github.com/eryajf/read-list)：📖 优质内容订阅，阅读方为根本
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -206,7 +207,7 @@ EOF
 ```shell
 # 简洁配置方式 1
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-# 简洁配置方式 2 
+# 简洁配置方式 2
 pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
 ```
 
