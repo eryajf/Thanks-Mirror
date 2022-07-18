@@ -1780,6 +1780,54 @@ ARM架构下的CentOS镜像。
   - 中科大
     - quay.mirrors.ustc.edu.cn
 
+### GitHub
+
+#### Official
+
+- [https://github.com](https://github.com)
+
+#### Mirrors
+
+GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前可用的国内镜像，具体用法请查阅镜像的官方说明。
+
+- [https://hub.fastgit.xyz/](https://hub.fastgit.xyz/)
+
+  提供了GitHub全站镜像，但注意不要在这个站登陆你的GitHub账号。详见[官方文档](https://doc.fastgit.org/zh-cn/)。
+
+- [https://gitclone.com/](https://gitclone.com/)
+
+  提供了GitHub全面的加速，详见[官方文档](https://gitclone.com/docs/feature/gitclone_web)。
+
+- [https://ghproxy.com/](https://ghproxy.com/)
+
+  GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务，使用细则参见官方。
+
+- [https://gh.api.99988866.xyz/](https://gh.api.99988866.xyz/)
+
+  仅能加速下载GitHub中单文件，如Release或者某个代码文件。
+
+- [https://toolwa.com/github/](https://toolwa.com/github/)
+
+  同样也是一个单文件下载的加速站。
+
+- [https://github.91chi.fun/](https://github.91chi.fun/)
+
+  同样也是一个单文件下载的加速站。
+
+- [https://github.abskoop.workers.dev/](https://github.abskoop.workers.dev/)
+
+  同样也是一个单文件下载的加速站。
+
+也可以通过其他方式提供的加速方案。
+
+- [油猴脚本](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD)
+
+  安装之后，会直接在GitHub项目当中出现可用的国内加速克隆方式，比较方便，推荐安装。
+
+- [chrome插件](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/ffjjnphohkfckeplcjflmgneebafggej?hl=zh)
+
+  与油猴脚本效果一致，只是通过插件的形式安装配置。
+
 ## 如何贡献
 
 欢迎大家补充优秀的镜像，让我们一起建设好这个仓库！
