@@ -1562,6 +1562,47 @@ ARM架构下的CentOS镜像。
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/fedora/](https://mirrors.bfsu.edu.cn/fedora/)
 
+### Alpine
+
+#### Official
+
+- 官方镜像：[https://dl-cdn.alpinelinux.org/alpine/](https://dl-cdn.alpinelinux.org/alpine/)
+
+#### Mirrors
+
+- Aliyun
+  - [https://mirrors.aliyun.com/alpine/](https://mirrors.aliyun.com/alpine/)
+- Tencent
+  - [https://mirrors.cloud.tencent.com/alpine/](https://mirrors.cloud.tencent.com/alpine/)
+- HUAWEI
+  - [https://repo.huaweicloud.com/alpine/](https://repo.huaweicloud.com/alpine/)
+- 中科大
+  - [https://mirrors.ustc.edu.cn/alpine/](https://mirrors.ustc.edu.cn/alpine/)
+- 哈尔滨工业大学
+  - [https://mirrors.hit.edu.cn/alpine/](https://mirrors.hit.edu.cn/alpine/)
+- 兰州大学
+  - [https://mirror.lzu.edu.cn/alpine/](https://mirror.lzu.edu.cn/alpine/)
+- 重庆大学
+  - [https://mirrors.cqu.edu.cn/alpine/](https://mirrors.cqu.edu.cn/alpine/)
+- 重庆邮电大学
+  - [https://mirrors.cqupt.edu.cn/alpine/](https://mirrors.cqupt.edu.cn/alpine/)
+- 北京外国语大学
+  - [https://mirrors.bfsu.edu.cn/alpine/](https://mirrors.bfsu.edu.cn/alpine/)
+- 中国互联网信息中心
+  - [https://mirrors.cnnic.cn/alpine/](https://mirrors.cnnic.cn/alpine/)
+- 清华大学
+  - [https://mirrors.tuna.tsinghua.edu.cn/alpine/](https://mirrors.tuna.tsinghua.edu.cn/alpine/)
+- 上海交大
+  - [https://mirrors.sjtug.sjtu.edu.cn/alpine/](https://mirrors.sjtug.sjtu.edu.cn/alpine/)
+- 南方科技大学
+  - [https://mirrors.sustech.edu.cn/alpine/](https://mirrors.sustech.edu.cn/alpine/)
+- 北京交通大学
+  - [https://mirror.bjtu.edu.cn/alpine/](https://mirror.bjtu.edu.cn/alpine/)
+- 南京大学
+  - [https://mirror.nju.edu.cn/alpine/](https://mirror.nju.edu.cn/alpine/)
+- 大连东软信息学院
+  - [https://mirrors.neusoft.edu.cn/alpine/](https://mirrors.neusoft.edu.cn/alpine/)
+
 ### Gentoo
 
 #### Official
