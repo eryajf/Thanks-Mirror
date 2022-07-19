@@ -82,6 +82,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Debian](#debian)
   - [Deepin](#deepin)
   - [Fedora](#fedora)
+  - [Alpine](#alpine)
   - [Gentoo](#gentoo)
   - [kali](#kali)
   - [Opensuse](#opensuse)
