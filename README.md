@@ -83,6 +83,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Deepin](#deepin)
   - [Fedora](#fedora)
   - [Alpine](#alpine)
+  - [Void](#void)
   - [Gentoo](#gentoo)
   - [kali](#kali)
   - [Opensuse](#opensuse)
@@ -1603,6 +1604,25 @@ ARM架构下的CentOS镜像。
   - [https://mirror.nju.edu.cn/alpine/](https://mirror.nju.edu.cn/alpine/)
 - 大连东软信息学院
   - [https://mirrors.neusoft.edu.cn/alpine/](https://mirrors.neusoft.edu.cn/alpine/)
+
+### Void
+
+#### Official
+
+- 官方镜像：[https://alpha.de.repo.voidlinux.org/](https://alpha.de.repo.voidlinux.org/)
+
+#### Mirrors
+
+- 清华大学
+  - [https://mirrors.tuna.tsinghua.edu.cn/voidlinux/](https://mirrors.tuna.tsinghua.edu.cn/voidlinux/)
+- 上海交大
+  - [https://mirror.sjtu.edu.cn/voidlinux/](https://mirror.sjtu.edu.cn/voidlinux/)
+- 中国互联网信息中心
+  - [https://mirrors.cnnic.cn/voidlinux/](https://mirrors.cnnic.cn/voidlinux/)
+- 北京外国语大学
+  - [https://mirrors.bfsu.edu.cn/voidlinux/](https://mirrors.bfsu.edu.cn/voidlinux/)
+- 南京大学
+  - [https://mirror.nju.edu.cn/voidlinux/](https://mirror.nju.edu.cn/voidlinux/)
 
 ### Gentoo
 
