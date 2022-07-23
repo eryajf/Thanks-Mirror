@@ -1858,6 +1858,12 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
   提供了GitHub全站镜像，但注意不要在这个站登陆你的GitHub账号。详见[官方文档](https://doc.fastgit.org/zh-cn/)。
 
+  类似fastgit的还有：
+
+  - [https://hub.nuaa.cf/](https://hub.nuaa.cf/)
+  - [https://hub.yzuu.cf/](https://hub.yzuu.cf/)
+  - [https://hub.njuu.cf/](https://hub.njuu.cf/)
+
 - [https://gitclone.com/](https://gitclone.com/)
 
   提供了GitHub全面的加速，详见[官方文档](https://gitclone.com/docs/feature/gitclone_web)。
@@ -1891,6 +1897,36 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 - [chrome插件](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/ffjjnphohkfckeplcjflmgneebafggej?hl=zh)
 
   与油猴脚本效果一致，只是通过插件的形式安装配置。
+
+### Google
+
+#### Official
+
+- [https://www.google.cn/](https://www.google.cn/)
+- [https://www.google.com/](https://www.google.com/)
+- [https://www.google.com.hk/](https://www.google.com.hk/)
+
+#### Mirrors
+
+目前所能使用到的，基本上都是一些加速方案，而且并不十分稳定。
+
+- 目前来看还不错的
+
+  - [https://search.ahau.cf/](https://search.ahau.cf/)
+  - [http://d.6wl.cc/](http://d.6wl.cc/)
+  - [https://xn--flw351e.ml/](https://xn--flw351e.ml/)
+  - [https://s.iit.xyz/](https://s.iit.xyz/)
+  - [https://xgoogle.xyz/](https://xgoogle.xyz/)
+  - [https://g.xzx725.top/](https://g.xzx725.top/)
+  - [https://txt.muxinghe.cf/](https://txt.muxinghe.cf/)
+
+- [https://g.luciaz.me/](https://g.luciaz.me/)
+
+  速度不错，如有问题，答案：心灵之约、水朝夕、csxy@123
+
+- [https://www.qinai.ml/](https://www.qinai.ml/)
+
+  速度不错，但总是会有弹窗
 
 ## 如何贡献
 
