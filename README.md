@@ -106,6 +106,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 - [Other-Mirror](#other-mirror)
   - [Docker-hub](#docker-hub)
   - [GitHub](#github)
+  - [Google](#google)
 - [如何贡献](#%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE)
 - [贡献者](#%E8%B4%A1%E7%8C%AE%E8%80%85)
 
