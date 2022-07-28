@@ -1,4 +1,17 @@
-# Thanks-Mirror
+<div align="center">
+
+# Thanks Mirror
+
+[![Auth](https://img.shields.io/badge/Auth-eryajf-ff69b4)](https://github.com/eryajf)[![GitHub contributors](https://img.shields.io/github/contributors/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/graphs/contributors)[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/eryajf/thanks-mirror)
+[![GitHub Issues](https://img.shields.io/github/issues/eryajf/thanks-mirror.svg)](https://github.com/eryajf/thanks-mirror/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/pulls)
+[![GitHub Pull Requests](https://img.shields.io/github/stars/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/stargazers)
+[![HitCount](https://views.whatilearened.today/views/github/eryajf/thanks-mirror.svg)](https://github.com/eryajf/thanks-mirror)[![GitHub license](https://img.shields.io/github/license/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/blob/main/LICENSE)
+
+<p> 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像 </p>
+
+<img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="800"  height="3">
+</div><br>
 
 本项目灵感来自：[package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings)，该项目分享的是包管理器配置代理的方法，这里分享的是包管理器直接可用，质量好，速度快的镜像，以及一些其他常用软件，系统镜像的国内镜像。
 
@@ -16,6 +29,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 > - [magic-of-sysuse-scripts](https://github.com/eryajf/magic-of-sysuse-scripts)：🪄 运维外挂小工具。
 > - [care-screenshot](https://github.com/eryajf/care-screenshot)：给我一个URL，我能将你关心的元素截图发给机器人🤖
 > - [read-list](https://github.com/eryajf/read-list)：📖 优质内容订阅，阅读方为根本
+> - [awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese)：🦩 优秀的中文区个人主页搜集
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -149,6 +163,8 @@ GOSUMDB="sum.golang.google.cn"
 - sumdb-io
   - [https://gosum.io/](https://gosum.io/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Npm
 
 #### Configuration
@@ -188,6 +204,8 @@ http://nexus.eryajf.net/repository/npm
   - [https://mirrors.njupt.edu.cn/nexus/repository/npm/](https://mirrors.njupt.edu.cn/nexus/repository/npm/)
 - npmjs
   - [https://registry.npmjs.org](https://registry.npmjs.org)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Pip
 
@@ -242,6 +260,8 @@ pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
 - 上海交通大学
   - [https://mirror.sjtu.edu.cn/pypi/web/simple/](https://mirror.sjtu.edu.cn/pypi/web/simple/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Composer
 
 *Composer* 是PHP 的一个依赖管理工具，需要PHP 5.3.2 以上才能运行。
@@ -285,6 +305,8 @@ pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
   - [https://packagist.phpcomposer.com](https://packagist.phpcomposer.com)
 - 上海交通
   - [https://packagist.mirrors.sjtug.sjtu.edu.cn](https://packagist.mirrors.sjtug.sjtu.edu.cn)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Rubygems
 
@@ -334,6 +356,8 @@ $ gem install rails
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/rubygems/](https://mirrors.hit.edu.cn/rubygems/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Maven
 
 #### Configuration
@@ -370,6 +394,8 @@ Java系的工具版本规范如下：
   - https://repository.jboss.org/nexus/content/groups/public
 - Lss233's.Mirror（供 Minecraft 开发使用）
   - http://lss233.littleservice.cn/repositories/minecraft
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Yum
 
@@ -427,6 +453,8 @@ yum makecache
 - 163：
   - http://mirrors.163.com/centos/
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Remi
 
 Remi repository 是包含最新版本 PHP 和 MySQL 包的 Linux 源，由 Remi 提供维护。
@@ -460,6 +488,8 @@ yum install -y https://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/remi-release
   - [http://mirrors.yun-idc.com/remi/](http://mirrors.yun-idc.com/remi/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/remi/](https://mirrors.bfsu.edu.cn/remi/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Epel
 
@@ -511,6 +541,7 @@ wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/epel/](https://mirrors.bfsu.edu.cn/epel/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Homebrew
 
@@ -541,6 +572,8 @@ brew update
   - [https://mirrors.cqu.edu.cn/homebrew/](https://mirrors.cqu.edu.cn/homebrew/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/help/homebrew/](https://mirrors.bfsu.edu.cn/help/homebrew/)
+
+🔝[回到顶部](#thanks-mirror)
 
 
 ### cargo
@@ -578,6 +611,9 @@ git-fetch-with-cli = true
   - [https://mirrors.bfsu.edu.cn/git/crates.io-index.git](https://mirrors.bfsu.edu.cn/git/crates.io-index.git)
 - rustcc社区
   - git://crates.rustcc.cn/crates.io-index
+
+🔝[回到顶部](#thanks-mirror)
+
 ## Software-Mirror
 
 还有一些软件，直接通过官方下载比较困难，也整理出方便下载的国内优质镜像。
@@ -613,6 +649,8 @@ git-fetch-with-cli = true
 - 上海交通
   - [https://mirror.sjtu.edu.cn/docker-ce/](https://mirror.sjtu.edu.cn/docker-ce/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Kubernetes
 
 #### Official
@@ -634,6 +672,8 @@ git-fetch-with-cli = true
 - 中科大
   - [https://mirrors.ustc.edu.cn/kubernetes/](https://mirrors.ustc.edu.cn/kubernetes/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### K3s
 
 #### Official
@@ -647,6 +687,7 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/github-release/k3s-io/k3s/](https://mirrors.bfsu.edu.cn/github-release/k3s-io/k3s/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Minikube
 
@@ -661,6 +702,8 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/github-release/kubernetes/minikube/](https://mirrors.bfsu.edu.cn/github-release/kubernetes/minikube/)
 
+🔝[回到顶部](#thanks-mirror)
+
 
 ### Helm
 
@@ -672,6 +715,8 @@ git-fetch-with-cli = true
 
 - HUAWEI
   - [https://repo.huaweicloud.com/helm/](https://repo.huaweicloud.com/helm/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Harbor
 
@@ -685,6 +730,8 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/github-release/goharbor/harbor/](https://mirrors.tuna.tsinghua.edu.cn/github-release/goharbor/harbor/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/github-release/goharbor/harbor/](https://mirrors.bfsu.edu.cn/github-release/goharbor/harbor/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Jenkins
 
@@ -714,6 +761,8 @@ git-fetch-with-cli = true
   - 安装包：[https://mirrors.bfsu.edu.cn/jenkins/war/](https://mirrors.bfsu.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.bfsu.edu.cn/jenkins/plugins/](https://mirrors.bfsu.edu.cn/jenkins/plugins/)
 
+🔝[回到顶部](#thanks-mirror)
+
 
 ### GitLab-ce
 
@@ -732,6 +781,7 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/gitlab-ce/](https://mirrors.bfsu.edu.cn/gitlab-ce/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### GitLab-runner
 
@@ -748,6 +798,7 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/gitlab-runner/](https://mirrors.bfsu.edu.cn/gitlab-runner/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### ElasticSearch
 
@@ -770,6 +821,8 @@ git-fetch-with-cli = true
 - 南京邮电
   - [http://mirrors.njupt.edu.cn/elasticstack/](http://mirrors.njupt.edu.cn/elasticstack/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Logstash
 
 #### Official
@@ -783,6 +836,7 @@ git-fetch-with-cli = true
 - HUAWEI
   - [https://repo.huaweicloud.com/logstash/](https://repo.huaweicloud.com/logstash/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Kibana
 
@@ -797,6 +851,8 @@ git-fetch-with-cli = true
 - HUAWEI
   - [https://repo.huaweicloud.com/kibana/](https://repo.huaweicloud.com/kibana/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Filebeat
 
 #### Official
@@ -809,6 +865,8 @@ git-fetch-with-cli = true
   - [https://elasticsearch.cn/download/](https://elasticsearch.cn/download/)
 - HUAWEI
   - [https://repo.huaweicloud.com/filebeat/](https://repo.huaweicloud.com/filebeat/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### MySQL
 
@@ -835,6 +893,7 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/mysql/](https://mirrors.bfsu.edu.cn/mysql/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### MariaDB
 
@@ -855,6 +914,8 @@ git-fetch-with-cli = true
 - 中科大
   - [https://mirrors.ustc.edu.cn/mariadb/](https://mirrors.ustc.edu.cn/mariadb/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Percona
 
 #### Official
@@ -869,6 +930,8 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/percona/](https://mirrors.tuna.tsinghua.edu.cn/percona/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/percona/](https://mirrors.ustc.edu.cn/percona/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### MongoDB
 
@@ -892,6 +955,8 @@ git-fetch-with-cli = true
 - 上海交通大学
   - [https://mirrors.sjtug.sjtu.edu.cn/mongodb/](https://mirrors.sjtug.sjtu.edu.cn/mongodb/)
 
+🔝[回到顶部](#thanks-mirror)
+
 
 ### Redis
 
@@ -903,6 +968,8 @@ git-fetch-with-cli = true
 
 - HUAWEI
   - [https://repo.huaweicloud.com/redis/](https://repo.huaweicloud.com/redis/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### PostgreSQL
 
@@ -929,6 +996,8 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/postgresql/](https://mirrors.bfsu.edu.cn/postgresql/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Golang
 
 #### Official
@@ -945,6 +1014,8 @@ git-fetch-with-cli = true
   - [https://gomirrors.org/](https://gomirrors.org/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/golang/](https://mirrors.ustc.edu.cn/golang/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Node
 
@@ -967,6 +1038,7 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/nodejs-release/](https://mirrors.bfsu.edu.cn/nodejs-release/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Yarn
 
@@ -978,6 +1050,8 @@ git-fetch-with-cli = true
 
 - HUAWEI
   - [https://repo.huaweicloud.com/yarn/](https://repo.huaweicloud.com/yarn/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Python
 
@@ -992,6 +1066,8 @@ git-fetch-with-cli = true
 - 北京交通
   - [https://mirror.bjtu.edu.cn/python/](https://mirror.bjtu.edu.cn/python/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Rust
 
 #### Official
@@ -1004,6 +1080,8 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/rustup/](https://mirrors.tuna.tsinghua.edu.cn/rustup/)
 - 上海交通大学
   - [https://mirror.sjtu.edu.cn/rust-static/](https://mirror.sjtu.edu.cn/rust-static/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Zabbix
 
@@ -1029,6 +1107,8 @@ git-fetch-with-cli = true
   - [https://mirror.nyist.edu.cn/zabbix/](https://mirror.nyist.edu.cn/zabbix/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/zabbix/](https://mirrors.bfsu.edu.cn/zabbix/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Prometheus
 
@@ -1057,6 +1137,7 @@ git-fetch-with-cli = true
     - [pushgateway](https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/prometheus/pushgateway/mirror_clone_list.html)
     - [statsd_exporter](https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/prometheus/statsd_exporter/mirror_clone_list.html)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Grafana
 
@@ -1081,6 +1162,8 @@ git-fetch-with-cli = true
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/grafana/](https://mirrors.hit.edu.cn/grafana/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Pinpoint
 
 #### Official
@@ -1091,6 +1174,8 @@ git-fetch-with-cli = true
 
 - HUAWEI
   - [https://repo.huaweicloud.com/pinpoint/](https://repo.huaweicloud.com/pinpoint/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Apache
 
@@ -1117,6 +1202,8 @@ git-fetch-with-cli = true
 - 北京交通
   - [https://mirror.bjtu.edu.cn/apache/](https://mirror.bjtu.edu.cn/apache/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Nginx
 
 #### Official
@@ -1133,6 +1220,8 @@ git-fetch-with-cli = true
   - [https://mirrors.ustc.edu.cn/nginx/](https://mirrors.ustc.edu.cn/nginx/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/nginx/](https://mirrors.nwsuaf.edu.cn/nginx/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### OpenResty
 
@@ -1155,6 +1244,8 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/openresty/](https://mirrors.bfsu.edu.cn/openresty/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Keepalived
 
 #### Official
@@ -1165,6 +1256,8 @@ git-fetch-with-cli = true
 
 - HUAWEI
   - [https://repo.huaweicloud.com/keepalived/](https://repo.huaweicloud.com/keepalived/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Ceph
 
@@ -1189,6 +1282,8 @@ git-fetch-with-cli = true
 - 中科大
   - [https://mirrors.ustc.edu.cn/ceph/](https://mirrors.ustc.edu.cn/ceph/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Influxdata
 
 #### Official
@@ -1206,6 +1301,8 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/influxdata/](https://mirrors.bfsu.edu.cn/influxdata/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### ClickHouse
 
 #### Official
@@ -1219,6 +1316,8 @@ git-fetch-with-cli = true
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/clickhouse/](https://mirrors.tuna.tsinghua.edu.cn/clickhouse/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Rabbitmq
 
 #### Official
@@ -1230,6 +1329,8 @@ git-fetch-with-cli = true
 - HUAWEI
   - [https://repo.huaweicloud.com/rabbitmq-server/](https://repo.huaweicloud.com/rabbitmq-server/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### ETCD
 
 #### Official
@@ -1240,6 +1341,8 @@ git-fetch-with-cli = true
 
 - HUAWEI
   - [https://repo.huaweicloud.com/etcd/](https://repo.huaweicloud.com/etcd/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### WireShark
 
@@ -1254,6 +1357,7 @@ git-fetch-with-cli = true
 - 上海交通大学
   - [https://mirror.sjtu.edu.cn/wireshark/](https://mirror.sjtu.edu.cn/wireshark/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Virtualbox
 
@@ -1272,8 +1376,9 @@ git-fetch-with-cli = true
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/virtualbox/](https://mirrors.hit.edu.cn/virtualbox/)
 
-### iina
+🔝[回到顶部](#thanks-mirror)
 
+### iina
 
 #### Official
 
@@ -1290,6 +1395,7 @@ git-fetch-with-cli = true
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/iina/](https://mirrors.bfsu.edu.cn/iina/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### chromium
 
@@ -1304,6 +1410,7 @@ git-fetch-with-cli = true
 - ungoogled-software.github.io(ungoogle chromium)
   - [https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ## System-Mirror
 
@@ -1366,6 +1473,8 @@ git-fetch-with-cli = true
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/centos/](https://mirrors.hit.edu.cn/centos/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### CentOS-altarch
 
 ARM架构下的CentOS镜像。
@@ -1390,6 +1499,8 @@ ARM架构下的CentOS镜像。
   - [https://mirror.lzu.edu.cn/centos-altarch/](https://mirror.lzu.edu.cn/centos-altarch/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/centos-altarch/](https://mirrors.bfsu.edu.cn/centos-altarch/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Ubuntu
 
@@ -1439,6 +1550,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.bfsu.edu.cn/ubuntu/](https://mirrors.bfsu.edu.cn/ubuntu/)
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/ubuntu](https://mirrors.hit.edu.cn/ubuntu)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Debian
 
@@ -1490,6 +1603,8 @@ ARM架构下的CentOS镜像。
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/debian/](https://mirrors.hit.edu.cn/debian/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Deepin
 
 #### Official
@@ -1527,6 +1642,8 @@ ARM架构下的CentOS镜像。
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/deepin/](https://mirrors.hit.edu.cn/deepin/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Fedora
 
 #### Official
@@ -1563,6 +1680,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/fedora/](https://mirrors.cqu.edu.cn/fedora/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/fedora/](https://mirrors.bfsu.edu.cn/fedora/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Alpine
 
@@ -1605,6 +1724,8 @@ ARM架构下的CentOS镜像。
 - 大连东软信息学院
   - [https://mirrors.neusoft.edu.cn/alpine/](https://mirrors.neusoft.edu.cn/alpine/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Void
 
 #### Official
@@ -1623,6 +1744,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.bfsu.edu.cn/voidlinux/](https://mirrors.bfsu.edu.cn/voidlinux/)
 - 南京大学
   - [https://mirror.nju.edu.cn/voidlinux/](https://mirror.nju.edu.cn/voidlinux/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### Gentoo
 
@@ -1654,6 +1777,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.bfsu.edu.cn/gentoo/](https://mirrors.bfsu.edu.cn/gentoo/)
 - 上海交通
   - [https://mirrors.sjtug.sjtu.edu.cn/gentoo/](https://mirrors.sjtug.sjtu.edu.cn/gentoo/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ### kali
 
@@ -1694,6 +1819,7 @@ ARM架构下的CentOS镜像。
 - 上海交通大学
   - [https://mirrors.sjtug.sjtu.edu.cn/kali/](https://mirrors.sjtug.sjtu.edu.cn/kali/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Opensuse
 
@@ -1744,6 +1870,7 @@ ARM架构下的CentOS镜像。
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/opensuse/](https://mirrors.hit.edu.cn/opensuse/)
 
+🔝[回到顶部](#thanks-mirror)
 
 ### Freebsd
 
@@ -1768,6 +1895,8 @@ ARM架构下的CentOS镜像。
 - 首都在线
   - [http://mirrors.yun-idc.com/freebsd/](http://mirrors.yun-idc.com/freebsd/)
 
+🔝[回到顶部](#thanks-mirror)
+
 ### GNU
 
 #### Official
@@ -1790,6 +1919,8 @@ ARM架构下的CentOS镜像。
   - [https://mirror.lzu.edu.cn/gnu/](https://mirror.lzu.edu.cn/gnu/)
 - 北京交通
   - [https://mirror.bjtu.edu.cn/gnu/](https://mirror.bjtu.edu.cn/gnu/)
+
+🔝[回到顶部](#thanks-mirror)
 
 ## Other-Mirror
 
@@ -1843,6 +1974,8 @@ ARM架构下的CentOS镜像。
 - quay.io
   - 中科大
     - quay.mirrors.ustc.edu.cn
+
+🔝[回到顶部](#thanks-mirror)
 
 ### GitHub
 
@@ -1898,6 +2031,8 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
   与油猴脚本效果一致，只是通过插件的形式安装配置。
 
+🔝[回到顶部](#thanks-mirror)
+
 ### Google
 
 #### Official
@@ -1927,6 +2062,8 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 - [https://www.qinai.ml/](https://www.qinai.ml/)
 
   速度不错，但总是会有弹窗
+
+🔝[回到顶部](#thanks-mirror)
 
 ## 如何贡献
 
@@ -1983,3 +2120,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
     </td></tr>
 </table>
 <!-- readme: collaborators,contributors -end -->
+
+
+🔝[回到顶部](#thanks-mirror)
