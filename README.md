@@ -2,11 +2,14 @@
 
 # Thanks Mirror
 
-[![Auth](https://img.shields.io/badge/Auth-eryajf-ff69b4)](https://github.com/eryajf)[![GitHub contributors](https://img.shields.io/github/contributors/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/graphs/contributors)[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/eryajf/thanks-mirror)
+[![Auth](https://img.shields.io/badge/Auth-eryajf-ff69b4)](https://github.com/eryajf)
+[![GitHub contributors](https://img.shields.io/github/contributors/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/graphs/contributors)
 [![GitHub Issues](https://img.shields.io/github/issues/eryajf/thanks-mirror.svg)](https://github.com/eryajf/thanks-mirror/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/pulls)
 [![GitHub Pull Requests](https://img.shields.io/github/stars/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/stargazers)
-[![HitCount](https://views.whatilearened.today/views/github/eryajf/thanks-mirror.svg)](https://github.com/eryajf/thanks-mirror)[![GitHub license](https://img.shields.io/github/license/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/blob/main/LICENSE)
+[![HitCount](https://views.whatilearened.today/views/github/eryajf/thanks-mirror.svg)](https://github.com/eryajf/thanks-mirror)
+[![GitHub license](https://img.shields.io/github/license/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/blob/main/LICENSE)
+[![](https://img.shields.io/badge/Awesome-MyStarList-c780fa?logo=Awesome-Lists)](https://github.com/eryajf/awesome-stars-eryajf#readme)
 
 <p> 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像 </p>
 
