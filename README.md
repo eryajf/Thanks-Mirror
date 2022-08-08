@@ -204,8 +204,6 @@ http://nexus.eryajf.net/repository/npm
   - [http://mirrors.cloud.tencent.com/npm/](http://mirrors.cloud.tencent.com/npm/)
 - 浙江大学
   - [http://mirrors.zju.edu.cn/npm/](http://mirrors.zju.edu.cn/npm/)
-- 南京邮电
-  - [https://mirrors.njupt.edu.cn/nexus/repository/npm/](https://mirrors.njupt.edu.cn/nexus/repository/npm/)
 - npmjs
   - [https://registry.npmjs.org](https://registry.npmjs.org)
 
@@ -250,7 +248,7 @@ pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
 - 163
   - [https://mirrors.163.com/pypi](https://mirrors.163.com/pypi)
 - HUAWEI
-  - [https://repo.huaweicloud.com/repository/pypi](https://repo.huaweicloud.com/repository/pypi)
+  - [https://repo.huaweicloud.com/repository/pypi/simple](https://repo.huaweicloud.com/repository/pypi/simple)
 - Tencent
   - [https://mirrors.cloud.tencent.com/pypi/](https://mirrors.cloud.tencent.com/pypi/)
 - 北大
@@ -376,26 +374,24 @@ Java系的工具版本规范如下：
 #### Mirrors
 
 - HUAWEI
-  - https://repo.huaweicloud.com/repository/maven/
+  - [https://repo.huaweicloud.com/repository/maven/](https://repo.huaweicloud.com/repository/maven/)
 - Maven Central Repository
-  - https://repo1.maven.org/maven2/
+  - [https://repo1.maven.org/maven2/](https://repo1.maven.org/maven2/)
 - [Aliyun](https://developer.aliyun.com/mvn/guide)
   - http://maven.aliyun.com/nexus/content/groups/public/
 - Tencent
   - [https://mirrors.cloud.tencent.com/maven/](https://mirrors.cloud.tencent.com/maven/)
-- 南京邮电
-  - [https://mirrors.njupt.edu.cn/nexus/repository/maven-central](https://mirrors.njupt.edu.cn/nexus/repository/maven-central)
 - Apache Maven
   - https://repo.maven.apache.org/maven2
   - https://repository.apache.org/content/groups/snapshots
   - https://repository.apache.org/content/groups/staging/
   - https://repository.apache.org/content/groups/public/
 - confluent
-  - http://packages.confluent.io/maven/
+  - [http://packages.confluent.io/maven/](http://packages.confluent.io/maven/)
 - cloudera
-  - http://repo.hortonworks.com/content/repositories/releases
+  - [http://repo.hortonworks.com/content/repositories/releases/](http://repo.hortonworks.com/content/repositories/releases/)
 - jboss
-  - https://repository.jboss.org/nexus/content/groups/public
+  - [https://repository.jboss.org/nexus/content/groups/public](https://repository.jboss.org/nexus/content/groups/public)
 - Lss233's.Mirror（供 Minecraft 开发使用）
   - http://lss233.littleservice.cn/repositories/minecraft
 
@@ -602,19 +598,15 @@ git-fetch-with-cli = true
 #### Mirrors
 
 - 字节
-  - [https://rsproxy.cn/crates.io-index](https://rsproxy.cn/crates.io-index)
+  - [https://rsproxy.cn](https://rsproxy.cn)
 - 中国科学技术大学
-  - git://mirrors.ustc.edu.cn/crates.io-index
+  - [https://mirrors.ustc.edu.cn/help/crates.io-index.html](https://mirrors.ustc.edu.cn/help/crates.io-index.html)
 - 清华：
-  - [https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git](https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git)
+  - [https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git/](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git/)
 - 上海交通大学
-  - [https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index](https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index)
-- 阿里云
-  - [https://code.aliyun.com/rustcc/crates.io-index](https://code.aliyun.com/rustcc/crates.io-index)
+  - [https://mirrors.sjtug.sjtu.edu.cn/docs/git/crates.io-index](https://mirrors.sjtug.sjtu.edu.cn/docs/git/crates.io-index)
 - 北京外国语大学
-  - [https://mirrors.bfsu.edu.cn/git/crates.io-index.git](https://mirrors.bfsu.edu.cn/git/crates.io-index.git)
-- rustcc社区
-  - git://crates.rustcc.cn/crates.io-index
+  - [https://mirrors.bfsu.edu.cn/help/crates.io-index.git/](https://mirrors.bfsu.edu.cn/help/crates.io-index.git/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1219,7 +1211,7 @@ git-fetch-with-cli = true
 - HUAWEI
   - [https://repo.huaweicloud.com/nginx/](https://repo.huaweicloud.com/nginx/)
 - Souhu
-  - [http://mirrors.sohu.com/nginx](http://mirrors.sohu.com/nginx)
+  - [http://mirrors.sohu.com/nginx/](http://mirrors.sohu.com/nginx/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/nginx/](https://mirrors.ustc.edu.cn/nginx/)
 - 西北农林科技大学
@@ -1859,8 +1851,6 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.yun-idc.com/opensuse/](http://mirrors.yun-idc.com/opensuse/)
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
-- 北京理工
-  - [https://mirror.bit.edu.cn/opensuse/](https://mirror.bit.edu.cn/opensuse/)
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
 - 哈工大
@@ -1997,7 +1987,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
   类似fastgit的还有：
 
-  - [https://hub.nuaa.cf/](https://hub.nuaa.cf/)
   - [https://hub.yzuu.cf/](https://hub.yzuu.cf/)
   - [https://hub.njuu.cf/](https://hub.njuu.cf/)
 
@@ -2008,10 +1997,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 - [https://ghproxy.com/](https://ghproxy.com/)
 
   GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务，使用细则参见官方。
-
-- [https://gh.api.99988866.xyz/](https://gh.api.99988866.xyz/)
-
-  仅能加速下载GitHub中单文件，如Release或者某个代码文件。
 
 - [https://toolwa.com/github/](https://toolwa.com/github/)
 
