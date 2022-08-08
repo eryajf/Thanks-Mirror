@@ -79,6 +79,7 @@ headers = []
 exclude = [
     "developer.aliyun.com/*",
     "mirrors.ustc.edu.cn/*",
+    "lzu.edu.cn/*",
     "eryajf.net/*",
     "rsproxy.cn/*",
     "https://mirrors.cloud.tencent.com/go/",
