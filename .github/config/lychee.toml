@@ -1,0 +1,102 @@
+#############################  Display  #############################
+
+# Verbose program output
+verbose = true
+
+# Show progress
+progress = true
+
+# Path to summary output file.
+# output = "report.md"
+
+#############################  Cache  ###############################
+
+# Enable link caching. This can be helpful to avoid checking the same links on
+# multiple runs.
+cache = true
+
+#############################  Runtime  #############################
+
+# Number of threads to utilize.
+# Defaults to number of cores available to the system if omitted.
+threads = 6
+
+# Maximum number of allowed redirects [default: 10]
+max_redirects = 10
+
+# Maximum number of concurrent network requests [default: 128]
+max_concurrency = 30
+
+#############################  Requests  ############################
+
+# User agent to send with each request
+user_agent = "curl/7.83.1"
+
+# Website timeout from connect to response finished
+timeout = 10
+
+# Comma-separated list of accepted status codes for valid links.
+# Omit to accept all response types.
+#accept = "text/html"
+
+# Proceed for server connections considered insecure (invalid TLS)
+insecure = true
+
+# Comma-separated list of accepted status codes for valid links.
+# Don't work as of yet until https://github.com/lycheeverse/lychee/issues/644
+# is resolved
+accept = "200, 204, 301, 429, 403"
+
+# Only test links with the given scheme (e.g. https)
+# Omit to check links with any scheme
+#scheme = "https"
+
+# Request method
+method = "get"
+
+# Custom request headers
+headers = []
+
+#############################  Exclusions  ##########################
+
+# Exclude URLs from checking (supports regex)
+
+# balena base images account for ~1400 request to GitHub, they are
+# omitted to avoid being rate limited.
+# See https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting
+# The openvpn link is omitted as trying to auto chek it results in
+# a 503, even when it is available.
+# The meta-balena link is included in parameterized scripts and as
+# a result will always produce a failing link.
+# The myorg/myapp link is a dummy address used in an example contract so is omitted.
+# The balena/resin API urls will not respond to unauthenticated requests
+# The gstatic and googleapis links go 404 and are excluded ever since we started checking HTML
+# balenaCLI linux binary URLs always error out since they are generated on run time only
+# File URLs are excluded as they aren't checked properly and error out
+exclude = [
+    "developer.aliyun.com/*",
+    "mirrors.ustc.edu.cn/*",
+    ]
+
+# Exclude URLs contained in a file from checking
+exclude_file = []
+
+include = []
+
+include_verbatim = true
+
+# Exclude all private IPs from checking
+# Equivalent to setting `exclude_private`, `exclude_link_local`, and `exclude_loopback` to true
+exclude_all_private = true
+
+# # Exclude private IP address ranges from checking
+# exclude_private = false
+
+# # Exclude link-local IP address range from checking
+# exclude_link_local = false
+
+# # Exclude loopback IP address range and localhost from checking
+# exclude_loopback = false
+
+# Exclude all mail addresses from checking
+exclude_mail = true

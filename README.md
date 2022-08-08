@@ -2041,7 +2041,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
   - [https://xn--flw351e.ml/](https://xn--flw351e.ml/)
   - [https://s.iit.xyz/](https://s.iit.xyz/)
   - [https://xgoogle.xyz/](https://xgoogle.xyz/)
-  - [https://g.xzx725.top/](https://g.xzx725.top/)
   - [https://txt.muxinghe.cf/](https://txt.muxinghe.cf/)
 
 - [https://g.luciaz.me/](https://g.luciaz.me/)
