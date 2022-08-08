@@ -45,7 +45,7 @@ insecure = true
 # Comma-separated list of accepted status codes for valid links.
 # Don't work as of yet until https://github.com/lycheeverse/lychee/issues/644
 # is resolved
-# accept = "200,204,301,429,403"
+accept = [200,204,301,429]
 
 # Only test links with the given scheme (e.g. https)
 # Omit to check links with any scheme
@@ -78,10 +78,11 @@ exclude = [
     "mirrors.ustc.edu.cn/*",
     "eryajf.net/*",
     "rsproxy.cn/*",
-    "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git",
+    "https://mirrors.cloud.tencent.com/go/",
+    "http://maven.aliyun.com/nexus/content/groups/public/",
     "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git",
-    "https://maven.aliyun.com/nexus/content/groups/public/",
-    ]
+    "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git",
+]
 
 # Exclude URLs contained in a file from checking
 exclude_file = []
