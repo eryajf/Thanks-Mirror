@@ -76,6 +76,11 @@ headers = []
 exclude = [
     "developer.aliyun.com/*",
     "mirrors.ustc.edu.cn/*",
+    "eryajf.net/*",
+    "rsproxy.cn/*",
+    "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git",
+    "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git",
+    "https://maven.aliyun.com/nexus/content/groups/public/",
     ]
 
 # Exclude URLs contained in a file from checking

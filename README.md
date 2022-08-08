@@ -325,7 +325,7 @@ $ gem sources -l
 https://rubygems.org/
 
 
-# 接着，移除 https://rubygems.org/，并添加国内下载源 https://gems.ruby-china.com/。
+# 接着，移除 https://rubygems.org/ ，并添加国内下载源 https://gems.ruby-china.com/ 。
 $ gem sources --remove https://rubygems.org/
 $ gem sources -a https://gems.ruby-china.com/
 $ gem sources -l
