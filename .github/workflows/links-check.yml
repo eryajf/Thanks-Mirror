@@ -22,7 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           # Check all markdown and html files in repo (default)
-            args: --verbose --no-progress 'README.md'
+            args: --verbose --no-progress README.md -t 10 --insecure -a 404,403,429
             # Use json as output format (instead of markdown)
             format: markdown
             # Use different output file path
