@@ -35,6 +35,9 @@ user_agent = "curl/7.83.1"
 # Website timeout from connect to response finished
 timeout = 10
 
+# Minimum wait time in seconds between retries of failed requests.
+retry_wait_time = 2
+
 # Comma-separated list of accepted status codes for valid links.
 # Omit to accept all response types.
 #accept = "text/html"
@@ -45,7 +48,7 @@ insecure = true
 # Comma-separated list of accepted status codes for valid links.
 # Don't work as of yet until https://github.com/lycheeverse/lychee/issues/644
 # is resolved
-accept = [200,204,301,429]
+accept = [200,204,301,429,403]
 
 # Only test links with the given scheme (e.g. https)
 # Omit to check links with any scheme
