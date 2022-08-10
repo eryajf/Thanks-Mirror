@@ -34,6 +34,8 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 > - [read-list](https://github.com/eryajf/read-list)：📖 优质内容订阅，阅读方为根本
 > - [awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese)：🦩 优秀的中文区个人主页搜集
 
+每天自动运行一次链接检查，以保证项目中提供的链接都还正常可用，[检查详情查看。](https://github.com/eryajf/Thanks-Mirror/actions/workflows/links-check.yml)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目录**
@@ -1701,8 +1703,6 @@ ARM架构下的CentOS镜像。
   - [https://mirror.lzu.edu.cn/alpine/](https://mirror.lzu.edu.cn/alpine/)
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/alpine/](https://mirrors.cqu.edu.cn/alpine/)
-- 重庆邮电大学
-  - [https://mirrors.cqupt.edu.cn/alpine/](https://mirrors.cqupt.edu.cn/alpine/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/alpine/](https://mirrors.bfsu.edu.cn/alpine/)
 - 中国互联网信息中心
