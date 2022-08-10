@@ -24,6 +24,9 @@ Gitee：[https://gitee.com/eryajf/Thanks-Mirror](https://gitee.com/eryajf/Thanks
 
 GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
 
+每天自动运行一次链接检查，以保证项目中提供的链接都还正常可用，[检查详情查看。](https://github.com/eryajf/Thanks-Mirror/actions/workflows/links-check.yml)
+
+
 > 🥳 **欢迎关注我的其他项目：**
 >
 > - [Go-Ldap-Admin](https://github.com/eryajf/go-ldap-admin)：🌉 基于Go+Vue实现的openLDAP后台管理项目。
@@ -33,8 +36,6 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 > - [care-screenshot](https://github.com/eryajf/care-screenshot)：给我一个URL，我能将你关心的元素截图发给机器人🤖
 > - [read-list](https://github.com/eryajf/read-list)：📖 优质内容订阅，阅读方为根本
 > - [awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese)：🦩 优秀的中文区个人主页搜集
-
-每天自动运行一次链接检查，以保证项目中提供的链接都还正常可用，[检查详情查看。](https://github.com/eryajf/Thanks-Mirror/actions/workflows/links-check.yml)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
