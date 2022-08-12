@@ -1716,8 +1716,6 @@ ARM架构下的CentOS镜像。
   - [https://mirror.bjtu.edu.cn/alpine/](https://mirror.bjtu.edu.cn/alpine/)
 - 南京大学
   - [https://mirror.nju.edu.cn/alpine/](https://mirror.nju.edu.cn/alpine/)
-- 大连东软信息学院
-  - [https://mirrors.neusoft.edu.cn/alpine/](https://mirrors.neusoft.edu.cn/alpine/)
 
 🔝[回到顶部](#thanks-mirror)
 

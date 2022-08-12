@@ -82,6 +82,7 @@ exclude = [
     "lzu.edu.cn/*",
     "eryajf.net/*",
     "rsproxy.cn/*",
+    "https://mirrors.aliyun.com/goproxy/",
     "https://mirrors.cloud.tencent.com/go/",
     "http://maven.aliyun.com/nexus/content/groups/public/",
     "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git",
