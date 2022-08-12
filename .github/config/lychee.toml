@@ -77,11 +77,11 @@ headers = []
 # balenaCLI linux binary URLs always error out since they are generated on run time only
 # File URLs are excluded as they aren't checked properly and error out
 exclude = [
-    "developer.aliyun.com/*",
-    "mirrors.ustc.edu.cn/*",
     "lzu.edu.cn/*",
     "eryajf.net/*",
     "rsproxy.cn/*",
+    "mirrors.ustc.edu.cn/*",
+    "developer.aliyun.com/*",
     "https://mirrors.aliyun.com/goproxy/",
     "https://mirrors.cloud.tencent.com/go/",
     "http://maven.aliyun.com/nexus/content/groups/public/",
