@@ -1312,8 +1312,6 @@ git-fetch-with-cli = true
 
 - Aliyun
   - [https://mirrors.aliyun.com/clickhouse/](https://mirrors.aliyun.com/clickhouse/)
-- 清华
-  - [https://mirrors.tuna.tsinghua.edu.cn/clickhouse/](https://mirrors.tuna.tsinghua.edu.cn/clickhouse/)
 
 🔝[回到顶部](#thanks-mirror)
 
