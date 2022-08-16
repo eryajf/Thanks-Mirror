@@ -543,6 +543,9 @@ wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
   - [https://mirrors.cqu.edu.cn/epel/](https://mirrors.cqu.edu.cn/epel/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/epel/](https://mirrors.bfsu.edu.cn/epel/)
+- 公云
+  - [https://mirrors.pubyun.com/epel/](https://mirrors.pubyun.com/epel/)
+
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1469,6 +1472,8 @@ git-fetch-with-cli = true
   - [https://mirrors.bfsu.edu.cn/centos/](https://mirrors.bfsu.edu.cn/centos/)
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/centos/](https://mirrors.hit.edu.cn/centos/)
+- 公云
+  - [https://mirrors.pubyun.com/centos/](https://mirrors.pubyun.com/centos/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1599,6 +1604,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.bfsu.edu.cn/debian/](https://mirrors.bfsu.edu.cn/debian/)
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/debian/](https://mirrors.hit.edu.cn/debian/)
+- 公云
+  - [https://mirrors.pubyun.com/debian/](https://mirrors.pubyun.com/debian/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1929,6 +1936,8 @@ ARM架构下的CentOS镜像。
 
 #### Mirrors
 
+**方案一：**
+
 `使用方式：`
 
 使用方式都是替换原来镜像的前缀域名即可实现加速效果，比如：
@@ -1965,6 +1974,40 @@ ARM架构下的CentOS镜像。
 - quay.io
   - 中科大
     - quay.mirrors.ustc.edu.cn
+
+**方案二：**
+
+还有一种方案是通过将加速地址写入到docker配置文件当中实现加速。
+
+在 `/etc/docker/daemon.json` 中写入如下内容（如果文件不存在请新建该文件）：
+
+```json
+{
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
+```
+
+注意，一定要保证该文件符合 json 规范，否则 Docker 将不能启动。
+
+之后重新启动服务。
+
+```sh
+$ sudo systemctl daemon-reload
+$ sudo systemctl restart docker
+```
+
+目前可用的加速地址有：
+
+- 网易
+  - [http://hub-mirror.c.163.com](http://hub-mirror.c.163.com)
+- ustc
+  - [https://docker.mirrors.ustc.edu.cn](https://docker.mirrors.ustc.edu.cn)
+- 百度云
+  - [https://mirror.baidubce.com/](https://mirror.baidubce.com/)
+
 
 🔝[回到顶部](#thanks-mirror)
 
