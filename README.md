@@ -439,8 +439,6 @@ yum makecache
   - [https://repo.huaweicloud.com/centos/](https://repo.huaweicloud.com/centos/)
 - Tencent
   - https://mirrors.cloud.tencent.com/centos/
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/centos/](https://mirror.bjtu.edu.cn/centos/)
 - 东北大学
   - http://mirror.neu.edu.cn/centos/
 - 兰州大学
@@ -1065,8 +1063,6 @@ git-fetch-with-cli = true
 
 - HUAWEI
   - [https://repo.huaweicloud.com/python/](https://repo.huaweicloud.com/python/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/python/](https://mirror.bjtu.edu.cn/python/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1201,8 +1197,6 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/apache/](https://mirrors.tuna.tsinghua.edu.cn/apache/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/apache/](https://mirrors.ustc.edu.cn/apache/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/apache/](https://mirror.bjtu.edu.cn/apache/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1456,8 +1450,6 @@ git-fetch-with-cli = true
   - [http://mirrors.neusoft.edu.cn/centos/](http://mirrors.neusoft.edu.cn/centos/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/centos/](http://ftp.sjtu.edu.cn/centos/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/centos/](https://mirror.bjtu.edu.cn/centos/)
 - 大连理工
   - [http://mirror.dlut.edu.cn/centos/](http://mirror.dlut.edu.cn/centos/)
 - 首都在线
@@ -1536,8 +1528,6 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.neusoft.edu.cn/ubuntu/](http://mirrors.neusoft.edu.cn/ubuntu/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/ubuntu/](http://ftp.sjtu.edu.cn/ubuntu/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/ubuntu/](https://mirror.bjtu.edu.cn/ubuntu/)
 - 大连理工
   - [http://mirror.dlut.edu.cn/ubuntu/](http://mirror.dlut.edu.cn/ubuntu/)
 - 首都在线
@@ -1588,8 +1578,6 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.neusoft.edu.cn/debian/](http://mirrors.neusoft.edu.cn/debian/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/debian/](http://ftp.sjtu.edu.cn/debian/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/debian/](https://mirror.bjtu.edu.cn/debian/)
 - 大连理工
   - [http://mirror.dlut.edu.cn/debian/](http://mirror.dlut.edu.cn/debian/)
 - 首都在线
@@ -1719,8 +1707,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.sjtug.sjtu.edu.cn/alpine/](https://mirrors.sjtug.sjtu.edu.cn/alpine/)
 - 南方科技大学
   - [https://mirrors.sustech.edu.cn/alpine/](https://mirrors.sustech.edu.cn/alpine/)
-- 北京交通大学
-  - [https://mirror.bjtu.edu.cn/alpine/](https://mirror.bjtu.edu.cn/alpine/)
 - 南京大学
   - [https://mirror.nju.edu.cn/alpine/](https://mirror.nju.edu.cn/alpine/)
 
@@ -1804,8 +1790,6 @@ ARM架构下的CentOS镜像。
   - [https://mirror.nyist.edu.cn/kali/](https://mirror.nyist.edu.cn/kali/)
 - 大连东软
   - [http://mirrors.neusoft.edu.cn/kali/](http://mirrors.neusoft.edu.cn/kali/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/kali/](https://mirror.bjtu.edu.cn/kali/)
 - 南京邮电
   - [http://mirrors.njupt.edu.cn/kali/](http://mirrors.njupt.edu.cn/kali/)
 - 西北农林科技大学
@@ -1849,8 +1833,6 @@ ARM架构下的CentOS镜像。
   - [https://mirror.lzu.edu.cn/opensuse/](https://mirror.lzu.edu.cn/opensuse/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/opensuse/](http://ftp.sjtu.edu.cn/opensuse/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/opensuse/](https://mirror.bjtu.edu.cn/opensuse/)
 - 首都在线
   - [http://mirrors.yun-idc.com/opensuse/](http://mirrors.yun-idc.com/opensuse/)
 - 重庆大学
@@ -1888,8 +1870,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.ustc.edu.cn/freebsd/](https://mirrors.ustc.edu.cn/freebsd/)
 - 兰州大学
   - [https://mirror.lzu.edu.cn/freebsd/](https://mirror.lzu.edu.cn/freebsd/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/freebsd/](https://mirror.bjtu.edu.cn/freebsd/)
 - 首都在线
   - [http://mirrors.yun-idc.com/freebsd/](http://mirrors.yun-idc.com/freebsd/)
 
@@ -1915,8 +1895,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.ustc.edu.cn/gnu/](https://mirrors.ustc.edu.cn/gnu/)
 - 兰州大学
   - [https://mirror.lzu.edu.cn/gnu/](https://mirror.lzu.edu.cn/gnu/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/gnu/](https://mirror.bjtu.edu.cn/gnu/)
 
 🔝[回到顶部](#thanks-mirror)
 
