@@ -1666,8 +1666,6 @@ ARM架构下的CentOS镜像。
   - [http://ftp.sjtu.edu.cn/fedora/](http://ftp.sjtu.edu.cn/fedora/)
 - 南京邮电
   - [http://mirrors.njupt.edu.cn/fedora/](http://mirrors.njupt.edu.cn/fedora/)
-- 南阳理工
-  - [https://mirror.nyist.edu.cn/fedora/](https://mirror.nyist.edu.cn/fedora/)
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/fedora/](https://mirrors.cqu.edu.cn/fedora/)
 - 北京外国语大学
