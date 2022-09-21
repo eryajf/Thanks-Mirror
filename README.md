@@ -1081,6 +1081,19 @@ git-fetch-with-cli = true
 
 🔝[回到顶部](#thanks-mirror)
 
+### Maven
+
+#### Official
+
+- [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/apache/maven/maven-3/](https://repo.huaweicloud.com/apache/maven/maven-3/)
+
+🔝[回到顶部](#thanks-mirror)
+
 ### Zabbix
 
 #### Official
