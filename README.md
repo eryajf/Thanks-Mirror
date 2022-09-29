@@ -78,6 +78,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Yarn](#yarn)
   - [Python](#python)
   - [Rust](#rust)
+  - [Maven](#maven-1)
   - [Zabbix](#zabbix)
   - [Prometheus](#prometheus)
   - [Grafana](#grafana)
