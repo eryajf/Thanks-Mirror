@@ -1440,8 +1440,6 @@ git-fetch-with-cli = true
   - [https://mirror.nyist.edu.cn/centos/](https://mirror.nyist.edu.cn/centos/)
 - 兰州大学
   - [https://mirror.lzu.edu.cn/centos/](https://mirror.lzu.edu.cn/centos/)
-- 东北大学
-  - [http://mirror.neu.edu.cn/centos/](http://mirror.neu.edu.cn/centos/)
 - 大连东软
   - [http://mirrors.neusoft.edu.cn/centos/](http://mirrors.neusoft.edu.cn/centos/)
 - 上海交通
