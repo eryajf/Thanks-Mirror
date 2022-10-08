@@ -440,8 +440,6 @@ yum makecache
   - [https://repo.huaweicloud.com/centos/](https://repo.huaweicloud.com/centos/)
 - Tencent
   - https://mirrors.cloud.tencent.com/centos/
-- 东北大学
-  - http://mirror.neu.edu.cn/centos/
 - 兰州大学
   - https://mirror.lzu.edu.cn/centos/
 - 清华
@@ -1691,8 +1689,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.sjtug.sjtu.edu.cn/alpine/](https://mirrors.sjtug.sjtu.edu.cn/alpine/)
 - 南方科技大学
   - [https://mirrors.sustech.edu.cn/alpine/](https://mirrors.sustech.edu.cn/alpine/)
-- 南京大学
-  - [https://mirror.nju.edu.cn/alpine/](https://mirror.nju.edu.cn/alpine/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1712,8 +1708,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cnnic.cn/voidlinux/](https://mirrors.cnnic.cn/voidlinux/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/voidlinux/](https://mirrors.bfsu.edu.cn/voidlinux/)
-- 南京大学
-  - [https://mirror.nju.edu.cn/voidlinux/](https://mirror.nju.edu.cn/voidlinux/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1821,8 +1815,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/opensuse/](https://mirrors.cqu.edu.cn/opensuse/)
 - 哈工大
   - [https://mirrors.hit.edu.cn/opensuse/](https://mirrors.hit.edu.cn/opensuse/)
-- 南京大学
-  - [http://mirrors.nju.edu.cn/opensuse/](http://mirrors.nju.edu.cn/opensuse/)
 - 南方科技大学
   - [https://mirrors.sustech.edu.cn/opensuse/](https://mirrors.sustech.edu.cn/opensuse/)
 - 北京外国语大学
