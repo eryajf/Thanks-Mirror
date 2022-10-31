@@ -5,6 +5,7 @@
 
 ## 镜像移除公告
 
+- 2022-10-31: 发现之前8月23日以来移除的镜像站，现在都已恢复，因此将内容恢复。详见[https://github.com/eryajf/Thanks-Mirror/issues/79](https://github.com/eryajf/Thanks-Mirror/issues/79)
 - 2022-10-01: 检测到南京大学镜像站整站不可用，详见：[https://github.com/eryajf/Thanks-Mirror/issues/55](https://github.com/eryajf/Thanks-Mirror/issues/55)。~~暂不做处理，再观察几天~~ 于 10月8日移除
 - 2022-10-01: 检测到西北农林科技大学镜像站整站不可用，详见：[https://github.com/eryajf/Thanks-Mirror/issues/55](https://github.com/eryajf/Thanks-Mirror/issues/55)。~~暂不做处理，再观察几天~~ 于 10月8日移除
 - 2022-09-28: 检测到南京邮电大学镜像站整站不可用，详见：[https://github.com/eryajf/Thanks-Mirror/issues/51](https://github.com/eryajf/Thanks-Mirror/issues/51)。~~暂不做处理，再观察几天~~ 于 10月8日移除
