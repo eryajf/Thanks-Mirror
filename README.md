@@ -108,7 +108,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Gentoo](#gentoo)
   - [kali](#kali)
   - [Opensuse](#opensuse)
-  - [Freebsd](#freebsd)
+  - [FreeBSD](#freebsd)
   - [GNU](#gnu)
 - [Other-Mirror](#other-mirror)
   - [Docker-hub](#docker-hub)
@@ -1942,30 +1942,167 @@ ARM架构下的CentOS镜像。
 
 🔝[回到顶部](#thanks-mirror)
 
-### Freebsd
+### FreeBSD
 
 #### Official
 
-- [https://www.freebsd.org/where/](https://www.freebsd.org/where/)
+- [https://download.FreeBSD.org/](https://download.FreeBSD.org/)
 
 #### Mirrors
 
-- [Aliyun](https://developer.aliyun.com/mirror/freebsd)
-  - [https://mirrors.aliyun.com/freebsd/](https://mirrors.aliyun.com/freebsd/)
-- Tencent
-  - [https://mirrors.cloud.tencent.com/freebsd/](https://mirrors.cloud.tencent.com/freebsd/)
-- HUAWEI
-  - [https://repo.huaweicloud.com/freebsd/](https://repo.huaweicloud.com/freebsd/)
-- 中科大
-  - [https://mirrors.ustc.edu.cn/freebsd/](https://mirrors.ustc.edu.cn/freebsd/)
-- 兰州大学
-  - [https://mirror.lzu.edu.cn/freebsd/](https://mirror.lzu.edu.cn/freebsd/)
-- 首都在线
-  - [http://mirrors.yun-idc.com/freebsd/](http://mirrors.yun-idc.com/freebsd/)
-- 北京交通
-  - [https://mirror.bjtu.edu.cn/freebsd/](https://mirror.bjtu.edu.cn/freebsd/)
-- 南京大学
-  - [https://mirror.nju.edu.cn/freebsd/](https://mirror.nju.edu.cn/freebsd/)
+注意：FreeBSD 有四类源：pkg、ports、portsnap、update。不是所有镜像站都同时支持上述四类源。目前在大陆境内没有官方镜像站，以下均为官方镜像站。
+
+##### pkg 源：pkg 源提供二进制安装包
+
+pkg 的下载路径是 `/var/cache/pkg/`
+
+FreeBSD 中 pkg 源分为系统级和用户级两个配置文件。不建议直接修改 `/etc/pkg/FreeBSD.conf` ,因为该文件会随着基本系统的更新而发生改变。
+
+创建用户级源目录:
+　　
+```
+# mkdir -p /usr/local/etc/pkg/repos
+```
+###### 网易开源镜像站
+
+创建用户级源文件:
+
+```
+# ee /usr/local/etc/pkg/repos/163.conf
+```
+
+写入以下内容:
+
+```
+163: {  
+url: "pkg+http://mirrors.163.com/freebsd-pkg/${ABI}/quarterly",  
+mirror_type: "srv",  
+signature_type: "none",  
+fingerprints: "/usr/share/keys/pkg",  
+enabled: yes
+}
+FreeBSD: { enabled: no }
+```
+
+>故障排除
+>
+>**若要获取滚动更新的包，请将 `quarterly` 修改为 `latest`。二者区别见 [FreeBSD 手册](https://handbook.bsdcn.org)。请注意, `CURRENT` 版本只有 `latest`：**
+>
+>```
+># sed -i '' 's/quarterly/latest/g' /etc/pkg/FreeBSD.conf
+>```
+
+>若要使用 https，请先安装 `security/ca_root_nss`，并将 `http` 修改为 `https`，最后使用命令 `# pkg update -f` 刷新缓存即可。
+
+###### 中国科学技术大学开源软件镜像站
+
+创建用户级源文件:
+
+```
+# ee /usr/local/etc/pkg/repos/ustc.conf
+```
+
+写入以下内容:
+
+```
+ustc: {  
+url: "pkg+http://mirrors.ustc.edu.cn/freebsd-pkg/${ABI}/quarterly",  
+mirror_type: "srv",  
+signature_type: "none",  
+fingerprints: "/usr/share/keys/pkg",  
+enabled: yes
+}
+FreeBSD: { enabled: no }
+```
+
+###### 南京大学开源镜像站
+
+```
+# ee /usr/local/etc/pkg/repos/nju.conf
+```
+
+写入以下内容:
+
+```
+nju: {  
+url: "pkg+http://mirrors.nju.edu.cn/freebsd-pkg/${ABI}/quarterly",  
+mirror_type: "srv",  
+signature_type: "none",  
+fingerprints: "/usr/share/keys/pkg",  
+enabled: yes
+}
+FreeBSD: { enabled: no }
+```
+
+###### FreeBSD.cn
+
+```
+# ee /usr/local/etc/pkg/repos/freebsdcn.conf
+```
+
+写入以下内容:
+
+```
+freebsdcn: {  
+url: "pkg+http://pkg.freebsd.cn/${ABI}/quarterly",  
+mirror_type: "srv",  
+signature_type: "none",  
+fingerprints: "/usr/share/keys/pkg",  
+enabled: yes
+}
+FreeBSD: { enabled: no }
+```
+
+##### ports 源：以源代码方式安装软件的包管理器
+
+>ports 下载路径是 `/usr/ports/distfiles`。
+>
+>注意：大部分软件的源代码其实并未被存放于 ports 源，仍然需要从开发者指定的网站进行下载。
+
+###### 网易开源镜像站
+
+创建或修改文件 `# ee /etc/make.conf`:
+
+写入以下内容:
+
+`MASTER_SITE_OVERRIDE?=http://mirrors.163.com/freebsd-ports/distfiles/`
+
+###### 中国科学技术大学开源软件镜像站
+
+创建或修改文件 `# ee /etc/make.conf`:
+
+写入以下内容:
+
+`MASTER_SITE_OVERRIDE?=http://mirrors.ustc.edu.cn/freebsd-ports/distfiles/`
+
+###### FreeBSD.cn
+
+创建或修改文件 `# ee /etc/make.conf`:
+
+写入以下内容:
+
+`MASTER_SITE_OVERRIDE?=http://ports.freebsd.cn/ports-distfiles/`
+
+##### portsnap 源：打包的 ports 文件
+
+###### FreeBSD.cn
+
+编辑 portsnap 配置文件 `# ee /etc/portsnap.conf` :
+
+将 `SERVERNAME=portsnap.FreeBSD.org` 修改为 `SERVERNAME=portsnap.FreeBSD.cn`
+
+##### freebsd-update 源：提供基本系统更新
+
+>注意：只有一级架构的 release 版本才提供该源。也就是说 current 和 stable 是没有 freebsd-update 源的。
+关于架构的支持等级说明请看：
+>
+>[https://www.freebsd.org/platforms](https://www.freebsd.org/platforms)
+
+###### FreeBSD.cn 
+
+编辑 `# ee /etc/freebsd-update.conf` 文件:
+
+将 `ServerName update.FreeBSD.org` 修改为 `ServerName update.FreeBSD.cn`
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -2229,6 +2366,12 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
             <img src="https://avatars.githubusercontent.com/u/6836228?v=4" width="100;" alt="jingjingxyk"/>
             <br />
             <sub><b>好吧，你想说啥</b></sub>
+        </a>
+    <td align="center">
+        <a href="https://github.com/ykla">
+            <img src="https://avatars.githubusercontent.com/u/10327999?v=4" width="100;" alt="ykla"/>
+            <br />
+            <sub><b>FreeBSD 中文社区</b></sub>
         </a>
     </td></tr>
 </table>
