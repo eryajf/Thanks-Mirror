@@ -1946,7 +1946,7 @@ ARM架构下的CentOS镜像。
 
 #### Official
 
-- [https://download.FreeBSD.org/](https://www.download.FreeBSD.org/)
+- [https://download.FreeBSD.org/](https://download.FreeBSD.org/)
 
 #### Mirrors
 
