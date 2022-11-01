@@ -1942,7 +1942,7 @@ ARM架构下的CentOS镜像。
 
 🔝[回到顶部](#thanks-mirror)
 
-### Freebsd
+### FreeBSD
 
 #### Official
 
@@ -1950,7 +1950,7 @@ ARM架构下的CentOS镜像。
 
 #### Mirrors
 
-FreeBSD 有四类源：pkg、ports、portsnap、update，不是所有镜像站都同时支持上述四类源。目前在大陆境内没有官方镜像站，以下均为非官方镜像站。
+注意：FreeBSD 有四类源：pkg、ports、portsnap、update。不是所有镜像站都同时支持上述四类源。目前在大陆境内没有官方镜像站，以下均为官方镜像站。
 
 ##### pkg 源：pkg 源提供二进制安装包
 
@@ -1992,7 +1992,7 @@ FreeBSD: { enabled: no }
 ># sed -i '' 's/quarterly/latest/g' /etc/pkg/FreeBSD.conf
 >```
 
->**若要使用 https，请先安装 `security/ca_root_nss`，并将 `http` 修改为 `https`，最后使用命令 `# pkg update -f` 刷新缓存即可。**
+>若要使用 https，请先安装 `security/ca_root_nss`，并将 `http` 修改为 `https`，最后使用命令 `# pkg update -f` 刷新缓存即可。
 
 ###### 中国科学技术大学开源软件镜像站
 
