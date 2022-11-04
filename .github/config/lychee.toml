@@ -84,6 +84,8 @@ exclude = [
     "developer.aliyun.com/*",
     "https://mirrors.aliyun.com/goproxy/",
     "https://mirrors.cloud.tencent.com/go/",
+    "https://handbook.bsdcn.org/",
+    "http://mirrors.163.com/freebsd-ports/distfiles/",
     "http://maven.aliyun.com/nexus/content/groups/public/",
     "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git",
     "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git",

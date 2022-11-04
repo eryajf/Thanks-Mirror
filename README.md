@@ -1974,11 +1974,11 @@ FreeBSD 中 pkg 源分为系统级和用户级两个配置文件。不建议直�
 写入以下内容:
 
 ```
-163: {  
-url: "pkg+http://mirrors.163.com/freebsd-pkg/${ABI}/quarterly",  
-mirror_type: "srv",  
-signature_type: "none",  
-fingerprints: "/usr/share/keys/pkg",  
+163: {
+url: "pkg+http://mirrors.163.com/freebsd-pkg/${ABI}/quarterly",
+mirror_type: "srv",
+signature_type: "none",
+fingerprints: "/usr/share/keys/pkg",
 enabled: yes
 }
 FreeBSD: { enabled: no }
@@ -2005,11 +2005,11 @@ FreeBSD: { enabled: no }
 写入以下内容:
 
 ```
-ustc: {  
-url: "pkg+http://mirrors.ustc.edu.cn/freebsd-pkg/${ABI}/quarterly",  
-mirror_type: "srv",  
-signature_type: "none",  
-fingerprints: "/usr/share/keys/pkg",  
+ustc: {
+url: "pkg+http://mirrors.ustc.edu.cn/freebsd-pkg/${ABI}/quarterly",
+mirror_type: "srv",
+signature_type: "none",
+fingerprints: "/usr/share/keys/pkg",
 enabled: yes
 }
 FreeBSD: { enabled: no }
@@ -2024,11 +2024,11 @@ FreeBSD: { enabled: no }
 写入以下内容:
 
 ```
-nju: {  
-url: "pkg+http://mirrors.nju.edu.cn/freebsd-pkg/${ABI}/quarterly",  
-mirror_type: "srv",  
-signature_type: "none",  
-fingerprints: "/usr/share/keys/pkg",  
+nju: {
+url: "pkg+http://mirrors.nju.edu.cn/freebsd-pkg/${ABI}/quarterly",
+mirror_type: "srv",
+signature_type: "none",
+fingerprints: "/usr/share/keys/pkg",
 enabled: yes
 }
 FreeBSD: { enabled: no }
@@ -2043,11 +2043,11 @@ FreeBSD: { enabled: no }
 写入以下内容:
 
 ```
-freebsdcn: {  
-url: "pkg+http://pkg.freebsd.cn/${ABI}/quarterly",  
-mirror_type: "srv",  
-signature_type: "none",  
-fingerprints: "/usr/share/keys/pkg",  
+freebsdcn: {
+url: "pkg+http://pkg.freebsd.cn/${ABI}/quarterly",
+mirror_type: "srv",
+signature_type: "none",
+fingerprints: "/usr/share/keys/pkg",
 enabled: yes
 }
 FreeBSD: { enabled: no }
@@ -2098,7 +2098,7 @@ FreeBSD: { enabled: no }
 >
 >[https://www.freebsd.org/platforms](https://www.freebsd.org/platforms)
 
-###### FreeBSD.cn 
+###### FreeBSD.cn
 
 编辑 `# ee /etc/freebsd-update.conf` 文件:
 
@@ -2298,20 +2298,10 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
 - 目前来看还不错的
 
-  - [https://search.ahau.cf/](https://search.ahau.cf/)
-  - [http://d.6wl.cc/](http://d.6wl.cc/)
   - [https://xn--flw351e.ml/](https://xn--flw351e.ml/)
   - [https://s.iit.xyz/](https://s.iit.xyz/)
   - [https://xgoogle.xyz/](https://xgoogle.xyz/)
-  - [https://txt.muxinghe.cf/](https://txt.muxinghe.cf/)
 
-- [https://g.luciaz.me/](https://g.luciaz.me/)
-
-  速度不错，如有问题，答案：心灵之约、水朝夕、csxy@123
-
-- [https://www.qinai.ml/](https://www.qinai.ml/)
-
-  速度不错，但总是会有弹窗
 
 🔝[回到顶部](#thanks-mirror)
 
