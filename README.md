@@ -394,8 +394,6 @@ Java系的工具版本规范如下：
   - https://repository.apache.org/content/groups/public/
 - confluent
   - [http://packages.confluent.io/maven/](http://packages.confluent.io/maven/)
-- cloudera
-  - [http://repo.hortonworks.com/content/repositories/releases/](http://repo.hortonworks.com/content/repositories/releases/)
 - jboss
   - [https://repository.jboss.org/nexus/content/groups/public](https://repository.jboss.org/nexus/content/groups/public)
 - Lss233's.Mirror（供 Minecraft 开发使用）
