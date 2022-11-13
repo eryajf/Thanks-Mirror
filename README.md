@@ -746,31 +746,39 @@ git-fetch-with-cli = true
 
 #### Official
 
-- 安装包：[https://www.jenkins.io/zh/download/](https://www.jenkins.io/zh/download/)
+- 安装包-稳定版：[https://get.jenkins.io/war-stable/](https://get.jenkins.io/war-stable/)
+- 安装包-开发版：[https://get.jenkins.io/war/](https://get.jenkins.io/war/)
 - 插件：[https://plugins.jenkins.io/](https://plugins.jenkins.io/)
 
 #### Mirrors
 
 - Aliyun
-  - 安装包：[https://mirrors.aliyun.com/jenkins/war/](https://mirrors.aliyun.com/jenkins/war/)
+  - 安装包-稳定版：[https://mirrors.aliyun.com/jenkins/war-stable/](https://mirrors.aliyun.com/jenkins/war-stable/)
+  - 安装包-开发版：[https://mirrors.aliyun.com/jenkins/war/](https://mirrors.aliyun.com/jenkins/war/)
   - 插件：[https://mirrors.aliyun.com/jenkins/plugins/](https://mirrors.aliyun.com/jenkins/plugins/)
 - Tencent
-  - 安装包：[https://mirrors.cloud.tencent.com/jenkins/war/](https://mirrors.cloud.tencent.com/jenkins/war/)
+  - 安装包-稳定版：[https://mirrors.cloud.tencent.com/jenkins/war-stable/](https://mirrors.cloud.tencent.com/jenkins/war-stable/)
+  - 安装包-开发版：[https://mirrors.cloud.tencent.com/jenkins/war/](https://mirrors.cloud.tencent.com/jenkins/war/)
   - 插件：[https://mirrors.cloud.tencent.com/jenkins/plugins/](https://mirrors.cloud.tencent.com/jenkins/plugins/)
 - HUAWEI
-  - 安装包：[https://repo.huaweicloud.com/jenkins/war/](https://repo.huaweicloud.com/jenkins/war/)
+  - 安装包-稳定版：[https://repo.huaweicloud.com/jenkins/war-stable/](https://repo.huaweicloud.com/jenkins/war-stable/)
+  - 安装包-开发版：[https://repo.huaweicloud.com/jenkins/war/](https://repo.huaweicloud.com/jenkins/war/)
   - 插件：[https://repo.huaweicloud.com/jenkins/plugins/](https://repo.huaweicloud.com/jenkins/plugins/)
 - 中科大
-  - 安装包：[https://mirrors.ustc.edu.cn/jenkins/war/](https://mirrors.ustc.edu.cn/jenkins/war/)
+  - 安装包-稳定版：[https://mirrors.ustc.edu.cn/jenkins/war-stable/](https://mirrors.ustc.edu.cn/jenkins/war-stable/)
+  - 安装包-开发版：[https://mirrors.ustc.edu.cn/jenkins/war/](https://mirrors.ustc.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.ustc.edu.cn/jenkins/plugins/](https://mirrors.ustc.edu.cn/jenkins/plugins/)
 - 清华
-  - 安装包：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
+  - 安装包-稳定版：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/war-stable/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war-stable/)
+  - 安装包-开发版：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/](https://mirrors.tuna.tsinghua.edu.cn/jenkins/plugins/)
 - 北京外国语大学
-  - 安装包：[https://mirrors.bfsu.edu.cn/jenkins/war/](https://mirrors.bfsu.edu.cn/jenkins/war/)
+  - 安装包-稳定版：[https://mirrors.bfsu.edu.cn/jenkins/war-stable/](https://mirrors.bfsu.edu.cn/jenkins/war-stable/)
+  - 安装包-开发版：[https://mirrors.bfsu.edu.cn/jenkins/war/](https://mirrors.bfsu.edu.cn/jenkins/war/)
   - 插件：[https://mirrors.bfsu.edu.cn/jenkins/plugins/](https://mirrors.bfsu.edu.cn/jenkins/plugins/)
 - 南京大学
-  - 安装包：[https://mirror.nju.edu.cn/jenkins/war](https://mirror.nju.edu.cn/jenkins/war/)
+  - 安装包-稳定版：[https://mirror.nju.edu.cn/jenkins/war-stable](https://mirror.nju.edu.cn/jenkins/war-stable/)
+  - 安装包-开发版：[https://mirror.nju.edu.cn/jenkins/war](https://mirror.nju.edu.cn/jenkins/war/)
   - 插件：[https://mirror.nju.edu.cn/jenkins/plugins](https://mirror.nju.edu.cn/jenkins/plugins/)
 
 🔝[回到顶部](#thanks-mirror)
