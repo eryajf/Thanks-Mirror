@@ -1921,8 +1921,6 @@ ARM架构下的CentOS镜像。
   - [https://opentuna.cn/opensuse/](https://opentuna.cn/opensuse/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/opensuse/](https://mirrors.ustc.edu.cn/opensuse/)
-- 浙江大学
-  - [http://mirrors.zju.edu.cn/opensuse/](http://mirrors.zju.edu.cn/opensuse/)
 - 兰州大学
   - [https://mirror.lzu.edu.cn/opensuse/](https://mirror.lzu.edu.cn/opensuse/)
 - 上海交通
