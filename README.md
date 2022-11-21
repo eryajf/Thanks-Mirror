@@ -1954,7 +1954,7 @@ ARM架构下的CentOS镜像。
 
 #### Mirrors
 
-注意：FreeBSD 有四类源：pkg、ports、portsnap、update。不是所有镜像站都同时支持上述四类源。目前在大陆境内没有官方镜像站，以下均为官方镜像站。
+注意：FreeBSD 有四类源：pkg、ports、portsnap、update。不是所有镜像站都同时支持上述四类源。目前在大陆境内没有官方镜像站，以下均为非官方镜像站。
 
 ##### pkg 源：pkg 源提供二进制安装包
 
