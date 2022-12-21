@@ -2108,6 +2108,12 @@ FreeBSD: { enabled: no }
 
 将 `ServerName update.FreeBSD.org` 修改为 `ServerName update.FreeBSD.cn`
 
+#### Git 镜像站
+
+更新系统或者使用 gitup 的时候会用到 FreeBSD 的 git 镜像站：
+
+<https://git.freebsd.cn>
+
 🔝[回到顶部](#thanks-mirror)
 
 ### GNU
