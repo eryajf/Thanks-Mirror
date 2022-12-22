@@ -1039,8 +1039,6 @@ git-fetch-with-cli = true
   - [https://studygolang.com/dl](https://studygolang.com/dl)
 - Aliyun
   - [https://mirrors.aliyun.com/golang/](https://mirrors.aliyun.com/golang/)
-- Proxy-io
-  - [https://gomirrors.org/](https://gomirrors.org/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/golang/](https://mirrors.ustc.edu.cn/golang/)
 - 南京大学
@@ -2258,15 +2256,6 @@ $ sudo systemctl restart docker
 #### Mirrors
 
 GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前可用的国内镜像，具体用法请查阅镜像的官方说明。
-
-- [https://hub.fastgit.xyz/](https://hub.fastgit.xyz/)
-
-  提供了GitHub全站镜像，但注意不要在这个站登陆你的GitHub账号。详见[官方文档](https://doc.fastgit.org/zh-cn/)。
-
-  类似fastgit的还有：
-
-  - [https://hub.yzuu.cf/](https://hub.yzuu.cf/)
-  - [https://hub.njuu.cf/](https://hub.njuu.cf/)
 
 - [https://gitclone.com/](https://gitclone.com/)
 
