@@ -2061,31 +2061,33 @@ FreeBSD: { enabled: no }
 
 >ports 下载路径是 `/usr/ports/distfiles`。
 >
->注意：大部分软件的源代码其实并未被存放于 ports 源，仍然需要从开发者指定的网站进行下载。
+>**警告**
+>
+>只有 freebsd.cn 镜像站的 ports 镜像是完整的，其余的大概只镜像了不到十分之一。请优先考虑使用 FreeBSD.cn。见 <https://github.com/ustclug/discussions/issues/408>。
 
-###### 网易开源镜像站
+###### FreeBSD.cn（推荐）
+
+创建或修改文件 `# ee /etc/make.conf`:
+
+写入以下内容（注意结尾的 / 是必须的！下同）:
+
+`MASTER_SITE_OVERRIDE?=http://ports.freebsd.cn/ports-distfiles/${DIST_SUBDIR}/`
+
+###### 网易开源镜像站（该镜像不完整）
 
 创建或修改文件 `# ee /etc/make.conf`:
 
 写入以下内容:
 
-`MASTER_SITE_OVERRIDE?=http://mirrors.163.com/freebsd-ports/distfiles/`
+`MASTER_SITE_OVERRIDE?=http://mirrors.163.com/freebsd-ports/distfiles/${DIST_SUBDIR}/`
 
-###### 中国科学技术大学开源软件镜像站
-
-创建或修改文件 `# ee /etc/make.conf`:
-
-写入以下内容:
-
-`MASTER_SITE_OVERRIDE?=http://mirrors.ustc.edu.cn/freebsd-ports/distfiles/`
-
-###### FreeBSD.cn
+###### 中国科学技术大学开源软件镜像站（该镜像不完整）
 
 创建或修改文件 `# ee /etc/make.conf`:
 
 写入以下内容:
 
-`MASTER_SITE_OVERRIDE?=http://ports.freebsd.cn/ports-distfiles/`
+`MASTER_SITE_OVERRIDE?=http://mirrors.ustc.edu.cn/freebsd-ports/distfiles/${DIST_SUBDIR}/`
 
 ##### portsnap 源：打包的 ports 文件
 
