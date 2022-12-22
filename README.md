@@ -1954,7 +1954,7 @@ ARM架构下的CentOS镜像。
 
 #### Mirrors
 
-注意：FreeBSD 有四类源：pkg、ports、portsnap、update。不是所有镜像站都同时支持上述四类源。目前在大陆境内没有官方镜像站，以下均为官方镜像站。
+注意：FreeBSD 有四类源：pkg、ports、portsnap、update。不是所有镜像站都同时支持上述四类源。目前在大陆境内没有官方镜像站，以下均为非官方镜像站。
 
 ##### pkg 源：pkg 源提供二进制安装包
 
@@ -2061,31 +2061,33 @@ FreeBSD: { enabled: no }
 
 >ports 下载路径是 `/usr/ports/distfiles`。
 >
->注意：大部分软件的源代码其实并未被存放于 ports 源，仍然需要从开发者指定的网站进行下载。
+>**警告**
+>
+>只有 freebsd.cn 镜像站的 ports 镜像是完整的，其余的大概只镜像了不到十分之一。请优先考虑使用 FreeBSD.cn。见 <https://github.com/ustclug/discussions/issues/408>。
 
-###### 网易开源镜像站
+###### FreeBSD.cn（推荐）
+
+创建或修改文件 `# ee /etc/make.conf`:
+
+写入以下内容（注意结尾的 / 是必须的！下同）:
+
+`MASTER_SITE_OVERRIDE?=http://ports.freebsd.cn/ports-distfiles/${DIST_SUBDIR}/`
+
+###### 网易开源镜像站（该镜像不完整）
 
 创建或修改文件 `# ee /etc/make.conf`:
 
 写入以下内容:
 
-`MASTER_SITE_OVERRIDE?=http://mirrors.163.com/freebsd-ports/distfiles/`
+`MASTER_SITE_OVERRIDE?=http://mirrors.163.com/freebsd-ports/distfiles/${DIST_SUBDIR}/`
 
-###### 中国科学技术大学开源软件镜像站
-
-创建或修改文件 `# ee /etc/make.conf`:
-
-写入以下内容:
-
-`MASTER_SITE_OVERRIDE?=http://mirrors.ustc.edu.cn/freebsd-ports/distfiles/`
-
-###### FreeBSD.cn
+###### 中国科学技术大学开源软件镜像站（该镜像不完整）
 
 创建或修改文件 `# ee /etc/make.conf`:
 
 写入以下内容:
 
-`MASTER_SITE_OVERRIDE?=http://ports.freebsd.cn/ports-distfiles/`
+`MASTER_SITE_OVERRIDE?=http://mirrors.ustc.edu.cn/freebsd-ports/distfiles/${DIST_SUBDIR}/`
 
 ##### portsnap 源：打包的 ports 文件
 
@@ -2107,6 +2109,12 @@ FreeBSD: { enabled: no }
 编辑 `# ee /etc/freebsd-update.conf` 文件:
 
 将 `ServerName update.FreeBSD.org` 修改为 `ServerName update.FreeBSD.cn`
+
+#### Git 镜像站
+
+更新系统或者使用 gitup 的时候会用到 FreeBSD 的 git 镜像站：
+
+<https://git.freebsd.cn>
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -2328,6 +2336,13 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ykla">
+            <img src="https://avatars.githubusercontent.com/u/10327999?v=4" width="100;" alt="ykla"/>
+            <br />
+            <sub><b>Ykla</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/18183883296">
             <img src="https://avatars.githubusercontent.com/u/89304297?v=4" width="100;" alt="18183883296"/>
             <br />
@@ -2353,13 +2368,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
             <img src="https://avatars.githubusercontent.com/u/40517872?v=4" width="100;" alt="danbai225"/>
             <br />
             <sub><b>淡白</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/ykla">
-            <img src="https://avatars.githubusercontent.com/u/10327999?v=4" width="100;" alt="ykla"/>
-            <br />
-            <sub><b>Ykla</b></sub>
         </a>
     </td></tr>
 <tr>
