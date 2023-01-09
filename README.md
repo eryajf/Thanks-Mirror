@@ -1096,6 +1096,9 @@ git-fetch-with-cli = true
   - [https://repo.huaweicloud.com/python/](https://repo.huaweicloud.com/python/)
 - 北京交通
   - [https://mirror.bjtu.edu.cn/python/](https://mirror.bjtu.edu.cn/python/)
+- 淘宝NPM
+  - https://registry.npmmirror.com/binary.html?path=python
+
 
 🔝[回到顶部](#thanks-mirror)
 
