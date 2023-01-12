@@ -2364,13 +2364,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/Goojoe">
-            <img src="https://avatars.githubusercontent.com/u/78355492?v=4" width="100;" alt="Goojoe"/>
-            <br />
-            <sub><b>咕咕乔</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/jingjingxyk">
             <img src="https://avatars.githubusercontent.com/u/6836228?v=4" width="100;" alt="jingjingxyk"/>
             <br />
