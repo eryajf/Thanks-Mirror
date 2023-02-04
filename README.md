@@ -1096,6 +1096,9 @@ git-fetch-with-cli = true
   - [https://repo.huaweicloud.com/python/](https://repo.huaweicloud.com/python/)
 - 北京交通
   - [https://mirror.bjtu.edu.cn/python/](https://mirror.bjtu.edu.cn/python/)
+- 淘宝NPM
+  - [https://registry.npmmirror.com/binary.html?path=python](https://registry.npmmirror.com/binary.html?path=python)
+
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -2098,7 +2101,7 @@ FreeBSD: { enabled: no }
 ##### freebsd-update 源：提供基本系统更新
 
 >注意：只有一级架构的 release 版本才提供该源。也就是说 current 和 stable 是没有 freebsd-update 源的。
-关于架构的支持等级说明请看：
+>关于架构的支持等级说明请看：
 >
 >[https://www.freebsd.org/platforms](https://www.freebsd.org/platforms)
 
@@ -2360,6 +2363,13 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
         </a>
     </td></tr>
 <tr>
+    <td align="center">
+        <a href="https://github.com/Goojoe">
+            <img src="https://avatars.githubusercontent.com/u/78355492?v=4" width="100;" alt="Goojoe"/>
+            <br />
+            <sub><b>咕咕乔</b></sub>
+        </a>
+    </td>
     <td align="center">
         <a href="https://github.com/jingjingxyk">
             <img src="https://avatars.githubusercontent.com/u/6836228?v=4" width="100;" alt="jingjingxyk"/>
