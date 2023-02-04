@@ -1374,8 +1374,6 @@ git-fetch-with-cli = true
 
 - Aliyun
   - [https://mirrors.aliyun.com/clickhouse/](https://mirrors.aliyun.com/clickhouse/)
-- 南京大学
-  - [https://mirror.nju.edu.cn/clickhouse/](https://mirror.nju.edu.cn/clickhouse/)
 
 🔝[回到顶部](#thanks-mirror)
 
