@@ -2267,7 +2267,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
   GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务，使用细则参见官方。
 
 - [https://toolwa.com/github/](https://toolwa.com/github/)
-- [https://github.91chi.fun/](https://github.91chi.fun/)
 - [https://github.abskoop.workers.dev/](https://github.abskoop.workers.dev/)
 - [https://pd.zwc365.com/](https://pd.zwc365.com/)
 - [https://gh.con.sh/](https://gh.con.sh/)
