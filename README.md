@@ -534,8 +534,6 @@ wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
   - [http://mirrors.yun-idc.com/epel/](http://mirrors.yun-idc.com/epel/)
 - 大连东软
   - [http://mirrors.neusoft.edu.cn/epel/](http://mirrors.neusoft.edu.cn/epel/)
-- 大连理工
-  - [http://mirror.dlut.edu.cn/epel/](http://mirror.dlut.edu.cn/epel/)
 - 重庆大学
   - [https://mirrors.cqu.edu.cn/epel/](https://mirrors.cqu.edu.cn/epel/)
 - 北京外国语大学
@@ -1515,8 +1513,6 @@ git-fetch-with-cli = true
   - [http://mirrors.neusoft.edu.cn/centos/](http://mirrors.neusoft.edu.cn/centos/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/centos/](http://ftp.sjtu.edu.cn/centos/)
-- 大连理工
-  - [http://mirror.dlut.edu.cn/centos/](http://mirror.dlut.edu.cn/centos/)
 - 首都在线
   - [http://mirrors.yun-idc.com/centos/](http://mirrors.yun-idc.com/centos/)
 - 重庆大学
@@ -1601,8 +1597,6 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.neusoft.edu.cn/ubuntu/](http://mirrors.neusoft.edu.cn/ubuntu/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/ubuntu/](http://ftp.sjtu.edu.cn/ubuntu/)
-- 大连理工
-  - [http://mirror.dlut.edu.cn/ubuntu/](http://mirror.dlut.edu.cn/ubuntu/)
 - 首都在线
   - [http://mirrors.yun-idc.com/ubuntu/](http://mirrors.yun-idc.com/ubuntu/)
 - 南阳理工
@@ -1655,8 +1649,6 @@ ARM架构下的CentOS镜像。
   - [http://mirrors.neusoft.edu.cn/debian/](http://mirrors.neusoft.edu.cn/debian/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/debian/](http://ftp.sjtu.edu.cn/debian/)
-- 大连理工
-  - [http://mirror.dlut.edu.cn/debian/](http://mirror.dlut.edu.cn/debian/)
 - 首都在线
   - [http://mirrors.yun-idc.com/debian/](http://mirrors.yun-idc.com/debian/)
 - 南阳理工
