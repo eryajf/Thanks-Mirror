@@ -2302,18 +2302,18 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
 #### Official 
 
-- [https://www.google.cn/](https://nixos.org/)
+- [nixos.org](https://nixos.org/)
 
 #### Mirrors
 
 - 清华
-  - https://mirror.tuna.tsinghua.edu.cn/help/nix
+  - [https://mirror.tuna.tsinghua.edu.cn/help/nix](https://mirror.tuna.tsinghua.edu.cn/help/nix)
 - 中国科学技术大学
-  - https://mirrors.ustc.edu.cn/nix-channels
+  - [https://mirrors.ustc.edu.cn/nix-channels](https://mirrors.ustc.edu.cn/nix-channels)
 - ISCAS
-  - https://mirror.iscas.ac.cn/nix/
+  - [https://mirror.iscas.ac.cn/nix/](https://mirror.iscas.ac.cn/nix/)
 - 校园网联合镜像站
-  - https://mirrors.cernet.edu.cn/list/nix
+  - [https://mirrors.cernet.edu.cn/list/nix](https://mirrors.cernet.edu.cn/list/nix)
 
 
 🔝[回到顶部](#thanks-mirror)
