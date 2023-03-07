@@ -2201,7 +2201,7 @@ FreeBSD: { enabled: no }
 - nvcr.io
   - 南京大学
     - ngc.nju.edu.cn
-
+    
 **方案二：**
 
 还有一种方案是通过将加速地址写入到docker配置文件当中实现加速。
@@ -2294,6 +2294,26 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
   - [https://xn--flw351e.ml/](https://xn--flw351e.ml/)
   - [https://s.iit.xyz/](https://s.iit.xyz/)
   - [https://xgoogle.xyz/](https://xgoogle.xyz/)
+
+
+🔝[回到顶部](#thanks-mirror)
+
+### Nix
+
+#### Official 
+
+- [nixos.org](https://nixos.org/)
+
+#### Mirrors
+
+- 清华
+  - [https://mirror.tuna.tsinghua.edu.cn/help/nix](https://mirror.tuna.tsinghua.edu.cn/help/nix)
+- 中国科学技术大学
+  - [https://mirrors.ustc.edu.cn/nix-channels](https://mirrors.ustc.edu.cn/nix-channels)
+- ISCAS
+  - [https://mirror.iscas.ac.cn/nix/](https://mirror.iscas.ac.cn/nix/)
+- 校园网联合镜像站
+  - [https://mirrors.cernet.edu.cn/list/nix](https://mirrors.cernet.edu.cn/list/nix)
 
 
 🔝[回到顶部](#thanks-mirror)
