@@ -2385,13 +2385,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
             <br />
             <sub><b>好吧，你想说啥</b></sub>
         </a>
-    </td>
-        <td align="center">
-        <a href="https://github.com/hoochanlon">
-            <img src="https://avatars.githubusercontent.com/u/35732922?s=400&u=df2348b6932fc75f844f0a10dfaeb8df995ca889&v=4" width="100;" alt="hoochanlon"/>
-            <br />
-            <sub><b>hoochanlon</b></sub>
-        </a>
     </td></tr>
 </table>
 <!-- readme: collaborators,contributors -end -->
