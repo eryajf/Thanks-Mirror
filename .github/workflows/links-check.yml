@@ -23,10 +23,10 @@ jobs:
         with:
             # Check all markdown and html files in repo (default)
             args: --verbose --no-progress README.md
-            # Use json as output format (instead of markdown)
-            format: markdown
-            # Use different output file path
-            output: ./lychee/out.md
+            # # Use json as output format (instead of markdown)
+            # format: markdown
+            # # Use different output file path
+            # output: ./lychee/out.md
 
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
