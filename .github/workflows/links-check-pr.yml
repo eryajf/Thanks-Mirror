@@ -8,14 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.1
+        uses: lycheeverse/lychee-action@v1.6.1
         with:
             # Check all markdown and html files in repo (default)
-            args: ./.github/config/lychee.toml README.md
-            # Use json as output format (instead of markdown)
-            format: markdown
-            # Use different output file path
-            output: ./lychee/out.md
+            args: --verbose --no-progress --max-redirects 3 README.md
             # Fail action on broken links
             fail: true
         env:
