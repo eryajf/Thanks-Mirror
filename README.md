@@ -156,7 +156,7 @@ GOSUMDB="sum.golang.google.cn"
 - Proxy-cn
   - [https://goproxy.cn](https://goproxy.cn)
 - Proxy-io
-  - [https://proxy.golang.com.cn](https://proxy.golang.com.cn)
+  - [https://goproxy.io](https://goproxy.io)
 - Baidu
   - [http://goproxy.baidu.com/](http://goproxy.baidu.com/)
 - [Tencent](https://mirrors.cloud.tencent.com/help/go.html)
