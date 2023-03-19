@@ -158,7 +158,7 @@ GOSUMDB="sum.golang.google.cn"
 - Proxy-io
   - [https://proxy.golang.com.cn](https://proxy.golang.com.cn)
 - Baidu
-  - [https://goproxy.bj.bcebos.com/](https://goproxy.bj.bcebos.com/)
+  - [http://goproxy.baidu.com/](http://goproxy.baidu.com/)
 - [Tencent](https://mirrors.cloud.tencent.com/help/go.html)
   - [https://mirrors.cloud.tencent.com/go/](https://mirrors.cloud.tencent.com/go/)
 - HUAWEI
@@ -306,8 +306,6 @@ pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
   - [https://mirrors.aliyun.com/composer/](https://mirrors.aliyun.com/composer/)
 - [Tencent](https://mirrors.cloud.tencent.com/help/composer.html)
   - [https://mirrors.cloud.tencent.com/composer/](https://mirrors.cloud.tencent.com/composer/)
-- HUAWEI
-  - [https://mirrors.huaweicloud.com/repository/php/](https://mirrors.huaweicloud.com/repository/php/)
 - [Packagist](https://pkg.xyz/)
   - [https://packagist.phpcomposer.com](https://packagist.phpcomposer.com)
 - 上海交通
@@ -1744,8 +1742,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/fedora/](https://mirrors.cqu.edu.cn/fedora/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/fedora/](https://mirrors.bfsu.edu.cn/fedora/)
-- 南阳理工
-  - [https://mirror.nyist.edu.cn/fedora/](https://mirror.nyist.edu.cn/fedora/)
 - 南京邮电
   - [http://mirrors.njupt.edu.cn/fedora/](http://mirrors.njupt.edu.cn/fedora/)
 - 南京大学
@@ -2106,7 +2102,7 @@ FreeBSD: { enabled: no }
 
 更新系统或者使用 gitup 的时候会用到 FreeBSD 的 git 镜像站：
 
-<https://git.freebsd.cn>
+<http://git.freebsd.cn>
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -2202,7 +2198,7 @@ FreeBSD: { enabled: no }
 - nvcr.io
   - 南京大学
     - ngc.nju.edu.cn
-    
+
 **方案二：**
 
 还有一种方案是通过将加速地址写入到docker配置文件当中实现加速。
@@ -2292,7 +2288,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
 - 目前来看还不错的
 
-  - [https://xn--flw351e.ml/](https://xn--flw351e.ml/)
   - [https://s.iit.xyz/](https://s.iit.xyz/)
   - [https://xgoogle.xyz/](https://xgoogle.xyz/)
 
@@ -2301,7 +2296,7 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
 ### Nix
 
-#### Official 
+#### Official
 
 - [nixos.org](https://nixos.org/)
 
