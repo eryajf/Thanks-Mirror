@@ -1287,12 +1287,8 @@ git-fetch-with-cli = true
   - [https://mirrors.cloud.tencent.com/openresty/](https://mirrors.cloud.tencent.com/openresty/)
 - HUAWEI
   - [https://repo.huaweicloud.com/openresty/](https://repo.huaweicloud.com/openresty/)
-- 清华
-  - [https://mirrors.tuna.tsinghua.edu.cn/openresty/](https://mirrors.tuna.tsinghua.edu.cn/openresty/)
 - 中科大
   - [https://mirrors.ustc.edu.cn/openresty/](https://mirrors.ustc.edu.cn/openresty/)
-- 北京外国语大学
-  - [https://mirrors.bfsu.edu.cn/openresty/](https://mirrors.bfsu.edu.cn/openresty/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/openresty/](https://mirrors.nwsuaf.edu.cn/openresty/)
 - 南京大学
@@ -2281,7 +2277,6 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
 - 目前来看还不错的
 
-  - [https://s.iit.xyz/](https://s.iit.xyz/)
   - [https://xgoogle.xyz/](https://xgoogle.xyz/)
 
 

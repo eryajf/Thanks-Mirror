@@ -5,6 +5,7 @@
 
 ## 镜像移除公告
 
+- 2023-04-03: 移除此[action](https://github.com/eryajf/Thanks-Mirror/issues/232)检测到的链接。
 - 2023-02-28: 大连理工整站不可用，移除四个链接。
 - 2022-12-22: 移除不可用的 fastgit, gomirrors.org 两个。
 - 2022-10-31: 发现之前8月23日以来移除的镜像站，现在都已恢复，因此将内容恢复。详见[https://github.com/eryajf/Thanks-Mirror/issues/79](https://github.com/eryajf/Thanks-Mirror/issues/79)
