@@ -207,8 +207,6 @@ http://nexus.eryajf.net/repository/npm
   - [https://repo.huaweicloud.com/repository/npm/](https://repo.huaweicloud.com/repository/npm/)
 - [Tencent](https://mirrors.cloud.tencent.com/help/npm.html)
   - [http://mirrors.cloud.tencent.com/npm/](http://mirrors.cloud.tencent.com/npm/)
-- 浙江大学
-  - [http://mirrors.zju.edu.cn/npm/](http://mirrors.zju.edu.cn/npm/)
 - npmjs
   - [https://registry.npmjs.org](https://registry.npmjs.org)
 
@@ -539,8 +537,6 @@ wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
   - [https://mirrors.bfsu.edu.cn/epel/](https://mirrors.bfsu.edu.cn/epel/)
 - 公云
   - [https://mirrors.pubyun.com/epel/](https://mirrors.pubyun.com/epel/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/epel/](http://mirrors.njupt.edu.cn/epel/)
 
 
 🔝[回到顶部](#thanks-mirror)
@@ -839,8 +835,6 @@ git-fetch-with-cli = true
   - [https://mirrors.cloud.tencent.com/elasticstack/](https://mirrors.cloud.tencent.com/elasticstack/)
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/elasticstack/](https://mirrors.tuna.tsinghua.edu.cn/elasticstack/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/elasticstack/](http://mirrors.njupt.edu.cn/elasticstack/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1147,8 +1141,6 @@ git-fetch-with-cli = true
   - [https://mirror.nyist.edu.cn/zabbix/](https://mirror.nyist.edu.cn/zabbix/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/zabbix/](https://mirrors.bfsu.edu.cn/zabbix/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/zabbix/](http://mirrors.njupt.edu.cn/zabbix/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/zabbix/](https://mirrors.nwsuaf.edu.cn/zabbix/)
 
@@ -1520,12 +1512,8 @@ git-fetch-with-cli = true
   - [https://mirrors.pubyun.com/centos/](https://mirrors.pubyun.com/centos/)
 - 北京交通
   - [https://mirror.bjtu.edu.cn/centos/](https://mirror.bjtu.edu.cn/centos/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/centos/](http://mirrors.njupt.edu.cn/centos/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/centos/](https://mirrors.nwsuaf.edu.cn/centos/)
-- 东北大学
-  - [http://mirror.neu.edu.cn/centos/](http://mirror.neu.edu.cn/centos/)
 - 南京大学
   - [https://mirror.nju.edu.cn/centos/](https://mirror.nju.edu.cn/centos/)
 
@@ -1658,8 +1646,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.pubyun.com/debian/](https://mirrors.pubyun.com/debian/)
 - 北京交通
   - [https://mirror.bjtu.edu.cn/debian/](https://mirror.bjtu.edu.cn/debian/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/debian/](http://mirrors.njupt.edu.cn/debian/)
 - 南京大学
   - [https://mirror.nju.edu.cn/debian/](https://mirror.nju.edu.cn/debian/)
 
@@ -1699,8 +1685,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.bfsu.edu.cn/deepin/](https://mirrors.bfsu.edu.cn/deepin/)
 - 哈尔滨工业大学
   - [https://mirrors.hit.edu.cn/deepin/](https://mirrors.hit.edu.cn/deepin/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/deepin/](http://mirrors.njupt.edu.cn/deepin/)
 - 南京大学
   - [https://mirror.nju.edu.cn/deepin/](https://mirror.nju.edu.cn/deepin/)
 
@@ -1738,8 +1722,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/fedora/](https://mirrors.cqu.edu.cn/fedora/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/fedora/](https://mirrors.bfsu.edu.cn/fedora/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/fedora/](http://mirrors.njupt.edu.cn/fedora/)
 - 南京大学
   - [https://mirror.nju.edu.cn/fedora/](https://mirror.nju.edu.cn/fedora/)
 
@@ -1874,8 +1856,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.sjtug.sjtu.edu.cn/kali/](https://mirrors.sjtug.sjtu.edu.cn/kali/)
 - 北京交通
   - [https://mirror.bjtu.edu.cn/kali/](https://mirror.bjtu.edu.cn/kali/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/kali/](http://mirrors.njupt.edu.cn/kali/)
 - 西北农林科技大学
   - [https://mirrors.nwsuaf.edu.cn/kali/](https://mirrors.nwsuaf.edu.cn/kali/)
 - 南京大学
@@ -2094,11 +2074,6 @@ FreeBSD: { enabled: no }
 
 将 `ServerName update.FreeBSD.org` 修改为 `ServerName update.FreeBSD.cn`
 
-#### Git 镜像站
-
-更新系统或者使用 gitup 的时候会用到 FreeBSD 的 git 镜像站：
-
-<http://git.freebsd.cn>
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -2227,8 +2202,6 @@ $ sudo systemctl restart docker
   - [https://docker.mirrors.ustc.edu.cn](https://docker.mirrors.ustc.edu.cn)
 - 百度云
   - [https://mirror.baidubce.com/](https://mirror.baidubce.com/)
-- 南京大学
-  - [https://docker.nju.edu.cn/]( https://docker.nju.edu.cn/)
 
 
 🔝[回到顶部](#thanks-mirror)
