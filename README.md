@@ -1150,7 +1150,7 @@ git-fetch-with-cli = true
 
 #### Official
 
-- [https://grafana.com/grafana/download](https://grafana.com/grafana/download)
+- [https://prometheus.io/download/](https://prometheus.io/download/)
 
 #### Mirrors
 
