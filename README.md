@@ -2171,6 +2171,8 @@ FreeBSD: { enabled: no }
 - nvcr.io
   - 南京大学
     - ngc.nju.edu.cn
+- 其他
+  - [https://github.com/DaoCloud/public-image-mirror](https://github.com/DaoCloud/public-image-mirror)
 
 **方案二：**
 
