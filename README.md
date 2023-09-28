@@ -24,6 +24,8 @@ Gitee：[https://gitee.com/eryajf/Thanks-Mirror](https://gitee.com/eryajf/Thanks
 
 GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
 
+之前有朋友在[issue](https://github.com/eryajf/Thanks-Mirror/issues/13)中提过是否可以做一个工具来管理这些源，现在，有一个很不错的，适用于多平台的换源工具：[https://github.com/RubyMetric/chsrc](https://github.com/RubyMetric/chsrc)
+
 每天自动运行一次链接检查，以保证项目中提供的链接都还正常可用，[检查详情查看。](https://github.com/eryajf/Thanks-Mirror/actions/workflows/links-check.yml)
 
 
