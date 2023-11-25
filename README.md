@@ -1043,7 +1043,7 @@ git-fetch-with-cli = true
 
 #### Official
 
-- [https://nodejs.org/zh-cn/download/](https://nodejs.org/zh-cn/download/)
+- [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
 #### Mirrors
 
@@ -1594,8 +1594,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.hit.edu.cn/ubuntu](https://mirrors.hit.edu.cn/ubuntu)
 - 北京交通
   - [https://mirror.bjtu.edu.cn/ubuntu/](https://mirror.bjtu.edu.cn/ubuntu/)
-- 南京邮电
-  - [http://mirrors.njupt.edu.cn/ubuntu/](http://mirrors.njupt.edu.cn/ubuntu/)
 - 南京大学
   - [https://mirror.nju.edu.cn/ubuntu/](https://mirror.nju.edu.cn/ubuntu/)
 
@@ -1753,8 +1751,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.cqu.edu.cn/alpine/](https://mirrors.cqu.edu.cn/alpine/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/alpine/](https://mirrors.bfsu.edu.cn/alpine/)
-- 中国互联网信息中心
-  - [https://mirrors.cnnic.cn/alpine/](https://mirrors.cnnic.cn/alpine/)
 - 清华大学
   - [https://mirrors.tuna.tsinghua.edu.cn/alpine/](https://mirrors.tuna.tsinghua.edu.cn/alpine/)
 - 上海交大
@@ -1772,7 +1768,7 @@ ARM架构下的CentOS镜像。
 
 #### Official
 
-- 官方镜像：[https://alpha.de.repo.voidlinux.org/](https://alpha.de.repo.voidlinux.org/)
+- 官方镜像：[https://voidlinux.org/](https://voidlinux.org/)
 
 #### Mirrors
 
@@ -1780,8 +1776,6 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.tuna.tsinghua.edu.cn/voidlinux/](https://mirrors.tuna.tsinghua.edu.cn/voidlinux/)
 - 上海交大
   - [https://mirror.sjtu.edu.cn/voidlinux/](https://mirror.sjtu.edu.cn/voidlinux/)
-- 中国互联网信息中心
-  - [https://mirrors.cnnic.cn/voidlinux/](https://mirrors.cnnic.cn/voidlinux/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/voidlinux/](https://mirrors.bfsu.edu.cn/voidlinux/)
 - 南京大学
@@ -2224,15 +2218,12 @@ GitHub相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
   提供了GitHub全面的加速，详见[官方文档](https://gitclone.com/docs/feature/gitclone_web)。
 
-- [https://ghproxy.com/](https://ghproxy.com/)
+- [https://mirror.ghproxy.com/](https://mirror.ghproxy.com/)
 
   GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务，使用细则参见官方。
 
 - [https://toolwa.com/github/](https://toolwa.com/github/)
-- [https://github.abskoop.workers.dev/](https://github.abskoop.workers.dev/)
-- [https://pd.zwc365.com/](https://pd.zwc365.com/)
 - [https://gh.con.sh/](https://gh.con.sh/)
-- [https://www.7ed.net/#/raw-cdn](https://www.7ed.net/#/raw-cdn)
 
 - [chrome插件](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/ffjjnphohkfckeplcjflmgneebafggej?hl=zh)
 
