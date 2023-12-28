@@ -614,6 +614,26 @@ git-fetch-with-cli = true
 
 还有一些软件，直接通过官方下载比较困难，也整理出方便下载的国内优质镜像。
 
+
+### JDK
+
+#### Official
+
+- https://openjdk.org/
+
+#### Mirrors
+
+- HUAWEI
+  - [https://repo.huaweicloud.com/java/jdk/](https://repo.huaweicloud.com/java/jdk/)
+- 清华
+  - [https://mirrors.tuna.tsinghua.edu.cn/Adoptium/](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/)
+- 编程宝库
+  - [http://www.codebaoku.com/jdk/jdk-index.html](http://www.codebaoku.com/jdk/jdk-index.html)
+- injdk
+  - [https://www.injdk.cn/](https://www.injdk.cn/)
+
+🔝[回到顶部](#thanks-mirror)
+
 ### Docker
 
 #### Official
