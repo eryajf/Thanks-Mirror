@@ -56,6 +56,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
   - [Homebrew](#homebrew)
   - [cargo](#cargo)
 - [Software-Mirror](#software-mirror)
+  - [JDK](#jdk)
   - [Docker](#docker)
   - [Kubernetes](#kubernetes)
   - [K3s](#k3s)
