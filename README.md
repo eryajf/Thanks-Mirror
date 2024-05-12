@@ -260,6 +260,8 @@ pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
   - [http://mirrors.neusoft.edu.cn/pypi/web/](http://mirrors.neusoft.edu.cn/pypi/web/)
 - 上海交通大学
   - [https://mirror.sjtu.edu.cn/pypi/web/simple/](https://mirror.sjtu.edu.cn/pypi/web/simple/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/pypi/web/simple/](https://mirrors.hust.edu.cn/pypi/web/simple/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1062,6 +1064,8 @@ git-fetch-with-cli = true
   - [https://mirrors.ustc.edu.cn/golang/](https://mirrors.ustc.edu.cn/golang/)
 - 南京大学
   - [https://mirror.nju.edu.cn/golang/](https://mirror.nju.edu.cn/golang/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/golang/](https://mirrors.hust.edu.cn/golang/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1133,6 +1137,8 @@ git-fetch-with-cli = true
   - [https://mirrors.tuna.tsinghua.edu.cn/rustup/](https://mirrors.tuna.tsinghua.edu.cn/rustup/)
 - 上海交通大学
   - [https://mirror.sjtu.edu.cn/rust-static/](https://mirror.sjtu.edu.cn/rust-static/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/rustup/](https://mirrors.hust.edu.cn/rustup/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1622,6 +1628,8 @@ ARM架构下的CentOS镜像。
   - [https://mirror.bjtu.edu.cn/ubuntu/](https://mirror.bjtu.edu.cn/ubuntu/)
 - 南京大学
   - [https://mirror.nju.edu.cn/ubuntu/](https://mirror.nju.edu.cn/ubuntu/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/ubuntu/](https://mirrors.hust.edu.cn/ubuntu/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1674,6 +1682,8 @@ ARM架构下的CentOS镜像。
   - [https://mirror.bjtu.edu.cn/debian/](https://mirror.bjtu.edu.cn/debian/)
 - 南京大学
   - [https://mirror.nju.edu.cn/debian/](https://mirror.nju.edu.cn/debian/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/debian/](https://mirrors.hust.edu.cn/debian/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1711,6 +1721,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.bfsu.edu.cn/deepin/](https://mirrors.bfsu.edu.cn/deepin/)
 - 南京大学
   - [https://mirror.nju.edu.cn/deepin/](https://mirror.nju.edu.cn/deepin/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/deepin/](https://mirrors.hust.edu.cn/deepin/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1787,6 +1799,8 @@ ARM架构下的CentOS镜像。
   - [https://mirror.bjtu.edu.cn/alpine/](https://mirror.bjtu.edu.cn/alpine/)
 - 南京大学
   - [https://mirror.nju.edu.cn/alpine/](https://mirror.nju.edu.cn/alpine/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/alpine/](https://mirrors.hust.edu.cn/alpine/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1882,6 +1896,8 @@ ARM架构下的CentOS镜像。
   - [https://mirrors.nwsuaf.edu.cn/kali/](https://mirrors.nwsuaf.edu.cn/kali/)
 - 南京大学
   - [https://mirror.nju.edu.cn/kali/](https://mirror.nju.edu.cn/kali/)
+- 华中科技大学
+  - [https://mirrors.hust.edu.cn/kali/](https://mirrors.hust.edu.cn/kali/)
 
 🔝[回到顶部](#thanks-mirror)
 
