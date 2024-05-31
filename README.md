@@ -39,6 +39,17 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 > - [read-list](https://github.com/eryajf/read-list)：📖 优质内容订阅，阅读方为根本
 > - [awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese)：🦩 优秀的中文区个人主页搜集
 
+**赞助商**
+
+[![](https://raw.githubusercontent.com/eryajf/tu/main/img/image_20240531_205925.webp)](https://302.ai/)
+
+> [302.AI](https://302.ai) 是一个汇集全球顶级AI的自助平台，按需付费，零月费，零门槛使用各种类型AI。
+> - 功能全面: 将最好用的AI集成到在平台之上，包括不限于AI聊天，图片生成，图片处理，视频生成，全方位覆盖。
+> - 简单易用: 提供机器人，工具和API多种使用方法，可以满足从小白到开发者多种角色的需求。
+> - 按需付费，零门槛: 不提供月付套餐，对产品不设任何门槛，按需付费，全部开放。充值余额永久有效。
+> - 管理者和使用者分离：管理者一键分享，使用者无需登录。使用者无需关心复杂的AI设置，让懂AI的人来配置，简化使用流程。
+
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目录**
