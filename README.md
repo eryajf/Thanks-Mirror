@@ -29,7 +29,8 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 📢 注意：之前有朋友在[issue](https://github.com/eryajf/Thanks-Mirror/issues/13)中提过是否可以做一个工具来管理这些源，现在，有一个很不错的，适用于多平台的换源工具：[https://github.com/RubyMetric/chsrc](https://github.com/RubyMetric/chsrc)
 
 
-> 🥳 **欢迎关注我的其他项目：**
+**🥳 欢迎关注我的其他项目：**
+
 >
 > - [Go-Ldap-Admin](https://github.com/eryajf/go-ldap-admin)：🌉 基于Go+Vue实现的openLDAP后台管理项目。
 > - [learning-weekly](https://github.com/eryajf/learning-weekly)：📝 周刊内容以运维技术和Go语言周边为主，辅以GitHub上优秀项目或他人优秀经验。
