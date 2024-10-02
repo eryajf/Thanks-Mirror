@@ -251,12 +251,8 @@ pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
 
 - Aliyun
   - [http://mirrors.aliyun.com/pypi/](http://mirrors.aliyun.com/pypi/)
-- douban
-  - [http://pypi.douban.com/](http://pypi.douban.com/)
 - 清华
   - [https://pypi.tuna.tsinghua.edu.cn/](https://pypi.tuna.tsinghua.edu.cn/)
-- 163
-  - [https://mirrors.163.com/pypi](https://mirrors.163.com/pypi)
 - HUAWEI
   - [https://repo.huaweicloud.com/repository/pypi/simple](https://repo.huaweicloud.com/repository/pypi/simple)
 - Tencent
@@ -271,8 +267,6 @@ pip3 install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple yt-dlp
   - [http://mirrors.neusoft.edu.cn/pypi/web/](http://mirrors.neusoft.edu.cn/pypi/web/)
 - 上海交通大学
   - [https://mirror.sjtu.edu.cn/pypi/web/simple/](https://mirror.sjtu.edu.cn/pypi/web/simple/)
-- 华中科技大学
-  - [https://mirrors.hust.edu.cn/pypi/web/simple/](https://mirrors.hust.edu.cn/pypi/web/simple/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1007,8 +1001,6 @@ git-fetch-with-cli = true
   - [https://mirrors.bfsu.edu.cn/mongodb/](https://mirrors.bfsu.edu.cn/mongodb/)
 - 南京大学
   - [https://mirror.nju.edu.cn/mongodb/](https://mirror.nju.edu.cn/mongodb/)
-- 上海交通大学
-  - [https://mirrors.sjtug.sjtu.edu.cn/mongodb/](https://mirrors.sjtug.sjtu.edu.cn/mongodb/)
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -1537,16 +1529,12 @@ git-fetch-with-cli = true
   - [https://mirrors.ustc.edu.cn/centos/](https://mirrors.ustc.edu.cn/centos/)
 - 浙江大学
   - [http://mirrors.zju.edu.cn/centos/](http://mirrors.zju.edu.cn/centos/)
-- 南阳理工
-  - [https://mirror.nyist.edu.cn/centos/](https://mirror.nyist.edu.cn/centos/)
 - 兰州大学
   - [https://mirror.lzu.edu.cn/centos/](https://mirror.lzu.edu.cn/centos/)
 - 上海交通
   - [http://ftp.sjtu.edu.cn/centos/](http://ftp.sjtu.edu.cn/centos/)
 - 首都在线
   - [http://mirrors.yun-idc.com/centos/](http://mirrors.yun-idc.com/centos/)
-- 重庆大学
-  - [https://mirrors.cqu.edu.cn/centos/](https://mirrors.cqu.edu.cn/centos/)
 - 北京外国语大学
   - [https://mirrors.bfsu.edu.cn/centos/](https://mirrors.bfsu.edu.cn/centos/)
 - 公云
@@ -1914,7 +1902,7 @@ ARM 架构下的 CentOS 镜像。
 
 #### Official
 
-- [https://get.opensuse.org/zh-CN/](https://get.opensuse.org/zh-CN/)
+- [https://get.opensuse.org/zh_CN/](https://get.opensuse.org/zh_CN/)
 
 #### Mirrors
 
@@ -2226,8 +2214,7 @@ FreeBSD: { enabled: no }
 ```json
 {
   "registry-mirrors": [
-    "https://hub-mirror.c.163.com",
-    "https://mirror.baidubce.com"
+    "https://hub-mirror.c.163.com"
   ]
 }
 ```
@@ -2291,7 +2278,7 @@ GitHub 相关的国内镜像，有不同的使用方式，这里仅列出目前�
 
 - 目前来看还不错的
 
-  - [https://xgoogle.xyz/](https://xgoogle.xyz/)
+暂无
 
 🔝[回到顶部](#thanks-mirror)
 
