@@ -42,13 +42,15 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 
 [![](https://raw.githubusercontent.com/eryajf/tu/main/img/image_20241113_230334.webp)](https://302.ai/)
 
-> [302.AI](https://302.ai) 是一个汇集全球顶级品牌的 AI 超市，按需付费，零月费，零门槛使用各种类型 AI。
+> [302.AI](https://302.ai) 是一个按需付费的一站式AI应用平台，开放平台，开源生态。
 >
 > - [点击注册](https://gpt302.saaslink.net/fGvlvo): 立即获得 1PTC(1PTC=1 美金，约为 7 人民币)代币。
-> - 功能全面: 将最好用的 AI 集成到在平台之上，包括不限于 AI 聊天，图片生成，图片处理，视频生成，全方位覆盖。
-> - 简单易用: 提供机器人，工具和 API 多种使用方法，可以满足从小白到开发者多种角色的需求。
-> - 按需付费，零门槛: 不提供月付套餐，对产品不设任何门槛，按需付费，全部开放。充值余额永久有效。
-> - 管理者和使用者分离：管理者一键分享，使用者无需登录。使用者无需关心复杂的 AI 设置，让懂 AI 的人来配置，简化使用流程。
+> - 集合了最新最全的AI模型和品牌，包括但不限于语言模型、图像模型、声音模型、视频模型。
+> - 在基础模型上进行深度应用开发，做到让小白用户都可以零门槛上手使用，无需学习成本。
+> - 零月费，所有功能按需付费，全面开放，做到真正的门槛低，上限高。
+> - 创新的使用模式，管理和使用分离，面向团队和中小企业，一人管理，多人使用。
+> - 所有AI能力均提供API接入，所有应用开源支持自行定制（进行中）。
+> - 强大的开发团队，每周推出2-3个新应用，平台功能每日更新。
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
