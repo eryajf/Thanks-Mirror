@@ -40,7 +40,7 @@ GitHub：[https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Tha
 
 **赞助商**
 
-[![](https://raw.githubusercontent.com/eryajf/tu/main/img/image_20240730_083723.webp)](https://302.ai/)
+[![](https://raw.githubusercontent.com/eryajf/tu/main/img/image_20241113_230334.webp)](https://302.ai/)
 
 > [302.AI](https://302.ai) 是一个汇集全球顶级品牌的 AI 超市，按需付费，零月费，零门槛使用各种类型 AI。
 >
